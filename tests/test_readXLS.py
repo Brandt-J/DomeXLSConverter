@@ -7,8 +7,11 @@ from dataimport.readXLS import XLSReader
 
 
 def test_read_xls_file():
-    os.chdir(os.path.dirname(os.getcwd()))
+    if os.getcwd().endswith("tests"):
+        os.chdir(os.path.dirname(os.getcwd()))
+
     testFilePath: str = r"data\exampledata.xlsx"
+    assert os.path.exists(testFilePath)
     reader: XLSReader = XLSReader()
     assert reader._dataframes is None
     reader.readXlsFile(testFilePath)

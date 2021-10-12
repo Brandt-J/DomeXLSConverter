@@ -1,16 +1,17 @@
 from typing import *
 
-from tableItems import TableItem
+from tableItems import InstitutionTable
+from dataimport.readXLS import XLSReader
 
 
 class TableCollection:
     """
-    Class for a collection of tables, representing a certain database structure.
-    """
+        Class for a collection of tables, representing a certain database structure.
+        """
     def __init__(self):
-        self._particlesTable: TableItem = TableItem("Particle Data")
-        self._sampleTable: TableItem = TableItem("Sample Info")
-        self._metaTable: TableItem = TableItem("Meta Data")
+        self._xlsReader: XLSReader = XLSReader()
 
-    def getTableItems(self) -> List[TableItem]:
-        return [self._particlesTable, self._sampleTable, self._metaTable]
+        self._institutionTable: InstitutionTable = InstitutionTable()
+
+    def getInstitutionTable(self) -> InstitutionTable:
+        return self._institutionTable
