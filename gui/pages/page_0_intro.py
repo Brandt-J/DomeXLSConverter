@@ -13,30 +13,21 @@ class IntroPage(QtWidgets.QWizardPage):
                          "particle measurement results into the database.")
 
         self._xlsLoaded: bool = False
-        self._dbConnected: bool = False
-
         self._lblXLSLoaded: QtWidgets.QLabel = QtWidgets.QLabel("No File selected.")
-        self._lblConnected: QtWidgets.QLabel = QtWidgets.QLabel("DB Not connected.")
 
         layout: QtWidgets.QVBoxLayout = QtWidgets.QVBoxLayout()
         self.setLayout(layout)
 
         self._btnLoadXLS: QtWidgets.QPushButton = QtWidgets.QPushButton("Load Excel File")
         self._btnLoadXLS.pressed.connect(self._loadXLSFile)
-        self._btnConnectDB: QtWidgets.QPushButton = QtWidgets.QPushButton("Connect to Database")
-        self._btnConnectDB.pressed.connect(self._connectToDB)
-
-        for btn in [self._btnLoadXLS, self._btnConnectDB]:
-            btn.setMaximumWidth(150)
+        self._btnLoadXLS.setMaximumWidth(150)
 
         layout.addWidget(QtWidgets.QLabel("Please load the excel file and connect to the database."))
         layout.addWidget(self._btnLoadXLS)
         layout.addWidget(self._lblXLSLoaded)
-        layout.addWidget(self._btnConnectDB)
-        layout.addWidget(self._lblConnected)
 
     def isComplete(self) -> bool:
-        return self._xlsLoaded and self._dbConnected
+        return self._xlsLoaded
 
     def _loadXLSFile(self) -> None:
         """
@@ -57,12 +48,3 @@ class IntroPage(QtWidgets.QWizardPage):
         """
         fname, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Select the Excel file", filter="*xlsx *xls")
         return fname
-
-    def _connectToDB(self) -> None:
-        """
-        Connects to the database for particle upload
-        :return:
-        """
-        self._lblConnected.setText("Not connected, but button was pressed..")
-        self._dbConnected = True
-        self.completeChanged.emit()

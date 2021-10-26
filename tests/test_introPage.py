@@ -1,9 +1,7 @@
 import os
 from PyQt6 import QtCore
 
-from gui.pages.introPage import IntroPage
-
-os.chdir(os.path.dirname(os.getcwd()))  # to make loading the test xs file possible
+from gui.pages.page_0_intro import IntroPage
 
 
 def test_is_complete(qtbot, tmpdir):
@@ -18,6 +16,4 @@ def test_is_complete(qtbot, tmpdir):
     qtbot.mousePress(introPage._btnLoadXLS, QtCore.Qt.MouseButton.LeftButton)
     assert introPage._xlsLoaded
 
-    qtbot.mousePress(introPage._btnConnectDB, QtCore.Qt.MouseButton.LeftButton)
-    assert introPage._dbConnected
     assert introPage.isComplete()

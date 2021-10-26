@@ -1,10 +1,8 @@
 from PyQt6 import QtWidgets, QtCore
-from typing import *
 
-from gui.pages.introPage import IntroPage
-from gui.pages.institutionPage import InstitutionPage
-from gui.pages.samplePage import SamplePage
-from tableCollection import TableCollection
+from gui.pages.page_0_intro import IntroPage
+from gui.pages.page_1_id import IDPage
+from tableConverter import TableConverter
 
 
 class ParticleUploadWizard(QtWidgets.QWizard):
@@ -15,10 +13,8 @@ class ParticleUploadWizard(QtWidgets.QWizard):
         super(ParticleUploadWizard, self).__init__()
         self.setWindowTitle("Particle Upload Wizard")
         self.setFixedSize(QtCore.QSize(500, 600))
-        self._tableCollection: TableCollection = TableCollection()
+        self.setWizardStyle(QtWidgets.QWizard.WizardStyle.ModernStyle)
+        self._tableConverter: TableConverter = TableConverter()
 
         self.addPage(IntroPage())
-        self.addPage(InstitutionPage(self._tableCollection.getInstitutionTable()))
-        self.addPage(SamplePage())
-
-
+        self.addPage(IDPage(self._tableConverter.getInstitutionTable()))
