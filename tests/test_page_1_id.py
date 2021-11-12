@@ -1,7 +1,7 @@
 from PyQt6 import QtCore
 
 from gui.pages.page_1_id import IDPage
-from tableItems import IdentificationTable
+from tables.table_1_id import IdentificationTable
 from dataimport.domeCodes import DomeCode
 
 

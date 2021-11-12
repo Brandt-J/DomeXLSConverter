@@ -1,0 +1,408 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+169814,AGRF,Ahma Group (Rovaniemi),101,RLABO,2017-04-11,2017-04-11,False
+53341,AHHG,Umweltbehörde, Hygienisches Institut, Hamburg,101,RLABO,2006-10-23,2011-12-01,False
+53342,AHZL,Arbeithygienisches Zentrum der Chemischen Industri,101,RLABO,2006-10-23,2011-12-01,False
+135527,ALGL,ALS Scandinavia - Luleå,101,RLABO,2011-10-06,2016-04-08,False
+156146,ALGT,ALS Scandinavia - Täby,101,RLABO,2016-03-31,2016-03-31,False
+77754,ALLS,SYNLAB Analytics & Services Sweden AB, Linköping, Sweden,101,RLABO,2006-10-23,2018-04-23,False
+53343,ALNG,Dr. Schumacher GmbH,101,RLABO,2006-10-23,2006-10-23,False
+249184,ALSC,ALS Environmental Coventry,101,RLABO,2021-08-25,2021-08-25,False
+53344,ALUK,Fisheries Research Services, Aberdeen,101,RLABO,2006-10-23,2011-12-01,False
+136391,AMAP,AMAP Secretariat,101,RLABO,2012-11-21,2012-11-21,False
+169813,AMHF,Alands Landskapregering (Mariehamn),101,RLABO,2017-04-10,2017-04-10,False
+53345,ANBF,ANSAB, Bordeaux,101,RLABO,2006-10-23,2011-12-01,False
+53346,ANCH,Vrije Universiteit Brussel,101,RLABO,2006-10-23,2006-10-23,False
+130347,APEM,APEM Ltd, Manchester Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+53347,APNN,Akvaplan-NIVA A/S, Polar Environmental Center, Tromsø,101,RLABO,2006-10-23,2011-12-01,False
+148415,AQEG,AquaEcology, Oldenburg,101,RLABO,2015-03-17,2015-03-17,False
+194869,AQFG,Aquafact Environmental Survey Specialists, Galway,101,RLABO,2017-10-19,2017-10-19,False
+197494,AQSS,Aqua Service Schwerin Consulting and Operating Management Company,101,RLABO,2018-09-17,2018-09-17,False
+53348,ASLR,Latvian Institute of Aquatic Ecology,101,RLABO,2006-10-23,2015-01-23,False
+53349,ASUK,Aquatic Systems Group, Belfast,101,RLABO,2006-10-23,2011-12-01,False
+53402,AWIG,Alfred-Wegener Institut,101,RLABO,2006-10-23,2006-10-23,False
+53500,AWUK,Environment Agency, Peterborough,101,RLABO,2006-10-23,2011-12-01,False
+130338,AZUK,AstraZeneca, Brixham Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+53403,BAHG,Biologische Anstalt Helgoland,101,RLABO,2006-10-23,2006-10-23,False
+230816,BASG,Biologische Arbeiten Steuwer,101,RLABO,2021-01-06,2021-01-06,False
+77992,BEUK,Biological Effects Laboratory, Waterloo,101,RLABO,2006-10-23,2006-10-23,False
+53534,BFAG,Institut für Seefischerei der VTIG Hamburg,101,RLABO,2006-10-23,2010-07-29,False
+53404,BFCG,Bundesforschungsanstalt für Fischerei, Cuxhaven,101,RLABO,2006-10-23,2011-12-01,False
+53405,BFGG,Bundesanstalt für Gewässerkunde, Federal Institute of Hydrology,101,RLABO,2006-10-23,2006-10-23,False
+53406,BFKB,Küsten- und Binnenfischerei,101,RLABO,2006-10-23,2011-12-01,False
+53407,BFKG,Bundesforschungsanstalt für Fischerei, Hamburg,101,RLABO,2006-10-23,2011-12-01,False
+53408,BFRG,Bundesforschungsanstalt für Fischerei, Institut für Fischereiökologie, Hamburg,101,RLABO,2006-10-23,2011-12-01,False
+53409,BGAG,Umweltbundesamt, Institut für Wasser-, Boden- und Lufthygiene,101,RLABO,2006-10-23,2006-10-23,False
+130105,BGMG,University of Hamburg, Institute of Biogeochemistry and Marine Chemistry, Centre for Marine and Climate Research,101,RLABO,2007-07-23,2007-07-25,False
+53410,BHIR,Bezirkshygiene-Institut Rostock,101,RLABO,2006-10-23,2011-12-01,False
+53361,BIOC,Bedford Institute of Oceanography, Department of Fisheries and Oceans, Nova Scotia,101,RLABO,2006-10-23,2011-12-01,False
+167870,BIOR,Institute of Food Safety, Animal Health and Environment,101,RLABO,2016-08-26,2016-08-26,False
+167966,BIOS,Aarhus University, Department of Bioscience, Marine Ecology Roskilde,101,RLABO,2016-08-30,2016-08-30,False
+53501,BLUK,Centre for Environment, Fisheries and Aquaculture Science,101,RLABO,2006-10-23,2006-10-23,False
+79350,BODC,British Oceanographic Data Centre,101,RLABO,2006-10-23,2006-10-23,False
+53411,BSHG,Bundesamt für Seeschiffahrt und Hydrographie,101,RLABO,2006-10-23,2006-10-23,False
+53526,BTNW,Battelle, Northwest Division, Marine Sciences Laboratory, Washington,101,RLABO,2006-10-23,2011-12-01,False
+168939,CALU,CALLUNA AB,101,RLABO,2016-12-02,2016-12-06,False
+53527,CHAR,Unidentified laboratory from US in 1970s,101,RLABO,2006-10-23,2011-12-01,False
+131504,CIRA,CIRAD - Montpellier,101,RLABO,2008-10-28,2008-10-28,False
+135621,CLSI,Complete lab solutions / Saotharlann Chonamara Teo,101,RLABO,2011-11-21,2011-11-21,False
+130348,CMAC,CMACS Ltd,101,RLABO,2007-08-29,2007-08-29,False
+131523,CQ14,CQEL Caen,101,RLABO,2008-10-28,2008-10-28,False
+132310,CQ29,CQEL Finistère,101,RLABO,2010-04-27,2010-04-27,False
+131507,CQ33,CQEL Gironde,101,RLABO,2008-10-28,2008-10-28,False
+132311,CQ40,CQEL Landes,101,RLABO,2010-04-27,2010-04-27,False
+131508,CQ44,CQEL Loire-Atlantique,101,RLABO,2008-10-28,2008-10-28,False
+131524,CQ50,CQEL de la Manche,101,RLABO,2008-10-28,2008-10-28,False
+131525,CQ56,CQEL Lorient,101,RLABO,2008-10-28,2008-10-28,False
+131509,CQ59,CQEL Nord,101,RLABO,2008-10-28,2008-10-28,False
+131526,CQ62,CQEL Boulogne,101,RLABO,2008-10-28,2008-10-28,False
+132312,CQ64,CQEL Pyrénées Atlantiques,101,RLABO,2010-04-27,2010-04-27,False
+131510,CQ76,CQEL Seine-Maritime,101,RLABO,2008-10-28,2008-10-28,False
+131505,CREA,CREMA/CRELA l'Houmeau,101,RLABO,2008-10-28,2008-10-28,False
+53502,CRUK,Clyde River Purification Board,101,RLABO,2006-10-23,2011-12-01,False
+131206,CTQC,Centre de toxicologie de Québec,101,RLABO,2008-05-21,2008-05-21,False
+53362,CWSC,National Wildlife Research Centre,101,RLABO,2006-10-23,2006-10-23,False
+53853,DANI,Agri-Food and Biosciences Institute (AFBI), Belfast,101,RLABO,2006-10-23,2020-06-08,False
+53386,DBST,Academy of Sciences, Department of the Baltic Sea, Tallinn,101,RLABO,2006-10-23,2011-12-01,False
+228611,DERA,Department of Agriculture, Environment and Rural Affairs (DAERA), Dundonald House, Belfast,101,RLABO,2020-06-08,2020-06-08,False
+53371,DFHU,Danmarks Fiskeriundersøgelser,101,RLABO,2006-10-23,2006-10-23,False
+53372,DFLH,Det Fælleskommunale Laboratorium Herning,101,RLABO,2006-10-23,2006-10-23,False
+131272,DGAP,Direccao Geral do Ambiente,101,RLABO,2008-07-03,2008-07-03,False
+53439,DGWM,Rijkswaterstaat Dienst Getijdewateren, Middelburg,101,RLABO,2006-10-23,2014-07-29,False
+53440,DGWN,Rijkswaterstaat Dienst Getijdewateren, Public Works Department, Tidal Waters Division,101,RLABO,2006-10-23,2011-12-01,False
+53412,DHIG,Deutsches Hydrographisches Institut,101,RLABO,2006-10-23,2011-12-01,False
+53441,DIHO,Netherlands Institute of Ecology,101,RLABO,2006-10-23,2006-10-23,False
+53503,DMUK,Dunstaffnage Marine Research Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+53504,DOUK,Centre for Environment, Fisheries and Aquaculture Science,101,RLABO,2006-10-23,2006-10-23,False
+149705,EAES,University of East Anglia, School of Environmental Sciences,101,RLABO,2015-04-09,2015-04-09,False
+200330,EASF,Eurofins Ahma Oy, Seinäjoki Analytical Laboratory,101,RLABO,2019-08-14,2019-08-14,False
+80615,EAWC,CMA EAWal, EAwales regional office, Cardiff,101,RLABO,2006-10-23,2006-10-23,False
+53350,ECCB,Laboratorium ECCA,101,RLABO,2006-10-23,2006-10-23,False
+130339,ECOM,Ecomaris Ltd, Huntingdon Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+130350,ECOS,Ecological Consultancy Services Ltd, Dublin Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+78449,EERC,Estonian Environmental Research Centre,101,RLABO,2006-10-23,2006-10-23,False
+202627,EETE,Eurofins Environment Testing Estonia OÜ,101,RLABO,2020-04-27,2020-04-27,False
+197708,EETF,Eurofins Environment Testing, Eurofins Scientific, Finland,101,RLABO,2018-10-10,2018-10-10,False
+53373,EFDA,Eurofins Danmark A/S Aalborg SV,101,RLABO,2006-10-23,2006-10-23,False
+53374,EFDH,Eurofins Danmark A/S Albertslund,101,RLABO,2006-10-23,2006-10-23,False
+137652,EFGH,Eurofins GfA Hamburg,101,RLABO,2013-07-10,2013-07-10,False
+137653,EFGJ,Eurofins Umwelt Ost Jena,101,RLABO,2013-07-10,2013-07-10,False
+135628,EFGM,Eurofins GfA Lab Service GmbH, Münster,101,RLABO,2011-12-01,2011-12-01,False
+130089,EGMH,EGMASA Laboratorio de Vigilancia y Control de la Contaminación de Huelva,101,RLABO,2007-07-20,2007-07-20,False
+130088,EGMM,EGMASA Laboratorio de Vigilancia y Control de la Contaminación de Motril,101,RLABO,2007-07-20,2007-07-20,False
+130340,EMUL,Emu Ltd, Southampton Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+195124,EPAD,Environmental Protection Agency (Regional Inspectorate Dublin),101,RLABO,2017-12-11,2017-12-11,False
+130132,ERGO,ERGO Forschungsgesellschaft mbH, Hamburg,101,RLABO,2007-07-25,2007-07-25,False
+130349,ERTL,ERT (Scotland) Ltd, Edinburgh Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+194685,ESEA,Estonian Environment Agency, Tallinn,101,RLABO,2017-08-23,2017-08-23,False
+167794,EVIF,Finnish Food Safety Authority Evira,101,RLABO,2016-08-18,2016-09-17,False
+156357,EWMP,Regional Inspectorate of Environmental Protection in Olsztyn - Branch Office in Elblag,101,RLABO,2016-05-19,2016-05-19,False
+195800,FCGF,FCG Finnish Consulting Group Oy,101,RLABO,2018-03-22,2018-03-22,False
+53388,FEIF,Finnish Environment Institute,101,RLABO,2006-10-23,2006-10-23,False
+149785,FERA,The Food and Environment Research Agency,101,RLABO,2015-05-04,2015-05-04,False
+120933,FFLF,Faroese Fisheries Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+169708,FGEG,Flussgebietsgemeinschaft Elbe -River Basin Community Elbe,101,RLABO,2017-03-20,2017-04-14,False
+131582,FGFR,Finnish Game and Fisheries Research Institute,101,RLABO,2008-11-28,2008-11-28,False
+53451,FIER,Institute of Nutrition, Directorate of Fisheries (Fiskeridirektoratets Ernæringsinstitutt),101,RLABO,2006-10-23,2006-10-23,False
+154831,FIME,Fraunhofer Institute for Molecular Biology and Applied Ecology, Schmallenberg-Grafschaft,101,RLABO,2015-08-12,2015-08-12,False
+53413,FITG,Fresenius Institut,101,RLABO,2006-10-23,2006-10-23,False
+53363,FIUC,Freshwater Institute, Department of Fisheries and Oceans, Winnipeg,101,RLABO,2006-10-23,2011-12-01,False
+53391,FLAN,Flandres Analyses,101,RLABO,2006-10-23,2006-10-23,False
+202628,FMIF,Finnish Meteorological Institute, Marine Research,101,RLABO,2020-04-27,2020-04-27,False
+53364,FOCH,Fisheries Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+53468,FOLB,FITO-Lab,101,RLABO,2006-10-23,2006-10-23,False
+53375,FORC,FORCE Institute,101,RLABO,2006-10-23,2006-10-23,False
+53437,FRCI,Marine Institute (Abbottstown), Dublin,101,RLABO,2006-10-23,2018-05-28,False
+53414,FREI,Forschungsinstitut für NE-Metalle, Bergakademie, Freiberg,101,RLABO,2006-10-23,2011-12-01,False
+53505,FRUK,Forth River Purification Board, Edinburgh,101,RLABO,2006-10-23,2011-12-01,False
+53452,FSAN,Institute of Marine Research,101,RLABO,2006-10-23,2006-10-23,False
+149786,FSSA,Food Standards Scotland (FSS),101,RLABO,2015-05-04,2015-05-04,False
+130341,FUSL,Fugro Survey Ltd, Great Yarmouth Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+53415,GALG,GALAB - Geesthacht, Analysen - Beratung - F&E,101,RLABO,2006-10-23,2006-10-23,False
+130077,GBAH,Gesellschaft fuer Bioanalytik Hamburg,101,RLABO,2007-07-12,2007-07-23,False
+156354,GDPP,Regional Inspectorate of Environmental Protection in Gdansk,101,RLABO,2016-05-19,2016-05-19,False
+53453,GEON,Geogruppen A/S,101,RLABO,2006-10-23,2006-10-23,False
+53376,GERI,National Environmental Research Institute (Arctic),101,RLABO,2006-10-23,2006-10-23,False
+130344,GEUK,Gardline Environmental,101,RLABO,2007-08-29,2007-08-29,False
+53365,GFCC,Gulf Fisheries Centre, Department of Fisheries and Oceans, New Brunswick,101,RLABO,2006-10-23,2011-12-01,False
+53528,GLOU,National Marine Fisheries Service,101,RLABO,2006-10-23,2006-10-23,False
+140904,GRUC,GRECAN, University of Caen,101,RLABO,2014-08-06,2014-08-06,False
+53366,GSCO,Geological Survey of Canada,101,RLABO,2006-10-23,2006-10-23,False
+53377,GSDD,Geological Survey of Denmark,101,RLABO,2006-10-23,2006-10-23,False
+53482,GUMI,Göteborg University - Marine Geology,101,RLABO,2006-10-23,2011-11-15,False
+135591,GUZI,Göteborg University, Department of Biological and Environmental Sciences, Zoology building,101,RLABO,2011-11-15,2019-11-06,False
+130345,HEUK,Hebog Environmental Ltd, Bangor Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+53378,HFLD,Miljøstyrelsens Havforureningslaboratorium, Charlottenlund,101,RLABO,2006-10-23,2011-12-01,False
+53379,HFSF,Heilsufrøðiliga Starvsstovan,101,RLABO,2006-10-23,2006-10-23,False
+168965,HGOS,HydroGIS AB, Ödsmål,101,RLABO,2016-12-09,2016-12-09,False
+53506,HGUK,Humber Estuary Management Group,101,RLABO,2006-10-23,2006-10-23,False
+78865,HKYF,City of Helsinki Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+53507,HLUK,AEA Technology, Harwell Laboratory, Didcot, Oxfordshire,101,RLABO,2006-10-23,2011-12-01,False
+53380,HMKE,Holstebro Miljøkontrol Enhed,101,RLABO,2006-10-23,2006-10-23,False
+53483,HRFS,National Board of Fisheries,101,RLABO,2006-10-23,2006-10-23,False
+130397,HUTF,Helsinki University, Tvärminne Zoological Station,101,RLABO,2007-09-25,2007-09-25,False
+53484,IAMK,Göteborg University - Analytical and Marine Chemistry,101,RLABO,2006-10-23,2011-11-15,False
+131511,IARC,IFREMER station Arcachon,101,RLABO,2008-10-28,2008-10-28,False
+131512,IBOU,IFREMER station Boulogne,101,RLABO,2008-10-28,2008-10-28,False
+54146,IBSS,Institute of Biology of the Southern Seas,101,RLABO,2006-10-23,2006-10-23,False
+135822,IBUL,University of Latvia Institute of Biology,101,RLABO,2012-03-10,2012-03-10,False
+53442,IBWL,Instituut voor Bodemvruchtbaarheid,101,RLABO,2006-10-23,2006-10-23,False
+53392,ICBF,IFREMER Brest,101,RLABO,2006-10-23,2006-10-23,False
+53381,ICDK,Danish Isotope Center, Copenhagen,101,RLABO,2006-10-23,2011-12-01,False
+120990,ICES,ICES internal use only,101,RLABO,2006-11-23,2016-06-27,False
+53393,ICNF,IFREMER Nantes,101,RLABO,2006-10-23,2006-10-23,False
+131513,ICON,IFREMER station Concarneau,101,RLABO,2008-10-28,2008-10-28,False
+131514,IDIN,IFREMER station Dinard,101,RLABO,2008-10-28,2008-10-28,False
+130342,IECS,The University of Hull, Institute of Estuarine and Coastal Studies,101,RLABO,2007-08-29,2007-08-29,False
+53479,IEOC,Instituto Español de Oceanografia Madrid,101,RLABO,2006-10-23,2006-10-23,False
+53480,IEOM,Instituto Español de Oceanografia Murcia,101,RLABO,2006-10-23,2006-10-23,False
+80812,IEOT,Centro Oceanografico de Canarias, Tenerife,101,RLABO,2006-10-23,2006-10-23,False
+53481,IEOV,Instituto Español de Oceanografia Vigo,101,RLABO,2006-10-23,2006-10-23,False
+135448,IFAG,Institut für Angewandte Ökosystemforschung GmbH,101,RLABO,2011-09-01,2011-09-01,False
+53454,IFEN,Institute for Energy Technology,101,RLABO,2006-10-23,2006-10-23,False
+230818,IFIE,Inland Fisheries Ireland, Dublin,101,RLABO,2021-01-07,2021-01-07,False
+53434,IFLI,Icelandic Fisheries Laboratory,101,RLABO,2006-10-23,2010-08-02,False
+53416,IFOG,Institut für Ostseeforschung,101,RLABO,2006-10-23,2006-10-23,False
+53417,IGDR,Institut für Meereskunde,101,RLABO,2006-10-23,2011-12-01,False
+53485,IGSS,Stockholm University, Institute of Geology and Geochemistry,101,RLABO,2006-10-23,2015-02-17,False
+53351,IHEB,Institut d'Hygiène et d'Epidémiologie, Brussels,101,RLABO,2006-10-23,2011-12-01,False
+53418,IHFG,University of Hamburg, Institut für Hydrobiologie und Fischereiwissenschaft, Hydrobiol. Abt.,101,RLABO,2006-10-23,2007-07-25,False
+53476,IHLP,Instituto Hidrografico,101,RLABO,2006-10-23,2006-10-23,False
+53469,IIAP,Agriculture Academy, Institute of Ichthyology, Szczecin,101,RLABO,2006-10-23,2011-12-01,False
+132292,IMAR,Wageningen IMARES,101,RLABO,2010-03-25,2010-03-25,False
+53387,IMRE,Estonian Marine Institute,101,RLABO,2006-10-23,2006-10-23,False
+53389,IMRF,Finnish Institute of Marine Research,101,RLABO,2006-10-23,2006-10-23,False
+53455,IMRN,Institute of Marine Research,101,RLABO,2006-10-23,2006-10-23,False
+53486,IMRS,Swedish National Board of Fisheries,101,RLABO,2006-10-23,2006-10-23,False
+53470,IMWP,Institute of Meteorology and Water Management,101,RLABO,2006-10-23,2006-10-23,False
+53443,IMWT,TNO Institute of Environmental Sciences,101,RLABO,2006-10-23,2006-10-23,False
+131519,INAN,IFREMER station Nantes,101,RLABO,2008-10-28,2008-10-28,False
+53477,INIP,Instituto de Investigacao des Pescas e do Mar,101,RLABO,2006-10-23,2006-10-23,False
+53471,IOSP,Polish Academy of Sciences,101,RLABO,2006-10-23,2006-10-23,False
+53394,IPLF,Institut Pasteur de Lille,101,RLABO,2006-10-23,2006-10-23,False
+230815,IPMA,Instituto Português do Mar e da Atmosfera,101,RLABO,2021-01-06,2021-01-06,False
+131518,IPOR,IFREMER station Port-en-Bessin,101,RLABO,2008-10-28,2008-10-28,False
+135305,IPRA,ISPRA, Italian National Institute for Environmental Protection and Research,101,RLABO,2011-04-19,2011-04-19,False
+131515,IROC,IFREMER station La Rochelle,101,RLABO,2008-10-28,2008-10-28,False
+53395,IRSN,Institut de Radioprotection et de Sureté Nucléaire,101,RLABO,2006-10-23,2006-10-23,False
+249770,ISEF,Ifremer, LERLR - Labo Environnement Ressources Languedoc-Roussillon (Sète),101,RLABO,2021-10-13,2021-10-13,False
+53419,ISHG,Institut Schumacher,101,RLABO,2006-10-23,2006-10-23,False
+132072,ISMF,Institut des Sciences Moléculaires, Group LPTC, Université Bordeaux1,101,RLABO,2009-12-01,2009-12-01,False
+53352,ISOB,Veterinary and Agrochemical Research Centre,101,RLABO,2006-10-23,2011-12-21,False
+53508,ISUK,Northern Ireland Environment Agency, Water Management Unit (NIEA), Lisburn,101,RLABO,2006-10-23,2020-06-08,False
+249771,ITOF,Ifremer, Environment Resources Laboratory Provence Azur Corsica (Toulon),101,RLABO,2021-10-13,2021-10-13,False
+131516,ITRE,IFREMER station La Tremblade,101,RLABO,2008-10-28,2008-10-28,False
+131517,ITRI,IFREMER station La Trinité,101,RLABO,2008-10-28,2008-10-28,False
+53420,IUKG,Institut für Meereskunde an der Universität Kiel,101,RLABO,2006-10-23,2006-10-23,False
+77994,IUQG,Institut für Umweltschutz und Qualitätssicherung,101,RLABO,2006-10-23,2006-10-23,False
+156204,IVLS,IVL Swedish Environmental Research Institure - Stockholm,101,RLABO,2016-04-01,2016-04-01,False
+131304,IVMA,Vrije Universiteit Amsterdam IVM,101,RLABO,2008-07-30,2008-07-30,False
+53444,IVPT,Instituut voor Visserij Producten-TNO, Ijmuiden,101,RLABO,2006-10-23,2011-12-01,False
+136002,IWWG,IWW Consulting Service, Mulheim an der Ruhr,101,RLABO,2012-06-14,2012-06-14,False
+232240,JBGG,JenaBios GmbH, Jena,101,RLABO,2021-03-18,2021-03-18,False
+54225,JWGU,Johann Wolfgang Goethe University Frankfurt am Main,101,RLABO,2006-10-23,2006-10-23,False
+120842,JYUF,University of Jyväskylä,101,RLABO,2006-10-23,2006-10-23,False
+54337,KASF,Southeast Finland Regional Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+53421,KAWG,Handels- und Umweltschutzlabor Dr. Kaiser & Dr. Woldmann oHG,101,RLABO,2006-10-23,2006-10-23,False
+230817,KFOG,KÜFOG GmbH, Bremen,101,RLABO,2021-01-06,2021-01-06,False
+53487,KMFS,Kristineberg Marine Research Station,101,RLABO,2006-10-23,2006-10-23,False
+141013,KVSF,Kokemäenjoen vesistön vsy., Hatanpää,Tampere,101,RLABO,2014-09-28,2014-09-28,False
+167793,KVTF,Kala- ja vesitutkimus Ltd,101,RLABO,2016-08-18,2016-09-17,False
+135327,KVVF,Kokemäenjoen vesistön vesiensuojeluyhdistys ry, Finland,101,RLABO,2011-05-19,2011-05-19,False
+167788,KYMF,The Association for Water and Environment of Kymijoki region,101,RLABO,2016-08-18,2016-09-17,False
+78866,KYYF,Kymi Environmental Laboratory Ltd,101,RLABO,2006-10-23,2006-10-23,False
+156359,KZPP,Regional Inspectorate of Environmental Protection in Szczecin - Branch in Koszalin,101,RLABO,2016-05-19,2016-05-19,False
+53396,LABF,Laboratoire Municipal de Brest - Océan,101,RLABO,2006-10-23,2006-10-23,False
+130070,LADG,Laboratorien Dr. Doering GmbH,101,RLABO,2007-07-09,2007-07-09,False
+120832,LALG,Landesamt für Landwirtschaft, Lebensmittelsicherheit,101,RLABO,2006-10-23,2006-10-23,False
+54341,LAPF,Lapland Regional Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+131520,LASE,LASEM Cherbourg,101,RLABO,2008-10-28,2008-10-28,False
+53488,LCRS,Swedish Environmental Protection Agency,101,RLABO,2006-10-23,2006-10-23,False
+53397,LDAM,Laboratorie Départemental d'analyses de la Manche,101,RLABO,2006-10-23,2006-10-23,False
+53398,LDFD,Laboratorie Départemental Frank Duncombe,101,RLABO,2006-10-23,2006-10-23,False
+53399,LDHN,Institut Departemental d'Analyse et de Conseil,101,RLABO,2006-10-23,2006-10-23,False
+131506,LEBI,Laboratoire d'étude des Bio-Indicateurs Marin (Ile d'Yeu),101,RLABO,2008-10-28,2008-10-28,False
+132071,LEMA,Laboratoire d'Ecotoxicologie - Milieux Aquatiques LEMA - EA 3222, Université du Havre,101,RLABO,2009-12-01,2009-12-01,False
+77996,LFMG,Landesforschungsanstalt für Landwirtschaft und Fischerei,101,RLABO,2006-10-23,2006-10-23,False
+136001,LGCT,LGC, Teddington,101,RLABO,2012-06-14,2012-06-14,False
+53400,LMBF,Institut Européen de l'Envronnement de Bordeaux,101,RLABO,2006-10-23,2006-10-23,False
+140941,LMHG,LimnoMar, Hamburg,101,RLABO,2014-08-25,2014-08-25,False
+53401,LMRF,Laboratoire Municipal de Rouen,101,RLABO,2006-10-23,2006-10-23,False
+135216,LOMI,Estonian Marine Institute (University of Tartu),101,RLABO,2011-03-09,2011-03-09,False
+54338,LOSF,Southwest Finland Regional Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+140942,LPTC,Lab of physico- and toxico chemistry, University of Bordeaux, Talence Cedex,101,RLABO,2014-08-27,2014-08-27,False
+197196,LRCN,Laberca - Food Residue And Contaminant Laboratory, Nantes Cedex,101,RLABO,2018-08-31,2018-08-31,False
+53367,LSCC,Loring SedChem Consultants,101,RLABO,2006-10-23,2006-10-23,False
+78862,LSKF,West Finland Regional Environment Centre, Kokkola branch,101,RLABO,2006-10-23,2006-10-23,False
+54339,LSUF,West Finland Regional Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+78863,LSYF,Lounais-Suomen vesi- ja ympäristötutkimus Oy,101,RLABO,2006-10-23,2006-10-23,False
+154827,LUAB,Landesuntersuchungsamt für Chemie, Hygiene und Veterinämedizin, Bremen,101,RLABO,2015-08-12,2015-08-12,False
+200296,LUCF,Luode Consulting,101,RLABO,2019-08-12,2019-08-12,False
+167790,LUKF,Natural Resources Institute Finland, Turku Laboratory,101,RLABO,2016-08-18,2016-09-17,False
+129948,LUNG,Landesamt für Umwelt, Naturschutz und Geologie in Mecklenburg-Vorpommern,101,RLABO,2007-05-29,2007-05-29,False
+195801,LUVF,Association for Water and Environment of Western Uusimaa,101,RLABO,2018-03-22,2018-03-22,False
+53423,LVLG,Landeshygieneinstitut,101,RLABO,2006-10-23,2006-10-23,False
+77995,LVMG,Landesveterinär- und Lebensmitteluntersuchungsamt,101,RLABO,2006-10-23,2006-10-23,False
+120830,LVUG,Lebensmittel- und Veterinäruntersuchungsamt des Landes Schleswig-Holstein,101,RLABO,2006-10-23,2006-10-23,False
+53424,LWKG,Landesamt für Wasserhaushalt und Küsten, Schleswig-Holstein, Kiel,101,RLABO,2006-10-23,2011-12-01,False
+53509,MAFL,Centre for Environment, Fisheries and Aquaculture Science,101,RLABO,2006-10-23,2006-10-23,False
+194240,MARI,MariLim Aquatic Research GmbH, Schönkirchen,101,RLABO,2017-07-03,2017-07-03,False
+135018,MATI,Icelandic Food and Biotech R&D,101,RLABO,2010-09-15,2016-07-16,False
+130343,MESL,Marine Ecological Surveys Ltd, Bath Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+137815,METF,MetropoliLab, Helsinki,101,RLABO,2013-10-14,2013-10-14,False
+135658,MICG,Marine Institute (Chemistry) Galway,101,RLABO,2011-12-14,2013-09-18,False
+132314,MINY,MINYVEL ENVIRONNEMENT,101,RLABO,2010-04-27,2010-04-27,False
+156676,MIRG,Morski Instytut Rybacki in Gdynia (MIR),101,RLABO,2016-06-23,2016-06-23,False
+197078,MMAB,Marine Monitoring AB Lysekil,101,RLABO,2018-08-24,2018-08-24,False
+53489,MNHS,Naturhistoriska Riksmuseet,101,RLABO,2006-10-23,2006-10-23,False
+53435,MRII,Marine Research Institute,101,RLABO,2006-10-23,2006-10-23,False
+53438,MRLT,Environmental Protection Agency, Department of Marine Research, Klaipeda,101,RLABO,2006-10-23,2011-12-01,False
+141011,MTLF,Finnish Forest Research Institute (METLA),101,RLABO,2014-09-28,2014-09-28,False
+155323,MTTU,Marine Systems Institute at Tallinn University of Technology,101,RLABO,2015-12-01,2015-12-01,False
+78867,MUIF,University of Joensuu, R/V Muikku Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+53353,MUMM,Management Unit of the North Sea and Scheldt Estuary,101,RLABO,2006-10-23,2006-10-23,False
+53456,NACE,Nordisk Analyse Center,101,RLABO,2006-10-23,2006-10-23,False
+167787,NAJF,Nab Labs, Jyväskylä laboratory,101,RLABO,2016-08-18,2016-09-17,False
+167789,NAOF,Nab Labs, Oulu laboratory,101,RLABO,2016-08-18,2016-09-17,False
+53390,NBWF,National Board of Waters, Helsinki,101,RLABO,2006-10-23,2011-12-01,False
+53510,NEDS,Environment Agency, Bath,101,RLABO,2006-10-23,2011-12-01,False
+154830,NENS,National office for environment and nature Stralsund,101,RLABO,2015-08-12,2015-08-12,False
+156549,NEPE,Natural England – Marine Office, Peterborough,101,RLABO,2016-05-31,2016-06-01,False
+53382,NERI,National Environmental Research Institute,101,RLABO,2006-10-23,2006-10-23,False
+53457,NGUN,Geological Survey of Norway,101,RLABO,2006-10-23,2006-10-23,False
+53458,NILU,Norwegian Institute for Air Research,101,RLABO,2006-10-23,2006-10-23,False
+53445,NIOZ,Nederlands Instituut voor Onderzoek der Zee,101,RLABO,2006-10-23,2006-10-23,False
+53459,NIVA,Norwegian Institute for Water Research,101,RLABO,2006-10-23,2006-10-23,False
+200034,NLBG,Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz, Brake,101,RLABO,2019-07-05,2019-08-30,False
+53425,NLEG,Niedersächsisches Landesamt für Ökologie, Norderney,101,RLABO,2006-10-23,2011-12-01,False
+200032,NLHG,Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz, Hildesheim,101,RLABO,2019-07-05,2019-08-30,False
+120831,NLKG,Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz,101,RLABO,2006-10-23,2019-07-09,False
+200033,NLNG,Niedersächsischer Landesbetrieb für Wasserwirtschaft, Küsten- und Naturschutz, Norden,101,RLABO,2019-07-05,2019-08-30,False
+53426,NLWG,Niedersächsisches Landesamt für Wasserwirtschaft, Hildesheim,101,RLABO,2006-10-23,2019-07-05,False
+53917,NMFS,NMFS Office of Science & Technology,101,RLABO,2006-10-23,2006-10-23,False
+53529,NOAM,National Marine Fisheries Service Milford,101,RLABO,2006-10-23,2006-10-23,False
+53530,NOAS,National Marine Fisheries Service Northeast Fisheries Science Center,101,RLABO,2006-10-23,2006-10-23,False
+53531,NOAW,National Marine Fisheries Service Northwest Fisheries Science Center Washington,101,RLABO,2006-10-23,2006-10-23,False
+137812,NOCS,National Oceanographic Centre Southampton,101,RLABO,2013-10-09,2013-10-09,False
+53532,NODC,National Oceanographic Data Center,101,RLABO,2006-10-23,2006-10-23,False
+132018,NORG,Institut für Umwelt und Analytik GmbH, Rostock,101,RLABO,2009-08-27,2009-08-27,False
+130071,NOWG,Limnologisches Institut Dr. Nowak,101,RLABO,2007-07-09,2007-07-09,False
+53460,NPIN,Norwegian Polar Institute,101,RLABO,2006-10-23,2006-10-23,False
+53368,NRCC,Chemical Metrology Group,101,RLABO,2006-10-23,2006-10-23,False
+168961,NRNS,Naturvatten Roslagen AB, Norrtalje,101,RLABO,2016-12-08,2016-12-09,False
+53511,NRUK,NRA Northumbrian Region,101,RLABO,2006-10-23,2006-10-23,False
+53427,NRWG,Landesumweltamt Nordrhein-Westfalen,101,RLABO,2006-10-23,2006-10-23,False
+53490,NSLS,Stockholm University,101,RLABO,2006-10-23,2006-10-23,False
+135823,NSTO,Nature Agency Nykøbing F,101,RLABO,2012-03-10,2012-03-10,False
+230819,NUIG,National University of Ireland, Galway,101,RLABO,2021-01-07,2021-01-07,False
+53491,NWLS,Swedish Environmental Protection Agency,101,RLABO,2006-10-23,2006-10-23,False
+53369,NWOC,National Water Research Institute,101,RLABO,2006-10-23,2006-10-23,False
+53512,NWUK,Environment Agency, North West Region, Warrington,101,RLABO,2006-10-23,2011-12-01,False
+130131,OMCG,University of Hamburg, Abteilung fur Organomeereschemie,101,RLABO,2007-07-25,2007-07-25,False
+135770,ORUM,Man-Technology-Environment Research Centre, Örebro University,101,RLABO,2012-03-01,2012-03-01,False
+53370,OSBC,Institute of Ocean Sciences,101,RLABO,2006-10-23,2006-10-23,False
+131521,OUES,Association Ouessant, Ouessant,101,RLABO,2008-10-28,2011-12-01,False
+141012,OUUF,University of Oulu,101,RLABO,2014-09-28,2014-09-28,False
+156356,OWMP,Regional Inspectorate of Environmental Protection in Olsztyn,101,RLABO,2016-05-19,2016-05-19,False
+137629,PAGS,PAG Miljöundersökningar,101,RLABO,2013-06-18,2013-06-19,False
+53461,PFHN,The Norwegian Crop Research Institute (Planteforsk Holt Forskingssenter),101,RLABO,2006-10-23,2006-10-23,False
+53472,PGIP,Polish Geological Institute,101,RLABO,2006-10-23,2006-10-23,False
+53513,PLUK,Scottish Office Agriculture,101,RLABO,2006-10-23,2006-10-23,False
+53514,PMLK,Plymouth Marine Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+167786,POYF,Pöyry Finland (Former Maa ja Vesi Ltd),101,RLABO,2016-08-18,2016-09-17,False
+54340,PPOF,North Ostrobothnia Regional Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+53383,RAKD,Ringkøbing Amtskommune Danmark,101,RLABO,2006-10-23,2006-10-23,False
+169812,RALF,Ramboll Analytics (Lahti),101,RLABO,2017-04-10,2017-04-10,False
+53478,RCMA,Regional Center "Monitoring of the Arctic" of Roshydromet,101,RLABO,2006-10-23,2015-02-17,False
+135014,RCMH,ROSHYDROMET, Moscow,101,RLABO,2010-09-10,2015-02-17,False
+53446,RIKZ,National Institute for Coastal and Marine Manageme,101,RLABO,2006-10-23,2006-10-23,False
+132398,RISO,Risø National Laboratory for Sustainable Energy,101,RLABO,2010-07-07,2010-07-07,False
+53447,RIVM,Rijksinstituut voor Volksgezondheid en Milieuhygie,101,RLABO,2006-10-23,2006-10-23,False
+53448,RIVO,Rijksinstituut voor Vissery Onderzoek, Ijmuiden,101,RLABO,2006-10-23,2011-12-01,False
+53449,RIZA,Rijksinstituut voor Zuivering van Afvalwater,101,RLABO,2006-10-23,2006-10-23,False
+53450,RKTP,Rijks-Kwaliteitsinstituut voor land- en tuinbouwprodukten,101,RLABO,2006-10-23,2006-10-23,False
+53354,RSSB,Rijksstation voor Sierplantenteelt, Melle,101,RLABO,2006-10-23,2011-12-01,False
+53355,RUGB,Rijks Universiteit Gent,101,RLABO,2006-10-23,2006-10-23,False
+53356,RVZB,ILVO Fisheries,101,RLABO,2006-10-23,2011-12-21,False
+154829,RWAU,RWTH Aachen University, Aachen,101,RLABO,2015-08-12,2015-08-12,False
+131957,RWSW,Rijkswaterstaat, Lelystad,101,RLABO,2009-07-02,2014-07-29,False
+154891,SAMW,Senckenberg am Meer, Wilhelmshaven,101,RLABO,2015-09-08,2015-09-08,False
+53384,SCSS,State Chemical Supervision Service, Søborg,101,RLABO,2006-10-23,2011-12-01,False
+79348,SEPB,Scottish Environment Protection Agency - Aberdeen Lab,101,RLABO,2006-10-23,2014-09-28,False
+79349,SEPD,Scottish Environment Protection Agency - Dingwall Lab,101,RLABO,2006-10-23,2014-09-28,False
+53515,SEPE,Scottish Environment Protection Agency - Edinburgh Lab,101,RLABO,2006-10-23,2014-09-28,False
+140835,SEPN,Scottish Environment Protection Agency - Angus Smith Lab,101,RLABO,2014-05-20,2014-09-28,False
+53516,SEPP,Scottish Environment Protection Agency - Perth Lab,101,RLABO,2006-10-23,2014-09-28,False
+53517,SEPW,Scottish Environment Protection Agency - West Region Lab,101,RLABO,2006-10-23,2014-09-28,False
+53492,SERI,Swedish Environmental Research Institute,101,RLABO,2006-10-23,2016-04-06,False
+53462,SERO,Sero A/S,101,RLABO,2006-10-23,2006-10-23,False
+53473,SFIP,Sea Fisheries Institute, Morski Instytit Rybacki,101,RLABO,2006-10-23,2006-10-23,False
+135620,SFPA,SFPA Clonakilty HQ,101,RLABO,2011-11-21,2011-11-21,False
+156084,SGUS,Geological Survey of Sweden,101,RLABO,2016-03-08,2016-03-08,False
+53463,SIIF,Sentral Instituttet for Industriell Forskning, Oslo,101,RLABO,2006-10-23,2011-12-01,False
+135858,SINL,Stable Isotopes in Nature Laboratory - University of New Brunswick,101,RLABO,2012-03-21,2012-03-21,False
+53464,SINT,SINTEF Applied Chemistry, Oslo,101,RLABO,2006-10-23,2011-12-01,False
+53533,SKIO,Skidaway Institute of Oceanography,101,RLABO,2006-10-23,2006-10-23,False
+53493,SLKS,AB Svensk Laboratoriet,101,RLABO,2006-10-23,2006-10-23,False
+156355,SLPP,Regional Inspectorate of Environmental Protection in Gdansk - Branch Office in Slupsk,101,RLABO,2016-05-19,2016-05-19,False
+155796,SLUQ,Swedish University of Agricultural Sciences, Department of Aquatic Resources,101,RLABO,2016-02-10,2016-02-10,False
+155793,SLUS,Swedish University of Agricultural Sciences,101,RLABO,2016-02-08,2016-02-08,False
+131522,SMEL,SMEL Blainville,101,RLABO,2008-10-28,2008-10-28,False
+53494,SMHI,Swedish Meteorological and Hydrological Institute,101,RLABO,2006-10-23,2006-10-23,False
+53495,SMRC,Stockholm University Marine Research Center,101,RLABO,2006-10-23,2006-10-23,False
+155790,SOIR,State Oceanographic Institute,101,RLABO,2016-02-02,2016-02-02,False
+80614,STCE,Star Cross Laboratory, Exeter,101,RLABO,2006-10-23,2006-10-23,False
+53518,STUK,Environment Agency Nottingham,101,RLABO,2006-10-23,2006-10-23,False
+53496,SUSE,Stockholm University Systems Ecology,101,RLABO,2006-10-23,2006-10-23,False
+137643,SWAM,Swedish Agency for Marine and Water Management,101,RLABO,2013-06-27,2013-06-27,False
+53519,SWUK,Environment Agency Southern,101,RLABO,2006-10-23,2006-10-23,False
+53520,SWWK,NRA South-West/Wessex Region,101,RLABO,2006-10-23,2006-10-23,False
+141010,SYJF,Finnish Environment Institute, SYKE (Joensuu),101,RLABO,2014-09-28,2014-09-28,False
+169811,SYKE,Finnish Environment Institute (Helsinki),101,RLABO,2017-04-10,2017-04-10,False
+132313,SYME,Sy.M.EL.,101,RLABO,2010-04-27,2010-04-27,False
+195803,SYNF,SYNLAB Analytics & Services Finland Oy,101,RLABO,2018-03-22,2018-03-22,False
+141009,SYOF,Finnish Environment Institute, SYKE (Oulu),101,RLABO,2014-09-28,2014-09-28,False
+156358,SZPP,Regional Inspectorate of Environmental Protection in Szczecin,101,RLABO,2016-05-19,2016-05-19,False
+167792,THLF,The National Institute for Health and Welfare,101,RLABO,2016-08-18,2016-09-17,False
+53428,TLUG,Thueringer Landesanstalt fuer Umwelt und Geologie,101,RLABO,2006-10-23,2006-10-23,False
+53497,TMBL,Tjãrnö Marine Biological Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+136298,TOXE,TOXEM SARL,101,RLABO,2012-09-26,2013-06-27,False
+78864,TUUF,University of Turku,101,RLABO,2006-10-23,2006-10-23,False
+53521,TWUK,NRA Thames Region,101,RLABO,2006-10-23,2006-10-23,False
+53465,UBGN,University of Bergen,101,RLABO,2006-10-23,2006-10-23,False
+80804,UBOF,Université de Bretagne Occidentale,101,RLABO,2006-10-23,2006-10-23,False
+53498,UCKS,University College of Kalmar,101,RLABO,2006-10-23,2006-10-23,False
+80809,UDCS,University of A Coruña,101,RLABO,2006-10-23,2006-10-23,False
+53357,UGAB,University of Ghent,101,RLABO,2006-10-23,2006-10-23,False
+167785,UHEF,Laboratory of Dept of Environmental Sciences, Helsinki University,101,RLABO,2016-08-18,2016-09-17,False
+53436,UIPT,University of Iceland,101,RLABO,2006-10-23,2006-10-23,False
+53358,ULBB,Université Libre de Bruxelles,101,RLABO,2006-10-23,2006-10-23,False
+53359,ULGB,Université de Liège,101,RLABO,2006-10-23,2006-10-23,False
+156205,UMKU,Umea University, Biochemical Laboratory,101,RLABO,2016-04-01,2016-04-01,False
+53499,UMSC,Umeå University,101,RLABO,2006-10-23,2006-10-23,False
+130346,UNIC,Unicomarine Ltd, Letchworth Laboratory,101,RLABO,2007-08-29,2007-08-29,False
+53466,UNIN,Unilab Analyse A/S,101,RLABO,2006-10-23,2006-10-23,False
+154828,UPBB,Umweltprobenbank im Umweltbundesamt, Berlin,101,RLABO,2015-08-12,2015-08-12,False
+131015,USFO,Umhvørvisstovan,101,RLABO,2008-04-03,2016-07-16,False
+137813,USOU,University of Southampton,101,RLABO,2013-10-09,2013-10-09,False
+54336,UUSF,Uusimaa Regional Environment Centre,101,RLABO,2006-10-23,2006-10-23,False
+132059,UVIG,University of Vigo,101,RLABO,2009-10-15,2009-10-19,False
+197197,VEFR,Vendée Environment And Food Laboratory, La Roche,101,RLABO,2018-08-31,2018-08-31,False
+53467,VETN,Veterinærinstituttet,101,RLABO,2006-10-23,2006-10-23,False
+53474,VHRP,Veterinary Hygiene Research Station,101,RLABO,2006-10-23,2006-10-23,False
+195802,VHVF,Water Protection Association of the River Vantaa and Helsinki Region,101,RLABO,2018-03-22,2018-03-22,False
+53385,VKID,DHI Water and Environment,101,RLABO,2006-10-23,2006-10-23,False
+120999,VKYF,City of Vaasa Environmental Laboratory,101,RLABO,2006-12-06,2006-12-06,False
+53360,VUBB,Vrije Universiteit Brussel,101,RLABO,2006-10-23,2006-10-23,False
+53429,VUCG,Staatliches Veterinäruntersuchungsamt für Fische- und Fischwaren,101,RLABO,2006-10-23,2006-10-23,False
+53430,VUNG,Lebensmittel- und Veterinäruntersuchungsamt des Landes Schleswig-Holstein, Neumünster,101,RLABO,2006-10-23,2011-12-01,False
+53431,WASG,Staatliches Amt für Wasser und Abfall Stade,101,RLABO,2006-10-23,2006-10-23,False
+131958,WEAQ,WEAQ AB, Ängelholm,101,RLABO,2009-07-02,2009-07-02,False
+53432,WEJG,Dr. Wiertz, Eggert und Dr. Joerissen Laboratorium,101,RLABO,2006-10-23,2006-10-23,False
+53433,WGEG,Wassergütestelle Elbe,101,RLABO,2006-10-23,2006-10-23,False
+53522,WLUK,Environment Agency Llanelli Laboratory,101,RLABO,2006-10-23,2006-10-23,False
+230729,WMHG,Werkstätten Materialhof,101,RLABO,2020-12-22,2021-01-06,False
+53523,WRCK,WRc plc,101,RLABO,2006-10-23,2006-10-23,False
+137814,WSGA,WESSLING GmbH, Altenberge,101,RLABO,2013-10-10,2013-10-10,False
+167791,WUUF,The Association for Water and Environment of Western Uusimaa,101,RLABO,2016-08-18,2016-09-17,False
+53524,WWUK,Science and Technology Scientific Centre,101,RLABO,2006-10-23,2006-10-23,False
+53525,YWUK,NRA Yorkshire Region,101,RLABO,2006-10-23,2006-10-23,False

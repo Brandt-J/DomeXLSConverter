@@ -1,10 +1,11 @@
 from PyQt6 import QtWidgets, QtCore
 from typing import *
 if TYPE_CHECKING:
-    from tableItems import IdentificationTable
+    from tables.table_1_id import IdentificationTable
 
 from gui.fieldSelectUI import SelectorPushButton
-from dataimport.domeCodes import getLitterSource, DomeCode
+from dataimport.domeCodes import getLabCode, getShipCode, DomeCode
+from gui.fontsAndLabels import getIsOptionalLabel, getIsMandatoryLabel
 
 
 class IDPage(QtWidgets.QWizardPage):
@@ -19,7 +20,7 @@ class IDPage(QtWidgets.QWizardPage):
 
         self._tableItem: 'IdentificationTable' = tableItem
 
-        self._btnRLABO: SelectorPushButton = SelectorPushButton(getLitterSource(),
+        self._btnRLABO: SelectorPushButton = SelectorPushButton(getLabCode(),
                                                                 self._tableItem.setReportingLab,
                                                                 self.completeChanged)
 
@@ -28,9 +29,10 @@ class IDPage(QtWidgets.QWizardPage):
         self._inpYEAR.setToolTip("Will be created from SDATE if blank.")
         self._inpYEAR.editingFinished.connect(self._checkYearInput)
 
-        self._btnShip: SelectorPushButton = SelectorPushButton(getLitterSource(),
+        self._btnShip: SelectorPushButton = SelectorPushButton(getShipCode(),
                                                                self._tableItem.setShipCode,
                                                                self.completeChanged)
+        self._btnShip.setToolTip("""Search for "Unspecified" when ships are not used.  Minimum requirement is an "AA.." code.""")
 
         self._inpCruise: QtWidgets.QLineEdit = QtWidgets.QLineEdit()
         self._inpCruise.setPlaceholderText("Make it up if you don't go on cruises.")
@@ -45,11 +47,13 @@ class IDPage(QtWidgets.QWizardPage):
 
         layout: QtWidgets.QFormLayout = QtWidgets.QFormLayout()
         self.setLayout(layout)
+        layout.addRow(getIsMandatoryLabel())
         layout.addRow("Reporting Laboratory*", self._btnRLABO)
-        layout.addRow("Monitoring Year", self._inpYEAR)
         layout.addRow("Ship/Platform Code*", self._btnShip)
         layout.addRow("Cruise Identifier*", self._inpCruise)
         layout.addRow("Station Identification / sampling event ID*", self._inpStation)
+        layout.addRow(getIsOptionalLabel())
+        layout.addRow("Monitoring Year", self._inpYEAR)
 
     def isComplete(self) -> bool:
         return self._tableItem.correctlySet()

@@ -1,17 +1,22 @@
-from PyQt6 import QtWidgets
 import os
+from typing import *
+from PyQt6 import QtWidgets
+
+if TYPE_CHECKING:
+    from dataimport.readXLS import XLSReader
 
 
 class IntroPage(QtWidgets.QWizardPage):
     """
     First page of the wizard, showing general information
     """
-    def __init__(self):
+    def __init__(self, xlsReader: 'XLSReader'):
         super(IntroPage, self).__init__()
         self.setTitle("Particle Upload Wizard")
         self.setSubTitle("Please follow the instructions in this wizard to summarize and upload "
                          "particle measurement results into the database.")
 
+        self._xlsReader: 'XLSReader' = xlsReader
         self._xlsLoaded: bool = False
         self._lblXLSLoaded: QtWidgets.QLabel = QtWidgets.QLabel("No File selected.")
 
@@ -37,9 +42,14 @@ class IntroPage(QtWidgets.QWizardPage):
         fname: str = self._getXLSFileName()
         if fname:
             assert os.path.exists(fname), f'The specified file {fname} was not found.'
-            self._lblXLSLoaded.setText(f"Loaded file {os.path.basename(fname)}.")
-            self._xlsLoaded = True
-            self.completeChanged.emit()
+            self._xlsReader.readXlsFile(fname)
+            sheetNames: List[str] = self._xlsReader.getSheetNames()
+            sheet, ok = QtWidgets.QInputDialog.getItem(self, "Choose datasheet", "Choose from the sheets", sheetNames)
+            if ok and sheet:
+                self._xlsReader.setActiveSheet(sheet)
+                self._xlsLoaded = True
+                self._lblXLSLoaded.setText(f"Loaded sheet '{sheet}' of file '{os.path.basename(fname)}'.")
+                self.completeChanged.emit()
 
     def _getXLSFileName(self) -> str:
         """

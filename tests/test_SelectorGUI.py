@@ -14,7 +14,7 @@ def test_fieldSelectorButton(qtbot, tmpdir, mocker):
 
     callFunc: Mock = mocker.Mock()
     codes: List[DomeCode] = [DomeCode("Code1", "Description", "Loooong Description"),
-                             DomeCode("Code2", "Another Description", "None")]
+                             DomeCode("Code2", "Another Description", "No further infos available")]
     selPushBtn: SelectorPushButton = SelectorPushButton(codes, addEmittedCode)
     qtbot.addWidget(selPushBtn)
 

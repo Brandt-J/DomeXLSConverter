@@ -1,0 +1,10 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+26955,DEC,DECCA,40,POSYS,2006-10-23,2020-04-20,False
+26956,DGP,Differential Global Positioning System,40,POSYS,2006-10-23,2020-04-20,False
+34973,EST,Estimated (especially for "old" data),40,POSYS,2006-10-23,2006-10-23,False
+141097,ETRS89,European Terrestrial Reference System 1989,40,POSYS,2014-12-10,2014-12-10,False
+26957,GPS,Global Positioning System,40,POSYS,2006-10-23,2020-04-20,False
+34972,HLM,Haul middle,40,POSYS,2006-10-23,2006-10-23,False
+34971,HLS,Haul start,40,POSYS,2006-10-23,2006-10-23,False
+34970,MIR,Middle of ICES Rectangle,40,POSYS,2006-10-23,2006-10-23,False
+54368,NOM,Nominal (designated stations),40,POSYS,2006-10-23,2006-10-23,False

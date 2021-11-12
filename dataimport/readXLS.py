@@ -8,6 +8,7 @@ class XLSReader:
     """
     def __init__(self):
         self._dataframes: Union[dict[str, pd.DataFrame], None] = None  # Dict with keys: Sheet names, values: data frames
+        self._activeSheet: str = ""  # Name of the sheet to use for reading in particle data
 
     def readXlsFile(self, fname: str) -> None:
         """
@@ -16,6 +17,15 @@ class XLSReader:
         :return:
         """
         self._dataframes = pd.read_excel(fname, sheet_name=None)
+
+    def setActiveSheet(self, sheetName: str) -> None:
+        """
+        Sets which sheet will be used for reading particle data.
+        :param sheetName:
+        :return:
+        """
+        assert sheetName in self._dataframes.keys()
+        self._activeSheet = sheetName
 
     def getSheetNames(self) -> List[str]:
         """

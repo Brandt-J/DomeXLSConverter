@@ -3,6 +3,7 @@ from typing import *
 from dataclasses import dataclass
 import numpy as np
 import os
+import csv
 
 if os.getcwd().endswith("tests"):
     os.chdir(os.path.dirname(os.getcwd()))  # switch to parent directory to be able to find code files
@@ -33,3 +34,36 @@ def getLitterSource() -> List[DomeCode]:
         sources.append(DomeCode(name, descr, longdescr))
 
     return sources
+
+
+def getPositioningSystems() -> List[DomeCode]:
+    return _createCodesFromCSV("Posys.csv")
+
+
+def getLabCode() -> List[DomeCode]:
+    return _createCodesFromCSV("LabCode.csv")
+
+
+def getShipCode() -> List[DomeCode]:
+    return _createCodesFromCSV("ShipCode.csv")
+
+
+def getSubstrateTypes() -> List[DomeCode]:
+    return _createCodesFromCSV("SubstrateTypes.csv")
+
+
+def _createCodesFromCSV(csvFileName) -> List[DomeCode]:
+    """
+    Reads a CSV file and returns a list of dome codes for each element.
+    ASSUMES: First line is header
+    ASSUMES: Of each other line: 2nd entry is the code, 3rd entry is the description
+    :param csvFileName: filename relative to the domeCodeFolder
+    :return: List of DomeCodes
+    """
+    with open(os.path.join(codeFolder, csvFileName)) as fp:
+        csvReader = csv.reader(fp)
+        codeList: List[DomeCode] = []
+        for i, row in enumerate(csvReader):
+            if i > 0:  # First line is header
+                codeList.append(DomeCode(row[1], row[2], "No further infos available"))
+    return codeList

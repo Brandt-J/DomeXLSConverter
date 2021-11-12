@@ -1,0 +1,14 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+18436,BD,Boulders (> 30cm),54,SUBST,2006-10-23,2020-04-20,False
+135017,CL,Clay,54,SUBST,2010-09-14,2010-09-14,False
+18437,CM,Common Mussel (Mytilus edulis),54,SUBST,2006-10-23,2020-04-20,False
+18438,GR,Gravel,54,SUBST,2006-10-23,2020-04-20,False
+135024,MS,combined mud and sand,54,SUBST,2010-09-24,2010-09-24,False
+18439,MX,Mixed (boulders, gravel, stones and mud),54,SUBST,2006-10-23,2020-04-20,False
+18440,OT,Others (peat, boulder clay, mud, silt),54,SUBST,2006-10-23,2020-04-20,False
+18441,RK,Rock,54,SUBST,2006-10-23,2020-04-20,False
+18442,SD,Sand,54,SUBST,2006-10-23,2020-04-20,False
+18443,SF,Sand (firm bottom),54,SUBST,2006-10-23,2020-04-20,False
+18444,SH,Shells,54,SUBST,2006-10-23,2020-04-20,False
+18445,SS,Soft Substrate (mud),54,SUBST,2006-10-23,2020-04-20,False
+18446,ST,Stones (> 10cm),54,SUBST,2006-10-23,2020-04-20,False
