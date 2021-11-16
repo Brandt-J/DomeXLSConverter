@@ -36,7 +36,7 @@ class DomeCode:
     """
     code: str
     descr: str  # Description
-    long_descr: str  # Long Description
+    long_descr: str = "No further infos available"  # Long Description
 
 
 def getLitterSource() -> List[DomeCode]:
@@ -84,5 +84,5 @@ def _createCodesFromCSV(csvFileName) -> List[DomeCode]:
         codeList: List[DomeCode] = []
         for i, row in enumerate(csvReader):
             if i > 0:  # First line is header
-                codeList.append(DomeCode(row[1], row[2], "No further infos available"))
+                codeList.append(DomeCode(row[1], row[2]))
     return codeList

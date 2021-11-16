@@ -53,10 +53,10 @@ class LocationTable(TableItem):
                         self._minDepth, self._maxDepth, self._subst, self._prSub]
 
     def setLongitude(self, longitude: float) -> None:
-        self._long.content = DomeCode(str(longitude), "Longitude", "No further infos available")
+        self._long.content = DomeCode(str(longitude), "Longitude")
 
     def setLatitude(self, latitude: float) -> None:
-        self._lat.content = DomeCode(str(latitude), "Latitude", "No further infos available")
+        self._lat.content = DomeCode(str(latitude), "Latitude")
 
     def setPosSystem(self, posSysCode: Union[None, 'DomeCode']) -> None:
         self._posys.content = posSysCode

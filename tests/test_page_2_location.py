@@ -34,11 +34,11 @@ def test_is_complete(qtbot, tmpdir):
     assert not locPage.isComplete()
 
     locPage._spinLong.setValue(3.1415)
-    assert table._long.content == DomeCode("3.1415", "Longitude", "No further infos available")
+    assert table._long.content == DomeCode("3.1415", "Longitude")
     assert not locPage.isComplete()
 
     locPage._spinLat.setValue(2.7182)
-    assert table._lat.content == DomeCode("2.7182", "Latitude", "No further infos available")
+    assert table._lat.content == DomeCode("2.7182", "Latitude")
     assert not locPage.isComplete()
 
     locPage._spinWaterDetpth.setValue(42.2)
