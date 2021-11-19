@@ -1,0 +1,109 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+51689,AF,Sea water sample - After filtration (deprecated),55,MATRX,2006-10-23,2018-04-26,True
+34398,AW,Aboral body wall,55,MATRX,2006-10-23,2006-10-23,False
+33206,BA,Baleen,55,MATRX,2006-10-23,2006-10-23,False
+33207,BB,Blubber,55,MATRX,2006-10-23,2006-10-23,False
+131407,BC,Blood cells,55,MATRX,2008-09-02,2016-05-27,False
+140657,BE,Beach,55,MATRX,2014-03-19,2014-03-19,False
+51690,BF,Sea water sample - Before filtration (deprecated),55,MATRX,2006-10-23,2018-04-26,True
+33208,BI,Bile,55,MATRX,2006-10-23,2006-10-23,False
+53690,BIL,Bill (bird),55,MATRX,2006-10-23,2018-04-26,False
+33209,BL,Blood,55,MATRX,2006-10-23,2006-10-23,False
+150468,BM,Brown meat consisting of hepatopancreas (digestive gland) and reproductive organs,55,MATRX,2015-06-03,2015-06-03,False
+33210,BO,Bone,55,MATRX,2006-10-23,2006-10-23,False
+135595,BP,Blood plasma (serum including clotting factors),55,MATRX,2011-11-15,2018-04-26,False
+33211,BR,Brain,55,MATRX,2006-10-23,2006-10-23,False
+156550,BRD,Brood,55,MATRX,2016-05-31,2018-04-26,False
+33212,BS,Blood serum (blood component without cells and clotting factors),55,MATRX,2006-10-23,2011-11-15,False
+34407,BW,Body wall,55,MATRX,2006-10-23,2006-10-23,False
+34394,CD,Central digestive tract,55,MATRX,2006-10-23,2006-10-23,False
+137870,CP,Carapace,55,MATRX,2013-10-24,2018-01-24,False
+135817,DG,Digestive gland,55,MATRX,2012-03-09,2018-04-26,False
+51581,EA,Egg albumin,55,MATRX,2006-10-23,2006-10-23,False
+51584,EE,Egg embryo,55,MATRX,2006-10-23,2006-10-23,False
+33213,EG,Egg(s),55,MATRX,2006-10-23,2019-02-05,False
+51583,EH,Egg homogenate of yolk and albumin,55,MATRX,2006-10-23,2006-10-23,False
+34395,EP,Epidermis (skin),55,MATRX,2006-10-23,2006-10-23,False
+135234,ER,Erythrocytes (red blood cells in vertebrates),55,MATRX,2011-03-21,2016-05-27,False
+51582,ES,Egg shell,55,MATRX,2006-10-23,2006-10-23,False
+201817,EW,Ear wax,55,MATRX,2019-11-14,2019-11-14,False
+34396,EX,Exoskeleton,55,MATRX,2006-10-23,2006-10-23,False
+51580,EY,Egg yolk,55,MATRX,2006-10-23,2006-10-23,False
+135821,EYE,Eye,55,MATRX,2012-03-09,2018-04-26,False
+33214,FA,Fat,55,MATRX,2006-10-23,2006-10-23,False
+199886,FC,Faeces,55,MATRX,2019-06-18,2019-06-18,False
+33215,FE,Feathers,55,MATRX,2006-10-23,2006-10-23,False
+131229,FN,Fin,55,MATRX,2008-06-10,2018-04-26,False
+79784,FR,Frond,55,MATRX,2006-10-23,2018-04-26,False
+135685,FRY,Fry - recently hatched fish can feed itself,55,MATRX,2012-01-31,2018-04-26,False
+51691,FS,Sediment sample - Fractionated (deprecated),55,MATRX,2006-10-23,2018-04-26,True
+33216,GI,Gill,55,MATRX,2006-10-23,2006-10-23,False
+34392,GO,Gonads (undeterminable sex),55,MATRX,2006-10-23,2006-10-23,False
+33217,HA,Hair/fur,55,MATRX,2006-10-23,2006-10-23,False
+33218,HE,Heart,55,MATRX,2006-10-23,2006-10-23,False
+140876,HMC,Haemocyte,55,MATRX,2014-06-16,2016-05-27,False
+135794,HML,Haemolymph,55,MATRX,2012-03-06,2016-05-27,False
+53591,HP,Hepatopancreas,55,MATRX,2006-10-23,2016-05-27,False
+33219,IN,Intestine,55,MATRX,2006-10-23,2006-10-23,False
+33220,KI,Kidney,55,MATRX,2006-10-23,2006-10-23,False
+53559,KICYT,Kidney - Cytosol,55,MATRX,2006-10-23,2016-05-27,False
+53558,KIS9,Kidney - S9 fraction,55,MATRX,2006-10-23,2016-05-27,False
+33221,LI,Liver,55,MATRX,2006-10-23,2006-10-23,False
+53557,LICYT,Liver - Cytosol,55,MATRX,2006-10-23,2016-05-27,False
+53658,LIMIC,Liver - microsome,55,MATRX,2006-10-23,2016-05-27,False
+53695,LIMTF,Liver - mitochondrial fraction,55,MATRX,2006-10-23,2016-05-27,False
+53556,LIS9,Liver - S9 fraction,55,MATRX,2006-10-23,2016-05-27,False
+33222,LU,Lung,55,MATRX,2006-10-23,2006-10-23,False
+135436,ME,Melon,55,MATRX,2011-08-24,2017-03-03,False
+156499,MS,Marsupium - brood pouch,55,MATRX,2016-05-27,2016-05-27,False
+33223,MU,Muscle,55,MATRX,2006-10-23,2006-10-23,False
+156714,MU&EP,Muscle and epidermis (skin),55,MATRX,2016-07-05,2017-03-03,False
+156715,MU&FA,Muscle and fat,55,MATRX,2016-07-05,2017-03-03,False
+135604,MUA,Muscle - Adductor muscle,55,MATRX,2011-11-16,2017-03-03,False
+202629,NL,Nail,55,MATRX,2020-04-30,2020-04-30,False
+33224,OV,Ovaries (gonads - female),55,MATRX,2006-10-23,2006-10-23,False
+34397,OW,Oral body wall,55,MATRX,2006-10-23,2006-10-23,False
+34390,PC,Pyloric caeca - A projection in the form of a blind sac attached to the intestine near the posterior end of the stomach.,55,MATRX,2006-10-23,2008-01-08,False
+131190,PE,Penis,55,MATRX,2008-05-14,2017-03-03,False
+150405,POP,Population,55,MATRX,2015-05-28,2017-03-03,False
+230965,RHIZOME,Rhizomes,55,MATRX,2021-01-28,2021-01-28,False
+33225,RO,Roe (fish eggs),55,MATRX,2006-10-23,2015-01-22,False
+201843,ROC,Representative of catch - undefined matrix of catch,55,MATRX,2019-11-21,2021-03-02,False
+232123,ROC-MU,Representative of catch - muscle,55,MATRX,2021-02-24,2021-03-02,False
+232122,ROC-SB,Representative of catch - whole soft-body,55,MATRX,2021-02-24,2021-03-02,False
+232138,ROC-SH,Representative of catch - shell,55,MATRX,2021-03-02,2021-03-02,False
+232121,ROC-WO,Representative of catch - whole organisms,55,MATRX,2021-02-24,2021-03-02,False
+33226,SB,Whole soft-body,55,MATRX,2006-10-23,2006-10-23,False
+202300,SB-AG,Soft body less Adductor Muscle and Gonads,55,MATRX,2020-02-24,2020-02-24,False
+131349,SED100,Sediment - <100 micron fraction,55,MATRX,2008-08-11,2008-08-11,False
+131297,SED1000,Sediment - <1000 micron fraction,55,MATRX,2008-07-28,2008-07-28,False
+53547,SED20,Sediment - <20 micron fraction,55,MATRX,2006-10-23,2006-10-23,False
+120841,SED2000,Sediment - <2000 micron fraction,55,MATRX,2006-10-23,2017-03-03,False
+131298,SED500,Sediment - <500 micron fraction,55,MATRX,2008-07-28,2017-03-03,False
+131308,SED62,Sediment - <62 micron fraction,55,MATRX,2008-07-30,2017-03-03,False
+53548,SED63,Sediment - <63 micron fraction,55,MATRX,2006-10-23,2006-10-23,False
+53549,SED90,Sediment - <90 micron fraction,55,MATRX,2006-10-23,2006-10-23,False
+54224,SEDsort,Sediment - sorted -  material >500 microns removed,55,MATRX,2006-10-23,2006-10-23,False
+53550,SEDtot,Sediment - untreated total,55,MATRX,2006-10-23,2006-10-23,False
+140656,SF,Seafloor,55,MATRX,2014-03-19,2014-03-19,False
+33227,SG,Suprarenal gland,55,MATRX,2006-10-23,2006-10-23,False
+78860,SH,Shell,55,MATRX,2006-10-23,2006-10-23,False
+53845,SI,Sample / Site information (miscellaneous),55,MATRX,2006-10-23,2019-11-21,False
+33228,SP,Spleen,55,MATRX,2006-10-23,2006-10-23,False
+51692,SPM,Sea water sample - Suspended particulate matter,55,MATRX,2006-10-23,2018-04-26,False
+34393,ST,Stomach,55,MATRX,2006-10-23,2016-05-27,False
+140658,SW,Surface waters,55,MATRX,2014-03-19,2014-03-19,False
+33229,TE,Testes (gonads - male),55,MATRX,2006-10-23,2006-10-23,False
+201795,TK,Tusk,55,MATRX,2019-11-07,2019-11-07,False
+53688,TL,Tail (generic),55,MATRX,2006-10-23,2021-06-17,False
+33230,TM,Tail muscle,55,MATRX,2006-10-23,2006-10-23,False
+135687,TW,Tallow,55,MATRX,2012-02-08,2015-03-20,False
+33231,UR,Urine,55,MATRX,2006-10-23,2006-10-23,False
+51693,US,Sediment sample - Unfractionated (deprecated),55,MATRX,2006-10-23,2018-04-26,True
+131230,VC,Viscera organs,55,MATRX,2008-06-10,2016-05-27,False
+52809,VSD,Vas deferens,55,MATRX,2006-10-23,2016-05-27,False
+140655,WC,Water column,55,MATRX,2014-03-19,2014-03-19,False
+150467,WM,White meat consisting of tail and claw muscle,55,MATRX,2015-06-03,2015-06-03,False
+53689,WN,Wing span (bird),55,MATRX,2006-10-23,2016-05-27,False
+33232,WO,Whole organism,55,MATRX,2006-10-23,2006-10-23,False
+135681,WT,Water,55,MATRX,2012-01-11,2012-01-11,False

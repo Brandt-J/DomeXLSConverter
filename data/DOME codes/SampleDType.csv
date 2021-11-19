@@ -1,0 +1,15 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+51542,AN,Ancillary data (version 3.1 only),27,DTYPE,2006-10-23,2006-10-23,False
+249972,BD,Biodiversity - internal use only,27,DTYPE,2021-11-08,2021-11-08,False
+130355,BOT,Internal use only - ESD BOT,27,DTYPE,2007-09-03,2009-10-19,False
+27133,CF,Contaminants and biological effects of contaminants (including fish disease) in biota data,27,DTYPE,2006-10-23,2021-11-08,False
+27134,CS,Contaminants and biological effects of contaminants in sediment data,27,DTYPE,2006-10-23,2020-04-20,False
+130354,CTD,Internal use only - ESD CTD,27,DTYPE,2007-09-03,2009-10-19,False
+27135,CW,Contaminants + nutrients + biological and eutrophication effects in water data,27,DTYPE,2006-10-23,2020-04-20,False
+27136,DF,Fish disease data (moved to CF in version 3.2),27,DTYPE,2006-10-23,2021-11-08,False
+197711,DTS,Internal use only - DATRAS,27,DTYPE,2018-10-11,2020-11-24,False
+139606,LT,Litter data,27,DTYPE,2014-03-18,2021-04-28,False
+27137,PB,Phytobenthos community (macrophytes) data,27,DTYPE,2006-10-23,2021-11-08,False
+27138,PP,Phytoplankton community data,27,DTYPE,2006-10-23,2021-11-08,False
+27139,ZB,Zoobenthos community data,27,DTYPE,2006-10-23,2021-11-08,False
+27140,ZP,Zooplankton community data,27,DTYPE,2006-10-23,2021-11-08,False

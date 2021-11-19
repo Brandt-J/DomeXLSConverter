@@ -71,6 +71,18 @@ def getSubstrateTypes() -> List[DomeCode]:
     return _createCodesFromCSV("SubstrateTypes.csv")
 
 
+def getSampleDTypes() -> List[DomeCode]:
+    return _createCodesFromCSV("SampleDType.csv")
+
+
+def getInfluencingFactors() -> List[DomeCode]:
+    return _createCodesFromCSV("InflFactors.csv")
+
+
+def getMatrices() -> List[DomeCode]:
+    return _createCodesFromCSV("Matrix.csv")
+
+
 def _createCodesFromCSV(csvFileName) -> List[DomeCode]:
     """
     Reads a CSV file and returns a list of dome codes for each element.

@@ -21,6 +21,7 @@ If not, see <https://www.gnu.org/licenses/>.
 from tables.table_2_location import LocationTable
 from tables.table_1_id import IdentificationTable
 from tables.table_3_time import TimeTable
+from tables.table_4_sample import SampleTable
 from dataimport.readXLS import XLSReader
 
 
@@ -33,6 +34,7 @@ class TableConverter:
         self._idTable: IdentificationTable = IdentificationTable()
         self._locationTable: LocationTable = LocationTable()
         self._timeTable: TimeTable = TimeTable()
+        self._sampleTable: SampleTable = SampleTable()
 
     def getXLSReader(self) -> XLSReader:
         return self._xlsReader
@@ -45,3 +47,6 @@ class TableConverter:
 
     def getTimeTable(self) -> TimeTable:
         return self._timeTable
+
+    def getSampleTable(self) -> SampleTable:
+        return self._sampleTable

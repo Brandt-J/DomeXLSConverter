@@ -20,8 +20,7 @@ If not, see <https://www.gnu.org/licenses/>.
 from PyQt6 import QtWidgets, QtCore
 from typing import *
 
-from gui.fieldSelectUI import SelectorPushButton
-from dataimport.domeCodes import DomeCode, getPositioningSystems, getSubstrateTypes
+from dataimport.domeCodes import DomeCode
 from gui.fontsAndLabels import getIsMandatoryLabel, getIsOptionalLabel
 
 if TYPE_CHECKING:

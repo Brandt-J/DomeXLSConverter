@@ -64,17 +64,18 @@ class LocationTable(TableItem):
     def setStationName(self, stationName: Union[None, 'DomeCode']) -> None:
         self._station.content = stationName
 
-    def setWaterDepth(self, depth: float) -> None:
-        self._waterDepth.content = DomeCode(str(depth), "Water depth", "Sounding in meters")
+    def setWaterDepth(self, depth: Union[None, 'DomeCode']) -> None:
+        self._waterDepth.content = depth
 
-    def setMinDepth(self, minDepth: float) -> None:
-        self._minDepth.content = DomeCode(str(minDepth), "Min Water Depth of Sample", "No furhter infos available")
+    def setMinDepth(self, minDepth: Union[None, 'DomeCode']) -> None:
+        self._minDepth.content = minDepth
 
     def setMaxDepth(self, maxDepth: Union[None, 'DomeCode']) -> None:
-        self._maxDepth.content = DomeCode(str(maxDepth), "Max Water Depth of Sample", "No furhter infos available")
+        self._maxDepth.content = maxDepth
 
     def setSubstrateType(self, substType: Union[None, 'DomeCode']) -> None:
         self._subst.content = substType
 
-    def setPercentCovered(self, prCov: int) -> None:
-        self._prSub.content = DomeCode(str(prCov), "Percent covered", "Percent of bottom covered with the particular bottom substrate type")
+    def setPercentCovered(self, prCov: Union[None, 'DomeCode']) -> None:
+        self._prSub.content = prCov
+        print(prCov)

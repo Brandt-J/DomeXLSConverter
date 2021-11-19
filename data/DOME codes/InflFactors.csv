@@ -1,0 +1,24 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+53807,AN,Sampling precision - anchored ship (ZB),176,FINFL,2006-10-23,2006-10-23,False
+51799,BW,Bad weather conditions prevented completion,176,FINFL,2006-10-23,2006-10-23,False
+53808,BY,Sampling precision - buoy (ZB),176,FINFL,2006-10-23,2006-10-23,False
+156365,CLD,Area cleaned of litter daily,176,FINFL,2016-05-20,2016-05-20,False
+140659,CLM,Area cleaned of litter monthly,176,FINFL,2014-03-19,2014-03-19,False
+156364,CLW,Area cleaned of litter weekly,176,FINFL,2016-05-20,2016-05-20,False
+140660,CLY,Area cleaned of litter yearly,176,FINFL,2014-03-19,2014-03-19,False
+131360,CM,Sampling from commercially available catch,176,FINFL,2008-08-15,2008-08-15,False
+51867,DG,Damage to gear,176,FINFL,2006-10-23,2006-10-23,False
+51866,DN,Damage to net,176,FINFL,2006-10-23,2006-10-23,False
+129953,GDA,Guideline deviation concerning analysis,176,FINFL,2007-05-31,2007-05-31,False
+129952,GDP,Guideline deviation concerning pretreatment,176,FINFL,2007-05-31,2007-05-31,False
+129951,GDS,Guideline deviation concerning sampling,176,FINFL,2007-05-31,2007-05-31,False
+131377,HLS,High levels due to chemical spill/accident,176,FINFL,2008-08-25,2008-08-25,False
+53834,JE,Presence of juveniles and/or egg capsules in sample,176,FINFL,2006-10-23,2006-10-23,False
+53805,LI,Sampling for fish disease - Length-stratified sampling intended but not possible for all size classes (CF-FD),176,FINFL,2006-10-23,2006-10-23,False
+53806,LS,Sampling for fish disease - Length-stratified sampling (CF- FD),176,FINFL,2006-10-23,2006-10-23,False
+53809,NP,Sampling precision - no anchor/buoy used (ZB),176,FINFL,2006-10-23,2006-10-23,False
+51797,NS,Not enough specimens available (CF),176,FINFL,2006-10-23,2006-10-23,False
+120979,PC,Sample in poor condition (PP-ZP-ZB-ZP),176,FINFL,2006-11-15,2006-11-15,False
+53804,RS,Sampling for fish disease - Random sampling (CF-FD),176,FINFL,2006-10-23,2006-10-23,False
+134994,SPP,More than one species in this sample,176,FINFL,2010-08-24,2010-08-24,False
+120978,ST,Storage time exceeded guideline recommendation,176,FINFL,2006-11-15,2006-11-15,False

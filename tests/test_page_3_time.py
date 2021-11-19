@@ -31,7 +31,7 @@ def test_is_complete(qtbot, tmpdir):
     qtbot.waitForWindowShown(timePage)
     assert timePage.isComplete()
 
-    def test_checkBox_taleElement(checkbox, tableElement):
+    def test_checkBox_tableElement(checkbox, tableElement):
         checkbox.toggle()
         assert type(tableElement.content) == DomeCode
         assert tableElement.content.code == "1234"  # 12:34 is the default time. Adjust here if it was changed in the page script file.
@@ -40,6 +40,6 @@ def test_is_complete(qtbot, tmpdir):
         assert tableElement.content is None
         assert timePage.isComplete()
 
-    test_checkBox_taleElement(timePage._checkSamplingTime, table._stime)
-    test_checkBox_taleElement(timePage._checkActualTime, table._atime)
-    test_checkBox_taleElement(timePage._checkEndTime, table._etime)
+    test_checkBox_tableElement(timePage._checkSamplingTime, table._stime)
+    test_checkBox_tableElement(timePage._checkActualTime, table._atime)
+    test_checkBox_tableElement(timePage._checkEndTime, table._etime)

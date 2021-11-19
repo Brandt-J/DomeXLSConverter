@@ -34,7 +34,7 @@ class TimeTable(TableItem):
     ETIME	Sampling end time (UTC)
     """
     def __init__(self):
-        super(TimeTable, self).__init__("Location")
+        super(TimeTable, self).__init__("Time")
         self._sdate: Field = Field("Sampling Date")
         self._edate: Field = Field("Sampling End Date", mandatory=False)
         self._stime: Field = Field("Sampling Time/Start", mandatory=False)

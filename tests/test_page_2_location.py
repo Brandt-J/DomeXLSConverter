@@ -41,20 +41,44 @@ def test_is_complete(qtbot, tmpdir):
     assert table._lat.content == DomeCode("2.7182", "Latitude")
     assert not locPage.isComplete()
 
+    locPage._spinWaterDetpth.setChecked(True)
     locPage._spinWaterDetpth.setValue(42.2)
     assert table._waterDepth.content == DomeCode("42.2", "Water depth", "Sounding in meters")
     assert not locPage.isComplete()
 
+    locPage._spinWaterDetpth.setChecked(False)
+    locPage._spinWaterDetpth.setValue(42.3)
+    assert table._waterDepth.content is None
+    assert not locPage.isComplete()
+
+    locPage._spinMinDepth.setChecked(True)
     locPage._spinMinDepth.setValue(1.1)
-    assert table._minDepth.content == DomeCode("1.1", "Min Water Depth of Sample", "No furhter infos available")
+    assert table._minDepth.content == DomeCode("1.1", "Min Water Depth of Sample", "No further infos available")
     assert not locPage.isComplete()
 
+    locPage._spinMinDepth.setChecked(False)
+    locPage._spinMinDepth.setValue(1.2)
+    assert table._minDepth.content is None
+    assert not locPage.isComplete()
+
+    locPage._spinMaxDepth.setChecked(True)
     locPage._spinMaxDepth.setValue(2.1)
-    assert table._maxDepth.content == DomeCode("2.1", "Max Water Depth of Sample", "No furhter infos available")
+    assert table._maxDepth.content == DomeCode("2.1", "Max Water Depth of Sample", "No further infos available")
     assert not locPage.isComplete()
 
+    locPage._spinMaxDepth.setChecked(False)
+    locPage._spinMaxDepth.setValue(2.1)
+    assert table._maxDepth.content is None
+    assert not locPage.isComplete()
+
+    locPage._spinPercCovered.setChecked(True)
     locPage._spinPercCovered.setValue(55)
     assert table._prSub.content == DomeCode("55", "Percent covered", "Percent of bottom covered with the particular bottom substrate type")
+    assert not locPage.isComplete()
+
+    locPage._spinPercCovered.setChecked(False)
+    locPage._spinPercCovered.setValue(55)
+    assert table._prSub.content is None
     assert not locPage.isComplete()
 
     assert table._subst.content is None
@@ -74,4 +98,3 @@ def test_is_complete(qtbot, tmpdir):
     locPage._checkStationName()
     assert table._station.content == DomeCode("TestStationName", "Station Name", "No further information available")
     assert locPage.isComplete()
-

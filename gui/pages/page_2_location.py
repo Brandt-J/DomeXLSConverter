@@ -22,8 +22,9 @@ from PyQt6 import QtWidgets, QtCore
 from typing import *
 
 from gui.fieldSelectUI import SelectorPushButton
-from dataimport.domeCodes import DomeCode, getPositioningSystems, getSubstrateTypes
 from gui.fontsAndLabels import getIsMandatoryLabel, getIsOptionalLabel
+from gui.checkableWidget import CheckableDoubleSpinBox, CheckableSpinBox
+from dataimport.domeCodes import DomeCode, getPositioningSystems, getSubstrateTypes
 
 if TYPE_CHECKING:
     from tables.table_2_location import LocationTable
@@ -72,9 +73,9 @@ class LocationPage(QtWidgets.QWizardPage):
                                    "</a>, enter the 'Station_Code')")
         self._statNameInfo.setOpenExternalLinks(True)
 
-        self._spinWaterDetpth: QtWidgets.QDoubleSpinBox = QtWidgets.QDoubleSpinBox()
-        self._spinMinDepth: QtWidgets.QDoubleSpinBox = QtWidgets.QDoubleSpinBox()
-        self._spinMaxDepth: QtWidgets.QDoubleSpinBox = QtWidgets.QDoubleSpinBox()
+        self._spinWaterDetpth: CheckableDoubleSpinBox = CheckableDoubleSpinBox()
+        self._spinMinDepth: CheckableDoubleSpinBox = CheckableDoubleSpinBox()
+        self._spinMaxDepth: CheckableDoubleSpinBox = CheckableDoubleSpinBox()
         for spinbox in [self._spinWaterDetpth, self._spinMinDepth, self._spinMaxDepth]:
             spinbox.setMinimum(0)
             spinbox.setMaximum(1e5)
@@ -82,17 +83,17 @@ class LocationPage(QtWidgets.QWizardPage):
             spinbox.setValue(30.0)
             spinbox.setMaximumWidth(self.spinboxwidth)
 
-        self._spinWaterDetpth.valueChanged.connect(self._tableItem.setWaterDepth)
-        self._spinMinDepth.valueChanged.connect(self._tableItem.setMinDepth)
-        self._spinMaxDepth.valueChanged.connect(self._tableItem.setMaxDepth)
+        self._spinWaterDetpth.Changed.connect(self._waterDepthChanged)
+        self._spinMinDepth.Changed.connect(self._minDepthChanged)
+        self._spinMaxDepth.Changed.connect(self._maxDepthChanged)
 
         self._btnSubstrType: SelectorPushButton = SelectorPushButton(getSubstrateTypes(), self._tableItem.setSubstrateType,
                                                                      self.completeChanged)
-        self._spinPercCovered: QtWidgets.QSpinBox = QtWidgets.QSpinBox()
+        self._spinPercCovered: CheckableSpinBox = CheckableSpinBox()
         self._spinPercCovered.setMinimum(0)
         self._spinPercCovered.setMaximum(100)
-        self._spinPercCovered.setFixedWidth(self.spinboxwidth)
-        self._spinPercCovered.valueChanged.connect(self._tableItem.setPercentCovered)
+        self._spinPercCovered.setMaximumWidth(self.spinboxwidth)
+        self._spinPercCovered.Changed.connect(self._percCoveredChanged)
         self._spinPercCovered.setToolTip("Percent of bottom covered with the particular bottom substrate type")
 
         layout: QtWidgets.QFormLayout = QtWidgets.QFormLayout()
@@ -125,3 +126,32 @@ class LocationPage(QtWidgets.QWizardPage):
 
     def isComplete(self) -> bool:
         return self._tableItem.correctlySet()
+
+    @QtCore.pyqtSlot(bool, float)
+    def _waterDepthChanged(self, checked: bool, depth: float) -> None:
+        if checked:
+            self._tableItem.setWaterDepth(DomeCode(str(depth), "Water depth", "Sounding in meters"))
+        else:
+            self._tableItem.setWaterDepth(None)
+
+    @QtCore.pyqtSlot(bool, float)
+    def _minDepthChanged(self, checked: bool, minDepth: float) -> None:
+        if checked:
+            self._tableItem.setMinDepth(DomeCode(str(minDepth), "Min Water Depth of Sample"))
+        else:
+            self._tableItem.setMinDepth(None)
+
+    @QtCore.pyqtSlot(bool, float)
+    def _maxDepthChanged(self, checked: bool, maxDepth: float) -> None:
+        if checked:
+            self._tableItem.setMaxDepth(DomeCode(str(maxDepth), "Max Water Depth of Sample"))
+        else:
+            self._tableItem.setMaxDepth(None)
+
+    @QtCore.pyqtSlot(bool, int)
+    def _percCoveredChanged(self, checked: bool, percCovered: int) -> None:
+        if checked:
+            self._tableItem.setPercentCovered(DomeCode(str(percCovered), "Percent covered",
+                                                       "Percent of bottom covered with the particular bottom substrate type"))
+        else:
+            self._tableItem.setPercentCovered(None)
