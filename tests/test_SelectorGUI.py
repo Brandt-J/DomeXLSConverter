@@ -46,3 +46,8 @@ def test_fieldSelectorButton(qtbot, tmpdir, mocker):
         qtbot.mousePress(selPushBtn._selector._btns[i], Qt.MouseButton.LeftButton)
         assert len(emittedCodes) == i+1
         assert code in emittedCodes
+
+    numCodes: int = len(emittedCodes)
+    qtbot.mousePress(selPushBtn._selector._btnReset, Qt.MouseButton.LeftButton)
+    assert len(emittedCodes) == numCodes + 1
+    assert emittedCodes[-1] is None
