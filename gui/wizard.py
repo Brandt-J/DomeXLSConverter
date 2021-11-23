@@ -44,4 +44,3 @@ class ParticleUploadWizard(QtWidgets.QWizard):
         self.addPage(LocationPage(self._tableConverter.getLocationTable()))
         self.addPage(TimePage(self._tableConverter.getTimeTable()))
         self.addPage(SamplePage(self._tableConverter.getSampleTable()))
-        

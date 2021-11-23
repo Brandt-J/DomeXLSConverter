@@ -30,17 +30,21 @@ class SelectorPushButton(QtWidgets.QPushButton):
     When clicking, a FieldSelectorDialog is shown. After clicking an entry in there, the dialog closes and the
     button takes the clicked text element as text. It also connects to a function to retrieve the new entry.
     """
-    def __init__(self, codeList: List['DomeCode'], connectedFunc: Callable[[DomeCode], None],
-                 connectedSignal: Union[None, QtCore.pyqtSignal] = None) -> None:
+    def __init__(self, codeList: List['DomeCode'], setCodeFunc: Callable[[Union[None, DomeCode]], None],
+                 connectedSignal: Union[None, QtCore.pyqtSignal] = None, allowMultiSelect: bool = False) -> None:
         """
         :param codeList: List of codes to display.
-        :param connectedFunc: Function to connect to the CodeSelected signal.
+        :param setCodeFunc: Function to connect to the CodeSelected signal.
+        :param connectedSignal: Signal that is emitted when an entry was selected.
+        :param allowMultiSelect: If True, the user can select multiple entries to be combined in a code.
         """
         super(SelectorPushButton, self).__init__("Select Entry")
-        self._selector: CodeSelector = CodeSelector(codeList)
+        self._selector: CodeSelector = CodeSelector(codeList, allowMultiSelect)
+        self._setCodeFunc: Callable[[Union[None, DomeCode]], None] = setCodeFunc
         self.pressed.connect(self._selector.show)
         self._selector.CodeSelected.connect(self._setBtnText)
-        self._selector.CodeSelected.connect(connectedFunc)
+        self._selector.CodeSelected.connect(setCodeFunc)
+        self._selector.CodeResetted.connect(self._reset)
         if connectedSignal is not None:
             self._selector.CodeSelected.connect(lambda: connectedSignal.emit())
 
@@ -48,23 +52,34 @@ class SelectorPushButton(QtWidgets.QPushButton):
     def _setBtnText(self, code: DomeCode) -> None:
         self.setText(f"{code.code} ({code.descr})")
 
+    @QtCore.pyqtSlot()
+    def _reset(self) -> None:
+        self.setText("Select Entry")
+        self._setCodeFunc(None)
+
 
 class CodeSelector(QtWidgets.QDialog):
     """
     Dialog field for selecting an enrty from a list of codes.
     """
     CodeSelected: QtCore.pyqtSignal = QtCore.pyqtSignal(DomeCode)  # Emitted with the code when clicking an entry
+    CodeResetted: QtCore.pyqtSignal = QtCore.pyqtSignal()
 
-    def __init__(self, codes: List['DomeCode'], maxNumToShow: int = 500) -> None:
+    def __init__(self, codes: List['DomeCode'], allowMultiSelect: bool = False, maxNumToShow: int = 500) -> None:
         super(CodeSelector, self).__init__()
         self.setWindowTitle("Select Entry")
         self.setModal(True)
 
         self._btnUseSelection: QtWidgets.QPushButton = QtWidgets.QPushButton("Use Multiple Code Selection")
         self._btnUseSelection.setMaximumWidth(170)
-        self._btnUseSelection.released.connect(self._selectMultipleCodes)
+        self._btnUseSelection.pressed.connect(self._selectMultipleCodes)
+
+        self._btnReset: QtWidgets.QPushButton = QtWidgets.QPushButton("Reset to 'None'")
+        self._btnReset.setMaximumWidth(170)
+        self._btnReset.pressed.connect(self._reset)
 
         self._codes: List['DomeCode'] = codes
+        self._allowMultiSelect: bool = allowMultiSelect
         self._maxNumToShow: int = maxNumToShow
         self._btns: List[QtWidgets.QPushButton] = []
         self._checkboxes: List[QtWidgets.QCheckBox] = []
@@ -83,12 +98,15 @@ class CodeSelector(QtWidgets.QDialog):
 
         self._displayBtns("")  # i.e., display all buttons.
         self._scrollArea.setWidget(self._btnGroup)
+        self._scrollArea.setWidgetResizable(True)
         self._enableDisableSelectionButton()
 
         layout: QtWidgets.QVBoxLayout = QtWidgets.QVBoxLayout()
-        layout.addWidget(QtWidgets.QLabel("Click an entry from the list to select it individually.\n"
-                                          "Check multiple checkboxes and click on 'Use Code Selection' to select multiple entries.\n"
-                                          "Hover mouse over description for more info."))
+        infoTxt: str = "Click an entry from the list to select it individually.\n"
+        if allowMultiSelect:
+            infoTxt += "Check multiple checkboxes and click on 'Use Code Selection' to select multiple entries."
+        infoTxt += "Hover mouse over description for more info."
+        layout.addWidget(QtWidgets.QLabel(infoTxt))
 
         if len(codes) > self._maxNumToShow:
             boldFont: QtGui.QFont = QtGui.QFont()
@@ -100,7 +118,9 @@ class CodeSelector(QtWidgets.QDialog):
 
         layout.addWidget(self._searchBar)
         layout.addWidget(self._scrollArea)
-        layout.addWidget(self._btnUseSelection)
+        if self._allowMultiSelect:
+            layout.addWidget(self._btnUseSelection)
+        layout.addWidget(self._btnReset)
         self.setLayout(layout)
 
     @QtCore.pyqtSlot(str)
@@ -119,32 +139,41 @@ class CodeSelector(QtWidgets.QDialog):
             self._btns = []
             self._checkboxes = []
             pattern = pattern.lower()
-            self._btnLayout.addWidget(QtWidgets.QLabel("Select"), 0, 0)
+            if self._allowMultiSelect:
+                self._btnLayout.addWidget(QtWidgets.QLabel("Select"), 0, 0)
             self._btnLayout.addWidget(QtWidgets.QLabel("Code"), 0, 1)
             self._btnLayout.addWidget(QtWidgets.QLabel("Description"), 0, 2)
-
-            for row, code in enumerate(self._codes, start=1):
+            row: int = 1
+            for code in self._codes:
                 if len(self._btns) < self._maxNumToShow:
                     if code.descr.lower().find(pattern) != -1 or showAll:
                         self._addSelectableCode(code, row)
+                        row += 1
                 else:
                     break
-        self._btnLayout.setRowStretch(self._btnLayout.rowCount(), 1)
-        self._btnLayout.setColumnStretch(self._btnLayout.columnCount(), 1)
+
+        self._btnLayout.setRowStretch(row, 1)
         self._scrollArea.verticalScrollBar().setSliderPosition(0)
 
     def _addSelectableCode(self, code: 'DomeCode', row: int) -> None:
         newBtn: QtWidgets.QPushButton = self._getPushButton(code)
         newLbl: QtWidgets.QLabel = QtWidgets.QLabel(code.descr)
-        newLbl.setToolTip(code.long_descr)
+        newLbl.setToolTip(f"{code.descr}, ({code.long_descr})")
         self._btns.append(newBtn)
-        newCheckBox: QtWidgets.QCheckBox = QtWidgets.QCheckBox()
-        newCheckBox.setChecked(code.code in self._selectedCodes)
-        newCheckBox.stateChanged.connect(self._makeSelectLambda(newCheckBox, code))
-        self._checkboxes.append(newCheckBox)
-        self._btnLayout.addWidget(newCheckBox, row, 0)
+
+        if self._allowMultiSelect:
+            newCheckBox: QtWidgets.QCheckBox = QtWidgets.QCheckBox()
+            newCheckBox.setChecked(code.code in self._selectedCodes)
+            newCheckBox.stateChanged.connect(self._makeSelectLambda(newCheckBox, code))
+            self._checkboxes.append(newCheckBox)
+            self._btnLayout.addWidget(newCheckBox, row, 0)
+
         self._btnLayout.addWidget(newBtn, row, 1)
         self._btnLayout.addWidget(newLbl, row, 2)
+
+    def _reset(self) -> None:
+        self.CodeResetted.emit()
+        self.close()
 
     def _clearBtnLayout(self) -> None:
         for btn in self._btns:

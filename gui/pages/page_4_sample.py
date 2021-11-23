@@ -50,7 +50,7 @@ class SamplePage(QtWidgets.QWizardPage):
         self._editSampleNo.setToolTip("Sample number / Sample identification for haul or group of individuals/cores/bottles collected at that time/place")
         self._editSampleNo.textChanged.connect(self._sampleNumberChanged)
         self._btnInfFac: SelectorPushButton = SelectorPushButton(getInfluencingFactors(), self._tableItem.setInfluencingFactors,
-                                                                 self.completeChanged)
+                                                                 self.completeChanged, allowMultiSelect=True)
         self._btnMatrix: SelectorPushButton = SelectorPushButton(getMatrices(), self._tableItem.setMatrix,
                                                                  self.completeChanged)
 
