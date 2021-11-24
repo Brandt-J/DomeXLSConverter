@@ -78,4 +78,3 @@ class LocationTable(TableItem):
 
     def setPercentCovered(self, prCov: Union[None, 'DomeCode']) -> None:
         self._prSub.content = prCov
-        print(prCov)

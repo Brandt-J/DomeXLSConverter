@@ -1,0 +1,258 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+78146,AEPAM11,CEFAS Science Series Aquatic Environment Protection: Analytical Methods Number 11. Methods for analysis for trace metals in marine and other samples.  MAFF 1994,171,REFSK,2006-10-23,2006-10-23,False
+137516,AEPAM12,CEFAS Science Series Aquatic Environment Protection: Analytical Methods 12. Methods for analysis for hydrocarbons and PAH in marine samples,171,REFSK,2013-06-05,2013-06-05,False
+198292,AOAC200701,AOAC 2007.01 QuEChERS Method,171,REFSK,2019-01-22,2019-01-22,False
+137354,ASTM_E1563-98(2012),American Society for Testing and Materials. ASTM E1563 - 98(2012) Standard Guide for Conducting Static Acute Toxicity Tests with Echinoid Embryos,171,REFSK,2013-05-02,2019-01-22,False
+137353,ASTM_E724-98(2012),American Society for Testing and Materials. ASTM E724 - 98(2012) Standard Guide for Conducting Static Acute Toxicity Tests Starting with Embryos of Four Species of Saltwater Bivalve Molluscs,171,REFSK,2013-05-02,2019-01-22,False
+130373,BQFDV2,BEQUALM Fish Disease Measurements version 2, 2006,171,REFSK,2007-09-05,2007-09-05,False
+198293,CSN EN 15662,European standard CSN EN 15662. QuEChERS method,171,REFSK,2019-01-22,2019-01-22,False
+198294,DIN 38407-35,German standard DIN 38407-35,171,REFSK,2019-01-22,2019-01-22,False
+229157,DIN EN ISO 10301:1997,German Standard - Water quality - Determination of highly volatile halogenated hydrocarbons - Gas-chromatographic methods (adopted version of ISO 10301:1997),171,REFSK,2020-08-31,2020-08-31,False
+229360,DIN EN ISO 10695:2000,German Standard - Water quality - Determination of selected organic nitrogen and phosphorus compounds - Gas chromatographic methods (adopted version of ISO 10695:2000),171,REFSK,2020-09-15,2020-09-15,False
+229159,DIN EN ISO 11369:1997,German Standard - Water quality - Determination of selected plant treatment agents - Method using high performance liquid chromatography with UV detection after solid-liquid extraction (adopted version of ISO 11369:1997),171,REFSK,2020-08-31,2020-08-31,False
+229158,DIN EN ISO 15913:2003,German Standard - Water quality - Determination of selected phenoxyalkanoic herbicides, including bentazones and hydroxybenzonitriles by gas chromatography and mass spectrometry after solid phase extraction and derivatization (adopted version of ISO 15913:2000),171,REFSK,2020-08-31,2020-08-31,False
+229154,DIN EN ISO 17353:2005,German Standard - Water quality - Determination of selected organotin compounds - Gas chromatographic method (adopted version of ISO 17353:2004),171,REFSK,2020-08-31,2020-08-31,False
+229156,DIN EN ISO 17993:2003,German Standard - Water quality - Determination of 15 polycyclic aromatic hydrocarbons (PAH) in water by HPLC with fluorescence detection after liquid-liquid extraction (adopted version of ISO 17993:2002),171,REFSK,2020-08-31,2020-08-31,False
+229160,DIN EN ISO 18856:2005,German Standard - Water quality - Determination of selected phthalates using gas chromatography/mass spectrometry (adopted version of ISO 18856:2004),171,REFSK,2020-08-31,2020-08-31,False
+229155,DIN EN ISO 18857-2:2011,German Standard - Water quality - Determination of selected alkylphenols - Part 2: Gas chromatographic-mass spectrometric determination of alkylphenols, their ethoxylates and bisphenol A in non-filtered samples following solid-phase extraction and derivatisation (adopted version of ISO 18857-2:2009),171,REFSK,2020-08-31,2020-08-31,False
+229161,DIN ISO 16308:2017,German Standard - Water quality - Determination of glyphosate and AMPA - Method using high performance liquid chromatography (HPLC) with tandem mass spectrometric detection (based on ISO 16308:2014),171,REFSK,2020-08-31,2020-08-31,False
+249948,DIN51003:2004-05,German standard - Total reflection x-ray fluorescence - Principles and definitions,171,REFSK,2021-11-01,2021-11-01,False
+168337,DK-TA-M11,Danish Teknisk Anvisning - TA nr. M11 Mesozooplankton, version 1, 2016-01-19,171,REFSK,2016-09-22,2016-09-22,False
+131296,DS204,Danish Standard 204 - Determination of total residue and total fixed residue in water, sludge and sediment,171,REFSK,2008-07-28,2008-07-28,False
+131295,DS259,Danish Standard 259 - Determination of metals in water, sludge and sediments - General guidelines for determination by atomic absorption spectrophotometry in flame,171,REFSK,2008-07-28,2008-07-28,False
+130137,EPA 1613,EPA - Tetra- through Octa-Chlorinated Dioxins and Furans by Isotope Dilution HRGC/HRMS,171,REFSK,2007-07-26,2007-07-26,False
+131586,EPA 1668A,EPA - Chlorinated Biphenyl Congeners in Water, Soil, Sediment, and Tissue by HRGC/HRMS,171,REFSK,2008-12-02,2008-12-02,False
+77999,EPA 6020,EPA - Inductively Coupled Plasma - Mass Spectrometry,171,REFSK,2006-10-23,2006-10-23,False
+131587,EPA 7473,EPA - Mercury in Solids and Solutions by Thermal Decomposition, Amalgamation, and Atomic Absorption Spectrophotometry,171,REFSK,2008-12-02,2008-12-02,False
+132469,EPA 8081B,EPA - Organochlorine Pesticides by Gas Chromatography - Rev.2,171,REFSK,2010-08-12,2010-08-12,False
+132468,EPA 8082,EPA - Polychlorinated Biphenyls (PCBs) by Gas Chromatography,171,REFSK,2010-08-12,2010-08-12,False
+132467,EPA 8310,EPA - Polynuclear Aromatic Hydrocarbons in Ground Water and Wastes,171,REFSK,2010-08-12,2010-08-12,False
+201705,EPA1631E,EPA - Method 1631, Rev.E (2002): Mercury in Water by Oxidation, Purge and Trap, and Cold Vapor Atomic Fluorescence Spectrometry,171,REFSK,2019-10-08,2021-11-01,False
+169634,EPA200.7R44,EPA - METHOD 200.7 Determination of Metals and Trace Elements in Water and Wastes Revision 4.4,171,REFSK,2017-02-24,2017-02-24,False
+169635,EPA200.8R5.4,EPA - Method 200.8 Revision 5.4 Determination of Trace Elements in Waters and Wastes by ICP-MS,171,REFSK,2017-02-24,2017-02-24,False
+131078,FAO-FIRI-T212,FAO Fisheries Technical Paper no. 212. Manual of methods in aquatic environment research. Pt. 9: Analyses of metals and organochlorines in fish,171,REFSK,2008-05-06,2008-05-06,False
+140843,HC-B-B11,Helcom COMBINE Manual - Part B Annex B11 Technical note on the determination of heavy metals and persistant organic compounds in seawater,171,REFSK,2014-05-28,2014-05-28,False
+135834,HC-B-B13-2,Helcom COMBINE Manual - Part B Annex B13 Appendix 2 Technical note on the determination of polycyclic aromatic hydrocarbons in biota,171,REFSK,2012-03-11,2012-03-12,False
+135662,HC-B-B14-3,Helcom COMBINE Manual - Part B Annex B14 Appendix 3 Technical note on the determination of heavy metals in marine sediment,171,REFSK,2011-12-20,2012-03-12,False
+130975,HC-C-C11,Helcom COMBINE Manual - Part C Annex C11,171,REFSK,2008-03-10,2008-03-10,False
+130976,HC-C-C12,Helcom COMBINE Manual - Part C Annex C12,171,REFSK,2008-03-10,2008-03-10,False
+53849,HC-C-C6,Helcom COMBINE Manual - Part C Annex C6,171,REFSK,2006-10-23,2006-10-23,False
+53847,HC-C-C7,Helcom COMBINE Manual - Part C Annex C7,171,REFSK,2006-10-23,2006-10-23,False
+53850,HC-C-C8,Helcom COMBINE Manual - Part C Annex C8,171,REFSK,2006-10-23,2006-10-23,False
+53851,HC-C-C9,Helcom COMBINE Manual - Part C Annex C9,171,REFSK,2006-10-23,2006-10-23,False
+53848,HC-D,Helcom COMBINE Manual - Part D,171,REFSK,2006-10-23,2006-10-23,False
+197387,HC-EF-IMP:2016,HELCOM Guidelines for monitoring of biological effects - imposex and intersex (2016),171,REFSK,2018-09-10,2018-09-10,False
+120835,ISO10382:2002,ISO standard 10382:2002 Soil quality - Determination of organochlorine pesticides and polychlorinated biphenyls- Gas- chromatographic method with electron capture detection,171,REFSK,2006-10-23,2020-08-26,False
+132396,ISO11047:1998,ISO standard 11047:1998 Soil quality - Determination of cadmium, chromium, cobalt, copper, lead, manganese, nickel and zinc - Flame and electrothermal atomic absorption spectrometric methods,171,REFSK,2010-07-07,2010-07-07,False
+154815,ISO11264:2005,ISO standard 11264:2005 Soil quality - Determination of herbicides,171,REFSK,2015-08-04,2015-08-04,False
+136457,ISO11352:2012,ISO standard 11352:2012 Water quality - Estimation of measurement uncertainty based on validation and quality control data,171,REFSK,2012-12-12,2012-12-12,False
+132401,ISO11885:2007,ISO standard 11885:2007 Water quality - Determination of selected elements by inductively coupled plasma optical emission spectrometry (ICP-OES),171,REFSK,2010-07-13,2010-07-13,False
+154813,ISO12846:2012,ISO standard 12846:2012 Water quality - Determination of mercury - Method using atomic absorption spectrometry (AAS) with and without enrichment (ISO 12846:2012),171,REFSK,2015-08-03,2020-08-26,False
+201430,ISO13859:2014,ISO standard 13859:2014 Soil quality - Determination of PAHs by Gas Chromatography and High Performance Liquid Chromatograph,171,REFSK,2019-08-27,2019-08-27,False
+154814,ISO13877:1998,ISO standard 13877:1998 Soil quality - Determination of polynuclear aromatic hydrocarbons,171,REFSK,2015-08-04,2015-08-04,False
+154816,ISO15009:2012,ISO standard 15009:2012 Soil quality - Gas chromatographic determination of the content of volatile aromatic hydrocarbons, naphthalene and volatile halogenated hydrocarbons,171,REFSK,2015-08-04,2015-08-04,False
+194666,ISO15009:2016,ISO standard 15009:2016 Soil quality - Gas chromatographic determination of the content of volatile aromatic hydrocarbons, naphthalene and volatile halogenated hydrocarbons. Revised version of ISO15009:2012,171,REFSK,2017-08-23,2020-08-26,False
+78750,ISO15586:2003,ISO standard 15586:2003 Water quality - Determination of trace elements using atomic absorption spectometry with graphite furnace.,171,REFSK,2006-10-23,2006-10-23,False
+132395,ISO16665:2005,ISO standard 16665:2005 Water quality - Guidelines for quantitative sampling and sample processing of marine soft-bottom macrofauna,171,REFSK,2010-07-06,2010-07-06,False
+137682,ISO16703:2004,ISO standard 16703:2004 Soil quality - Quantitative determination of the mineral oil (hydrocarbon in the range C10 to C40) content in field-moist soil samples by gas chromatography.,171,REFSK,2013-07-30,2013-07-30,False
+249391,ISO22032:2006,ISO standard 22032:2006 Water quality -  Determination of selected polybrominated diphenyl ethers in sediment and sewage sludge - Method using extraction and gas chromatography/mass spectrometry,171,REFSK,2021-09-23,2021-09-23,False
+228762,ISO25101:2009,ISO standard 25101:2009 Water quality — Determination of perfluorooctanesulfonate (PFOS) and perfluorooctanoate (PFOA) — Method for unfiltered samples using solid phase extraction and liquid chromatography/mass spectrometry,171,REFSK,2020-07-08,2020-07-08,False
+129982,ISO5666:1999,ISO standard 5666:1999 Water quality - Determination of mercury,171,REFSK,2007-06-07,2007-06-07,False
+129983,ISO5961:1994,ISO standard 5961:1994 Water quality - Determination of cadmium by atomic absorption spectrometry,171,REFSK,2007-06-07,2007-06-07,False
+136006,ISO6271-1:2004,ISO standard 6271-1:2004 Clear liquids - Estimation of colour by the platinum-cobalt scale - Part 1: Visual method,171,REFSK,2012-06-20,2012-06-20,False
+54263,ISO6468:1996,ISO standard 6468:1996 Water analysis - Determination hexachlorocyclohexane (Isomers and lindane included).,171,REFSK,2006-10-23,2006-10-23,False
+54335,ISO7027:1999,ISO standard 7027:1999 Water quality - Determination of turbidity,171,REFSK,2006-10-23,2006-10-23,False
+54254,ISO7887:1994,ISO standard 7887:1994 Water quality. Examination and determination of colour,171,REFSK,2006-10-23,2006-10-23,False
+131489,ISO8245:1999,ISO standard 8245:1999 Water quality - Guidelines for the determination of total organic carbon (TOC) and dissolved organic carbon (DOC),171,REFSK,2008-10-22,2008-10-22,False
+120838,ISO8288:2002,ISO standard 8288:2002 Water quality- Determination of cobalt, nickel, copper, zinc, cadmium and lead- Flame atomic absorption spectometric methods,171,REFSK,2006-10-23,2006-10-23,False
+129987,JAMP-CF:1997,OSPAR JAMP guidelines for monitoring contaminants in biota: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130014,JAMP-CFEF:1997,OSPAR JAMP guidelines for contaminant specific effects monitoring: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+137447,JAMP-CFEF:2008-09,OSPAR JAMP guidelines for contaminant specific biological effects monitoring: 2008-09,171,REFSK,2013-05-07,2013-05-07,False
+130015,JAMP-CFEF-TA1:1997,OSPAR JAMP guidelines for CFEF: Technical Annex 1 - metal specific: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+137446,JAMP-CFEF-TA1:2008-09,OSPAR JAMP guidelines for CFEF: Technical Annex 1 - Metal-specific biological effects monitoring 2008-09 ALA-D, Metallothionein, Oxidative stress,171,REFSK,2013-05-07,2013-05-07,False
+130016,JAMP-CFEF-TA2:1997,OSPAR JAMP guidelines for CFEF: Technical Annex 2 - PAH specific: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+137448,JAMP-CFEF-TA2:2008-09,OSPAR JAMP guidelines for CFEF: Technical Annex 2 - PAH specific:2008-09 DNA adducts, Cytochrome, PAH metabolites, Liver pathology, Macroscopic liver neoplasms,171,REFSK,2013-05-07,2013-05-07,False
+130017,JAMP-CFEF-TA3:1997,OSPAR JAMP guidelines for CFEF: Technical Annex 3 - TBTspecific: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130018,JAMP-CFEF-TA3:1998,OSPAR JAMP guidelines for CFEF: Technical Annex 3 - TBTspecific: ASMO 1998,171,REFSK,2007-06-08,2007-06-08,False
+130019,JAMP-CFEF-TA3:2002,OSPAR JAMP guidelines for CFEF: Technical Annex 3 - TBTspecific: ASMO 2002,171,REFSK,2007-06-08,2007-06-08,False
+130020,JAMP-CFEF-TA3:2003,OSPAR JAMP guidelines for CFEF: Technical Annex 3 - TBTspecific: ASMO 2003,171,REFSK,2007-06-08,2007-06-08,False
+137449,JAMP-CFEF-TA3:2008-09,OSPAR JAMP guidelines for CFEF: Technical Annex 3 - TBTspecific: 2008-09 Imposex, Intersex, Organotins,171,REFSK,2013-05-07,2013-05-07,False
+137450,JAMP-CFEF-TA4:2008-09,OSPAR JAMP guidelines for CFEF: Technical Annex 4 - Estrogen-specific biological monitoring 2008-09 Bile, VTG, Gonadal intersex,171,REFSK,2013-05-07,2013-05-07,False
+129988,JAMP-CF-TA1:1997,OSPAR JAMP Guidelines for CF: Technical Annex 1 - organic contaminants: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129989,JAMP-CF-TA2:1997,OSPAR JAMP Guidelines for CF: Technical Annex 2 - metals: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129990,JAMP-CF-TA3:1999,OSPAR JAMP Guidelines for CF: Technical Annex 3 - PAH's: ASMO 1999,171,REFSK,2007-06-08,2007-06-08,False
+132415,JAMP-CF-TA3:2009,OSPAR JAMP Guidelines for CF: Technical Annex 3 - PAH's: 2009,171,REFSK,2010-07-22,2010-07-22,False
+132416,JAMP-CF-TA4:2009,OSPAR JAMP Guidelines for CF: Technical Annex 4 - PBDEs: 2009,171,REFSK,2010-07-22,2010-07-22,False
+132419,JAMP-CF-TA5:2009,OSPAR JAMP Guidelines for CF: Technical Annex 5 - HBCDs: 2009,171,REFSK,2010-07-22,2010-07-22,False
+132417,JAMP-CF-TA7:2009,OSPAR JAMP Guidelines for CF: Technical Annex 6 - Perfluorinated compounds: 2009,171,REFSK,2010-07-22,2010-07-22,False
+132418,JAMP-CF-TA8:2009,OSPAR JAMP Guidelines for CF: Technical Annex 7 - Organotin compounds: 2009,171,REFSK,2010-07-22,2010-07-22,False
+129997,JAMP-CS:1997,OSPAR JAMP guidelines for monitoring contaminants in sediment: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129991,JAMP-CS-TA1:1997,OSPAR JAMP guidelines for CS: Technical Annex 1 - statistical aspects: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129992,JAMP-CS-TA2:1997,OSPAR JAMP guidelines for CS: Technical Annex 2 - CBs: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129993,JAMP-CS-TA3:1998,OSPAR JAMP guidelines for CS: Technical Annex 3 - PAHs: ASMO 1998,171,REFSK,2007-06-08,2007-06-08,False
+132409,JAMP-CS-TA3:2009,OSPAR JAMP guidelines for CS: Technical Annex 3 - PAHs 2009,171,REFSK,2010-07-22,2010-07-22,False
+129994,JAMP-CS-TA4:1999,OSPAR JAMP guidelines for CS: Technical Annex 4 - TBT: ASMO 1999,171,REFSK,2007-06-08,2007-06-08,False
+129995,JAMP-CS-TA5:2002,OSPAR JAMP guidelines for CS: Technical Annex 5 - normalisation: ASMO 2002,171,REFSK,2007-06-08,2007-06-08,False
+129996,JAMP-CS-TA6:2002,OSPAR JAMP guidelines for CS: Technical Annex 6 - metals: ASMO 2002,171,REFSK,2007-06-08,2007-06-08,False
+132413,JAMP-CS-TA7:2009,OSPAR JAMP guidelines for CS: Technical Annex 7 - PBDEs: 2009,171,REFSK,2010-07-22,2010-07-22,False
+132414,JAMP-CS-TA8:2009,OSPAR JAMP guidelines for CS: Technical Annex 8 - HBCDs: 2009,171,REFSK,2010-07-22,2010-07-22,False
+130003,JAMP-EF:1997,OSPAR JAMP guidelines for biological effects monitoring: 1997,171,REFSK,2007-06-08,2007-06-08,False
+130004,JAMP-EF-TA1:1997,OSPAR JAMP guidelines for EF: Technical Annex 1 - whole sediment bioassays: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130013,JAMP-EF-TA10:1997,OSPAR JAMP guidelines for EF: Technical Annex 10 - reproductive success in fish: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130005,JAMP-EF-TA2:1997,OSPAR JAMP guidelines for EF: Technical Annex 2 - sediment porewater bioassays: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130006,JAMP-EF-TA3:1997,OSPAR JAMP guidelines for EF: Technical Annex 3 - sediment seawater elutriates: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130007,JAMP-EF-TA4:1997,OSPAR JAMP guidelines for EF: Technical Annex 4 - water bioassays: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130008,JAMP-EF-TA5:1997,OSPAR JAMP guidelines for EF: Technical Annex 5 - CYP1A: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130009,JAMP-EF-TA6:1997,OSPAR JAMP guidelines for EF: Technical Annex 6 - lysosomal stability: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130010,JAMP-EF-TA7:1997,OSPAR JAMP guidelines for EF: Technical Annex 7 - liver neoplasia / hyperplasia: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130011,JAMP-EF-TA8:1997,OSPAR JAMP guidelines for EF: Technical Annex 8 - liver nodules: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130012,JAMP-EF-TA9:1997,OSPAR JAMP guidelines for EF: Technical Annex 9 - externally visible fish diseases: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130001,JAMP-EUT-CPHL:1997,OSPAR JAMP eutrophication monitoring guidelines - chlorophyll a: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129999,JAMP-EUT-NUT:1997,OSPAR JAMP eutrophication monitoring guidelines - nutrients: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+129998,JAMP-EUT-OX:1997,OSPAR JAMP eutrophication monitoring guidelines - oxygen: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130000,JAMP-EUT-PP:1997,OSPAR JAMP eutrophication monitoring guidelines - PP species composition: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+130002,JAMP-EUT-ZBPB:1997,OSPAR JAMP eutrophication monitoring guidelines - benthos: ASMO 1997,171,REFSK,2007-06-08,2007-06-08,False
+135440,JMS-61,ICES Journal of Marine Science 61, 2004.Grosjean et al. Use of ZOOSCAN digital imaging for zooplankton identification,171,REFSK,2011-08-25,2011-08-25,False
+135438,JMS-65,ICES Journal of Marine Science 65, 2008. Goodsir et al. TaqMan gene probes use for identifying the gadoid eggs,171,REFSK,2011-08-25,2011-08-25,False
+154895,LRS LAND91-2001,Lithuanian Water Quality Law LAND91-2001,171,REFSK,2015-09-11,2015-09-11,False
+135396,LST EN 12673:2000,Lithuanian Standard Board - Water quality - Gas chromatographic determination of some selected chlorophenols in water,171,REFSK,2011-08-04,2011-08-04,False
+135002,LST EN 14084:2003,Lithuanian Standard Board - Foodstuffs - Determination of trace elements - Determination of lead, cadmium, zinc, copper and iron by atomic absorption spectrometry (AAS) after microwave digestion,171,REFSK,2010-08-31,2010-09-01,False
+134996,LST EN 1483:2007,Lithuanian Standard Board - Water quality - Determination of mercury - Method using atomic absorption spectrometry,171,REFSK,2010-08-24,2011-08-04,False
+154776,LST EN 15204:2007,Lithuanian Standard Board - Water quality - Guidance standard on the enumeration of phytoplankton using inverted microscopy (Utermöhl technique),171,REFSK,2015-07-21,2015-07-21,False
+154777,LST EN 15972:2011,Lithuanian Standard Board - Water quality - Guidance on quantitative and qualitative investigations of marine phytoplankton,171,REFSK,2015-07-21,2015-07-21,False
+135394,LST EN ISO 11369:2000,Lithuanian Standard Board - Water quality - Determination of selected plant treatment agents - Method using high performance liquid chromatography with UV detection after solid-liquid extraction (ISO 11369:1997),171,REFSK,2011-08-04,2011-08-04,False
+140987,LST EN ISO 11885:2009,Lithuanian Standard Board - Water quality - Determination of selected elements by inductively coupled plasma optical emission spectrometry (ICP-OES) (ISO 11885:2007),171,REFSK,2014-09-15,2020-04-20,False
+135000,LST EN ISO 15586:2004,Lithuanian Standard Board - Water quality - Determination of trace elements using atomic absorption spectrometry with graphite furnace (ISO 15586:2003),171,REFSK,2010-08-31,2011-08-04,False
+135395,LST EN ISO 15680:2004,Lithuanian Standard Board - Water quality - Gas-chromatographic determination of a number of monocyclic aromatic hydrocarbons, naphthalene and several chlorinated compounds using purge-and-trap and thermal desorption (ISO 15680:2003),171,REFSK,2011-08-04,2011-08-04,False
+154778,LST EN ISO 16665:2005,Lithuanian Standard Board - Water quality - Guidelines for quantitative sampling and sample processing of marine soft-bottom macrofauna (ISO 16665:2005),171,REFSK,2015-07-21,2015-07-21,False
+140988,LST EN ISO 17294-2:2004,Lithuanain Standard Board - Water quality - Application of inductively coupled plasma mass spectrometry (ICP-MS) - Part 2: Determination of 62 elements (ISO 17294-2:2003),171,REFSK,2014-09-15,2015-07-21,False
+194885,LST EN ISO 17294-2:2016,Lithuanian Standard Board - Water quality - Application of inductively coupled plasma mass spectrometry (ICP-MS) - Part 2: Determination of selected elements including uranium isotopes (ISO 17294-2:2016),171,REFSK,2017-10-25,2017-10-25,False
+135398,LST EN ISO 17353:2005,Lithuanian Standard Board - Water quality - Determination of selected organotin compounds - Gas chromatographic method (ISO 17353:2004),171,REFSK,2011-08-04,2011-08-04,False
+135397,LST EN ISO 17993:2004,Lithuanian Standard Board - Water quality - Determination of 15 polycyclic aromatic hydrocarbons (PAH) in water by HPLC with fluorescence detection after liquid-liquid extraction (ISO 17993:2002),171,REFSK,2011-08-04,2011-08-04,False
+140983,LST EN ISO 18856:2005,Lithuanian Standard Board - Water quality - Determination of selected phthalates using gas chromatography/mass spectrometry (ISO 18856:2004),171,REFSK,2014-09-05,2014-09-05,False
+135001,LST EN ISO 6468:2000,Lithuanian Standard Board - Water quality - Determination of certain organochlorine insecticides, polychlorinated biphenyls and chlorobenzenes - Gas chromatographic method after liquid-liquid extraction (ISO 6468:1996),171,REFSK,2010-08-31,2011-08-04,False
+137681,LST EN ISO 9377-2:2002,Lithuanian Standard Board - Water quality - Determination of hydrocarbon oil index - Part 2: Method using solvent extraction and gas chromatography (ISO 9377-2:2000),171,REFSK,2013-07-30,2013-07-30,False
+135393,LST ISO 14154:2007,Lithuanian Standard Board - Soil quality - Determination of some selected chlorophenols - Gas-chromatographic method with electron-capture detection (ISO 14154:2005),171,REFSK,2011-08-04,2011-08-04,False
+131080,MCWG1988,MCWG 1988/7.2.4/1 Fat Extraction Method,171,REFSK,2008-05-07,2008-05-07,False
+249325,NF-ISO14235:1998,French Standardization Association - Soil quality - Determination of organic carbon by sulfochromic oxidation (based on ISO 14235:1998),171,REFSK,2021-09-13,2021-09-13,False
+78000,NMKL 131,NMKL No. 131, 1989: Fat. Determination according to SBR in meat and meat products.,171,REFSK,2006-10-23,2006-10-23,False
+154835,OECD-TG489,OECD/OCDE TG489. OECD Guideline for the testing of chemicals. In vivo mammalian alkaline Comet Assay,171,REFSK,2015-08-24,2015-08-24,False
+197336,PB 30-3:2012,Polish Branch Standard – for water, wastewater and seawater. Determination of  atrazyna, alachlor, chlorpheninhosis, choloropyrifos, symazium, trifluraline, polybromed eters and tributylocin cation with GC-MS method - 2012,171,REFSK,2018-09-04,2018-09-04,False
+194276,PN EN 12673:2004,Polish Standard - Water quality. Gas chromatographic determination of some selected chlorophenols in water (Adopted International Standard EN 12673:1999),171,REFSK,2017-07-14,2017-07-14,False
+194278,PN EN 12918:2004,Polish Standard - Water quality. Determination of parathion, parathion-methyl and some other organophosphorus compounds in water by dichloromethane extraction and gas chromatographic analysis (Adopted International Standard EN 12918:1999),171,REFSK,2017-07-14,2017-07-14,False
+201382,PN EN 16694:2016-01,Polish Standard - Water quality. Determination of selected polybrominated diphenyl ethers (PBDE) in whole water samples. Method using solid phase extraction (SPE) with SPE-disks combined with gas chromatography-mass spectrometry (GC-MS)(Adopted International Standard EN 16694:2015),171,REFSK,2019-08-20,2019-08-20,False
+194473,PN EN ISO 10301:2002,Polish Standard - Water quality. Determination of highly volatile halogenated hydrocarbons. Gas-chromatographic methods (Adopted International Standard EN ISO 10301:1997),171,REFSK,2017-08-03,2017-08-03,False
+194286,PN EN ISO 10304-1:2009,Polish Standard - Water quality. Determination of dissolved anions by liquid chromatography of ions. Determination of bromide, chloride, fluoride, nitrate, nitrite, phosphate and sulfate (Adopted International Standard EN ISO 10304-1:2009),171,REFSK,2017-07-14,2017-07-14,False
+194277,PN EN ISO 10695:2004,Polish Standard - Water quality. Determination of selected organic nitrogen and phosphorus compounds. Gas chromatographic methods (Adopted International Standard EN ISO 10695:2000),171,REFSK,2017-07-14,2017-07-14,False
+194279,PN EN ISO 11369:2002,Polish Standard - Water quality. Determination of selected plant treatment agents. Method using high performance liquid chromatography with UV detection after solid-liquid extraction (Adopted International Standard EN ISO 11369:1997),171,REFSK,2017-07-14,2019-08-20,False
+194275,PN EN ISO 15680:2008,Polish Standard - Water quality. Gas-chromatographic determination of a number of monocyclic aromatic hydrocarbons, naphthalene and several chlorinated compounds using purge-and-trap and thermal desorption (Adopted International Standard EN ISO 15680:2003),171,REFSK,2017-07-14,2017-07-14,False
+194280,PN EN ISO 17294-2:2006,Polish Standard - Water quality. Application of inductively coupled plasma mass spectrometry (ICP-MS). Determination of 62 elements (Adopted International Standard EN ISO 17294-2:2004),171,REFSK,2017-07-14,2017-07-14,False
+194474,PN EN ISO 17353:2006,Polish Standard - Water quality. Determination of selected organotin compounds. Gas chromatographic method (Adopted International Standard EN ISO 17353:2005),171,REFSK,2017-08-03,2017-08-03,False
+194281,PN EN ISO 17993:2005,Polish Standard - Water quality. Determination of 15 polycyclic aromatic hydrocarbons (PAH) in water by HPLC with fluorescence detection after liquid-liquid extraction (Adopted International Standard EN ISO 17993:2003),171,REFSK,2017-07-14,2017-07-14,False
+197335,PN EN ISO 18412:2007,Polish Standard - Water quality Determination of chromium (VI). Photometric method for weakly contaminated water (Adopted International Standard EN ISO 18412:2006),171,REFSK,2018-09-04,2018-09-04,False
+194282,PN EN ISO 18856:2006,Polish Standard - Water quality. Determination of selected phthalates using gas chromatography/mass spectrometry (Adopted International Standard EN ISO 18856:2005),171,REFSK,2017-07-14,2017-07-14,False
+194283,PN EN ISO 18857-1:2009,Polish Standard - Water quality. Determination of selected alkylphenols. Part 1: Method for non-filtered samples using liquid-liquid extraction and gas chromatography with mass selective detection  (Adopted International Standard EN ISO 18857-1:2006),171,REFSK,2017-07-14,2019-08-20,False
+201383,PN EN ISO 23161:2011,Polish Standard - Soil quality. Determination of selected organotin compounds. Gas chromatography method (Adopted International Standard EN ISO 23161:2009),171,REFSK,2019-08-20,2019-08-20,False
+194284,PN EN ISO 6468:2002,Polish Standard - Water quality. Determination of certain organochlorine insecticides, polychlorinated biphenyls and chlorobenzenes. Gas chromatographic method after liquid-liquid extraction (Adopted International Standard EN ISO 6468:1996),171,REFSK,2017-07-14,2019-08-20,False
+194285,PN EN ISO 9377-2:2003,Polish Standard - Water quality. Determination of hydrocarbon oil index. Method using solvent extraction and gas chromatography (Adopted International Standard EN ISO 9377-2:2000),171,REFSK,2017-07-14,2017-07-14,False
+168906,PN EN ISO11885:2009,Polish Standard - Water Quality - Determination of Selected Elements By Inductively Coupled Plasma Optical Emission Spectrometry (icp-oes) (Adopted International Standard  ISO 11885:2007),171,REFSK,2016-11-17,2016-11-17,False
+168904,PN EN ISO15586:2005,Polish Standard - Water Quality - Determination of trace elements using atomic absorption spectometry with graphite (Adopted International Standard ISO 15586:2003),171,REFSK,2016-11-17,2016-11-17,False
+168905,PN EN ISO17852:2009,Polish Standard - Water Quality - Determination of Mercury - Method Using Atomic Fluorescence Spectrometry (Adopted International Standard:  ISO 17852:2006),171,REFSK,2016-11-17,2016-11-17,False
+194274,PN-C-04570-09:1987,Polish Committee for Standardization - Water and waste water. Tests for metals by atomic absorption spectrometry. Determination of Cr(VI) and Cr (III). 1987,171,REFSK,2017-07-14,2017-07-14,False
+194475,PN-C-04641-03:1989,Polish Committee for Standardization - Water and waste water. Test for aromatics hydrocarbons. Determination of benzene, toluene, ethylobenzene, (m+p)-xylene, isopropylobenzene and o-xylene by gas chromatography. 1989,171,REFSK,2017-08-03,2017-08-03,False
+51794,R1,Hartmann-Schröder, G. (1996): Die Tierwelt Deutschlands und der angrenzenden Meeresteile. 58. Annelida, Borstenwürmer, Polychaeta. 2nd Ed. VEB Gustav Fischer Verlag, Jena,171,REFSK,2006-10-23,2006-10-23,False
+80693,R10,Science of the Total Environment 245(1-3): 203-219. AMAP(2000): Asmund, G. & Cleemann, M. (2000): "Analytical Methods, Quality Assurance and Quality Control Used in the Greenland AMAP Programme".,171,REFSK,2006-10-23,2006-10-23,False
+131307,R11,Walkey. A. and I. A. Black. 1934 Methods of Soil analysis. Soil Science. 37:29,171,REFSK,2008-07-30,2008-07-30,False
+131395,R12,Winkler Method. Journal of Marine Research, 24, 286-318  Carritt D.E., Carpenter J.H. (1966) Comparison and evaluation of currently employed modification of the Winkler method for determining dissolved oxygen in sea water. A NASCO Report.,171,REFSK,2008-08-26,2008-08-26,False
+135833,R13,Prior et al (2003). J. Agric. Food Chem. 2003, 51, 3273-3279,171,REFSK,2012-03-11,2012-03-11,False
+135835,R14,Schulte-Oehlmann et al. (1997). Imposex and reproductive failure in Hydrobia ulvae (Gastropoda: Prosobranchia). Mar. Biol. 128(2), 257-266,171,REFSK,2012-03-11,2012-03-11,False
+136168,R15,Habig, Pabst and Jakoby. (1974) Gluatathione S-Transferases. Journal of Biological Chemistry Vol. 249, No.22, 1974,171,REFSK,2012-08-02,2012-08-02,False
+137134,R16,Dickson et al, 2007. Guide for best practices of ocean CO2 measurements,171,REFSK,2013-03-08,2013-03-08,False
+137441,R17,Nature Protocols 7, 1125-1137 (2012) - Mussel micronucleus cytome assay - Claudia Bolognesi & Michael Fenech,171,REFSK,2013-05-06,2013-05-06,False
+137654,R18,Karlsson, J., Nilsson, P. & Wallentinus, I. (1992). Monitoring of the phytal system on the Swedish west coast - A pilot study. Report to SEPA,171,REFSK,2013-07-10,2013-07-10,False
+137655,R19,Naturvårdsverket (2004). Undersökningstyp vegetationsklädda bottnar, ostkust. Version 1 2004-04-27.: 15,171,REFSK,2013-07-10,2013-07-10,False
+52861,R2,Smedes, F. 1999. Determination of total lipid using non-chlorinated solvents. The Analyst, 124:1711-1718,171,REFSK,2006-10-23,2006-10-23,False
+137691,R20,Journal of AOAC International Vol. 96, No.3, 2013 Interlaboratory Proficiency Testing for Measurement of the Polycyclic Aromatic Hydrocarbon Metabolite 1-Hydroxypyrene in Fish Bile for Marine Environmental Monitoring, Kammann et al.,171,REFSK,2013-08-02,2013-08-02,False
+156669,R21,Journal of Laboratory Automation - Hemoglobin Point-of-Care Testing 2013 Sanchis-Gomar 198-205,171,REFSK,2016-06-21,2016-06-21,False
+156670,R22,HemoCue Hb 201+ Method and Sample collection 2014,171,REFSK,2016-06-21,2016-06-21,False
+169798,R23,Methods of Seawater Analysis. Editor(s): Klaus Grasshoff, Klaus Kremling, Manfred Ehrhardt. 1999,171,REFSK,2017-04-04,2017-04-04,False
+194226,R24,Talanta 93 (2012) 1-17, Krol et.al., PBDEs in environmental samples: Sampling and analysis,171,REFSK,2017-06-20,2017-06-20,False
+194227,R25,Journal of Chromatography A 1219 (2012) 15-28, Papachlimitzou et. al., A review of the analysis of novel brominated flame retardants,171,REFSK,2017-06-20,2017-06-20,False
+194255,R26,Journal of Chromatography A. 946 (2002) Determination of triorganotin species in water samples by liquid chromatography-electrospray-mass spectrometry" Encarna Gonzalez-Toledo. Ramon Compano. Maria Dolors Prat. Merce Granados; 1-8,171,REFSK,2017-07-06,2017-07-06,False
+194256,R27,Hach method 8110 – for water; MBTH Method adapted  from Matthews, T.G. and Howell, T.C., Journal of the Air Pollution Control Association, 31 (11) 1181-1184 (1981),171,REFSK,2017-07-06,2017-07-06,False
+194257,R28,Hach method 8047 – for water and wastewater; USEPA accepted (distillation required); procedure is equivalent to USEPA method 420.1 for wastewater; Adapted from Standard Methods for the Examination of Water and Wastewater,171,REFSK,2017-07-06,2017-07-06,False
+197192,R29,Sharp, Z. (2005) Principles of Stable Isotope Geochemistry (Prentice Hall),171,REFSK,2018-08-31,2018-08-31,False
+53179,R3,M.Hoenig et. al., Solid suspension technique, J. Anal.Atom.Spec.4(1989), 631,171,REFSK,2006-10-23,2006-10-23,False
+197337,R30,Hach method 8027 – for water, wastewater and seawater.; Method adapted from Epstein Joseph, Analytical Chemistry, 1947, 19(4), 272-274,171,REFSK,2018-09-04,2019-05-20,False
+199824,R31,Science of the Total Environment 331 (2004) 233–245, G.Asmund et.al., An update on analytical methods, quality assurance and quality control used in the Greenland AMAP programme: 1999–2002,171,REFSK,2019-05-20,2019-05-20,False
+232247,R32,Journal of Chromatography, 328, 1985, 372-377. Separation of organochlorine residues by adsorption chromatography prior to capillary gas chromatography. D.E. Wells, A.A. Cowan, A.E.G. Christie,171,REFSK,2021-03-23,2021-03-23,False
+53217,R4,Bligh & Dyer method,171,REFSK,2006-10-23,2006-10-23,False
+53218,R5,Soxhlet method,171,REFSK,2006-10-23,2006-10-23,False
+53219,R6,Smedes method,171,REFSK,2006-10-23,2006-10-23,False
+78026,R7,The GEEP Workshop: organic chemical analyses Mar. Ecol. Prog. Ser. Vol. 46:19:26, J. Klungsøyr, S. Wilhelmsen, K. Westrheim, E. Sætvedt, K. Palmork 1988,171,REFSK,2006-10-23,2006-10-23,False
+78147,R8,Appl. Organometallic Chem. Vol 11 1997: Organotin Speciation in Environmental Samples by Capillary GC & PFPD. Jacobsen,171,REFSK,2006-10-23,2006-10-23,False
+80692,R9,J. Environ. Monit., 2001, 3, 543-547 Christensen(2001): J.H. Christensen and J. Platz. "Screening of polybrominated diphenyl ethers in blue mussels, marine and freshwater sediments in Denmark",171,REFSK,2006-10-23,2006-10-23,False
+135463,RS-DET-1993,Russian Standard for detergents - Oradovsky's Manual for Chemical Analysis of Seawater 1993,171,REFSK,2011-09-21,2011-09-21,False
+135464,RS-PHE-1993,Russian Standard for phenols - Oradovsky's Manual for Chemical Analysis of Seawater 1993,171,REFSK,2011-09-21,2011-09-21,False
+130523,SFS 5502,Finnish standard 5502:1990. Metal content of water, sludge and sediment determined by flameless atomic absorption spectrometry. Atomization in a graphite furnace. Special guidelines for aluminium, cadmium, cobalt, chromium, copper, lead, manganese, nickel and iron.,171,REFSK,2007-12-11,2007-12-11,False
+77998,SS 028150-2,Swedish Standard for Cd, Cu, Pb, Zn,171,REFSK,2006-10-23,2006-10-23,False
+77997,SS 028175-1,Swedish Standard for Mercury,171,REFSK,2006-10-23,2006-10-23,False
+131231,SS 028183-1986,Swedish Standard for metals,171,REFSK,2008-06-11,2008-06-11,False
+78001,SS-EN 11465,Swedish Standard for Dry matter analysis,171,REFSK,2006-10-23,2006-10-23,False
+132402,SS-EN 13346,Swedish Standard for Characterization of sludges - Determination of trace elements and phosphorus - Aqua regia extraction methods,171,REFSK,2010-07-13,2010-07-13,False
+135526,SS-EN ISO 17294-2,Swedish Standard - Water quality - Application of inductively coupled plasma mass spectrometry (ICP-MS) - Part 2: Determination of 62 elements,171,REFSK,2011-10-06,2020-04-20,False
+132403,SS-EN13346mod/SS11885-1,Swedish Standard - modified SS-EN13346mod/SS11885-1 for MN and FE in sediment,171,REFSK,2010-07-13,2020-04-20,False
+197077,SS-EN13805-2014,Swedish Standard - Foodstuffs - Determination of trace elements - Pressure digestion 2014,171,REFSK,2018-08-24,2020-04-20,False
+53614,T1,Times No. 1 Cadmium and lead: determination in organic matrices with electrothermal furnace atomic absorption spectrophotometry.,171,REFSK,2006-10-23,2006-10-23,False
+53622,T10,Times No. 10 Organic halogens: determination in marine media of adsorbable, volaltile, or extractable compund totals,171,REFSK,2006-10-23,2006-10-23,False
+51718,T11,Times No. 11 Oyster (Crassostrea gigas) embryo bioassy,171,REFSK,2006-10-23,2006-10-23,False
+51793,T12,Times No. 12 Review of methods for analysis in sea water, biota, and sediment,171,REFSK,2006-10-23,2006-10-23,False
+51719,T13,Times No. 13 Microplate method for measurement of ethoxyresorufin-O-deethylase (EROD) in fish,171,REFSK,2006-10-23,2006-10-23,False
+51717,T19,Times No. 19 Common diseases & parastites of fish in the North Atlantic: Training guide for identification,171,REFSK,2006-10-23,2006-10-23,False
+53615,T2,Times No. 2 Trace metals in sea water: sampling and storage methods.,171,REFSK,2006-10-23,2006-10-23,False
+53623,T21,Times No. 21 Chlorobiphenyls in marine sediments: Guidelines for determination,171,REFSK,2006-10-23,2006-10-23,False
+53624,T22,Times No. 22 Biological effects of contaminants: Cholinesterase inhibition by organophosphate and carbamate compounds.,171,REFSK,2006-10-23,2006-10-23,False
+51715,T23,Times No. 23 Determinantion of CYP1A-dependent mono-oxygenase activity in dab by fluorimetric measurement of EROD activity,171,REFSK,2006-10-23,2006-10-23,False
+51716,T24,Times No. 24 Use of imposex in the dogwhelk (Nucella lapillus) as a bioindicator of tributyltin (TBT) pollution,171,REFSK,2006-10-23,2006-10-23,False
+51720,T25,Times No. 25 Measurement of DNA adducts in fish by 32P-postlabelling,171,REFSK,2006-10-23,2006-10-23,False
+51721,T26,Times No. 26 Quantification of metallothionein (MT) in fish liver tissue,171,REFSK,2006-10-23,2006-10-23,False
+51795,T27,Times No. 27 Soft bottom macrofauna: Collection, treatment, and quality assurance of samples,171,REFSK,2006-10-23,2006-10-23,False
+51713,T28,Times No. 28 Corophium sp. sediment bioassy & toxicity test,171,REFSK,2006-10-23,2006-10-23,False
+51714,T29,Times No. 29 Sediment bioassy using the polychaete Arenicola marina,171,REFSK,2006-10-23,2006-10-23,False
+53616,T3,Times No. 3 Cadmium in marine sediments: determination by graphite furnace atomic absorption spectroscopy.,171,REFSK,2006-10-23,2006-10-23,False
+53612,T30,Times No. 30 Chlorophyll a: Determination by spectroscopic methods.,171,REFSK,2006-10-23,2006-10-23,False
+53613,T31,Times No. 31 Biological effects of contaminants: Radioimmunoassay (RIA) and enzyme-linked immunosorbent assay (ELISA) techniques for the measurement of marine fish vitellogenins.,171,REFSK,2006-10-23,2006-10-23,False
+53625,T32,Times No. 32 Biological monitoring: General guidelines for quality assurance,171,REFSK,2006-10-23,2013-04-17,False
+53626,T33,Times No. 33 Recruitment studies: Manual on precision and accurancy of tools,171,REFSK,2006-10-23,2013-04-17,False
+53627,T34,Times No. 34 Biological effects of contaminants: quantification of  -aminolevulinic acid dehydratase (ALA-D) activity in fish blood,171,REFSK,2006-10-23,2006-10-23,False
+53628,T35,Times No. 35 Chemical measurements in the Baltic Sea: Guidelines on quality assurance,171,REFSK,2006-10-23,2013-04-17,False
+53629,T36,Times No. 36 Biological effects of contaminants: Measurement of lysosomal membrane stability,171,REFSK,2006-10-23,2013-04-17,False
+53630,T37,Times No. 37 Biological effects of contaminants: Use of intersex in the periwinkle (Littorina littorea) as a biomarker of tributyltin pollution,171,REFSK,2006-10-23,2013-04-17,False
+53631,T38,Times No. 38 Use of Liver Pathology of Flatfish for Monitoring Biological Effects of Contaminants,171,REFSK,2006-10-23,2006-10-23,False
+120971,T39,Times No. 39 Review of analytical methods for determining metabolites of polycyclic aromatic compounds (PACs) in fish bile.,171,REFSK,2006-11-02,2006-11-02,False
+53617,T4,Times No. 4 Lipophilic organic material: an apparatus for extracting solids used for their concentration from sea water.,171,REFSK,2006-10-23,2006-10-23,False
+120972,T40,Times No. 40 Biological effects of contaminants: Measurement of scope for growth in mussels.,171,REFSK,2006-11-02,2006-11-02,False
+132092,T41,Times No. 41 Biological effects of contaminants: the use of embryo aberrations in amphipod crustaceans for measuring effects of environmental stressors,171,REFSK,2009-12-03,2009-12-03,False
+132093,T42,Times No. 42 Guidelines for the study of the epibenthos of subtidal environments,171,REFSK,2009-12-03,2009-12-03,False
+132094,T43,Times No. 43 Collection, treatment, and quality assurance of samples,171,REFSK,2009-12-03,2009-12-03,False
+135465,T44,Times No. 44 Determination of Hexabromocyclododecane (HBCD) in sediment and biota,171,REFSK,2011-09-21,2011-09-21,False
+135466,T45,Times No. 45 Determination of parent and alkylated polycyclic aromatic hydrocarbons (PAHs) in biota and sediment,171,REFSK,2011-09-21,2011-09-21,False
+135467,T46,Times No. 46 Determination of polybrominated diphenyl ethers (PBDEs) in sediment and biota,171,REFSK,2011-09-21,2011-09-21,False
+135468,T47,Times No. 47 Monitoring organotins in marine biota,171,REFSK,2011-09-21,2011-09-21,False
+135469,T48,Times No. 48 Determination of perfluoroalkyl compounds in water, sediment, and biota,171,REFSK,2011-09-21,2011-09-21,False
+136164,T49,Times No. 49 Determination of alkylphenol metabolites in fish bile using solid-phase analytical derivatization (SPAD) and gas chromatography–mass spectrometry in electron ionization mode (GC-EI-MS),171,REFSK,2012-08-02,2012-08-02,False
+53618,T5,Times No. 5 Primary production: guidelines for measurement by 14C incorporation.,171,REFSK,2006-10-23,2006-10-23,False
+136165,T50,Times No. 50 Determination of polychlorinated dibenzo-pdioxins, polychlorinated dibenzofurans, and dioxin-like polychlorinated biphenyls in biota and sediment,171,REFSK,2012-08-02,2012-08-02,False
+136166,T51,Times No. 51 Biological effects of contaminants: Paracentrotus lividus sea urchin embryo test with marine sediment elutriates,171,REFSK,2012-08-02,2012-08-02,False
+136167,T52,Times No. 52 Guidelines for passive sampling of hydrophobic contaminants in water using silicone rubber samplers,171,REFSK,2012-08-02,2012-08-02,False
+137424,T53,Times No. 53 Determination of Polychlorinated biphenyls (PCBs) in sediment and biota,171,REFSK,2013-05-02,2013-05-02,False
+137425,T54,Times No. 54 Biological Effects of Contaminants: Oyster (Crassostrea gigas) Embryo Bioassay,171,REFSK,2013-05-02,2013-05-02,False
+137697,T55,Times No. 55 Protocol for measuring dioxin-like activity in environmental samples using LUC assays,171,REFSK,2013-08-05,2013-08-05,False
+156648,T56,Times No. 56 Lysosomal membrane stability in mussels,171,REFSK,2016-06-16,2016-06-16,False
+194881,T57,Times No. 57 Determination of CYP1A-dependent mono-oxygenase activity in dab by fluorimetric measurement of EROD activity in S9 or microsomal liver fractions,171,REFSK,2017-10-25,2017-10-25,False
+194882,T58,Times No. 58 Biological effects of contaminants: Assessing DNA damage in marine species through single-cell alkaline gel electrophoresis (comet) assay,171,REFSK,2017-10-25,2017-10-25,False
+194883,T60,Times No. 60 Supporting variables for biological effects measurements in fish and blue mussel,171,REFSK,2017-10-25,2017-10-25,False
+194884,T61,Times No. 61 Guidelines for determining polymer-water and polymer-polymer partition coefficients of organic compounds,171,REFSK,2017-10-25,2017-10-25,False
+53619,T7,Times No. 7 Suspended particulate matter: collection methods for gravimetric and trace metal analysis,171,REFSK,2006-10-23,2006-10-23,False
+53620,T8,Times No. 8 Soft bottom macrofauna: collection and treatment of samples.,171,REFSK,2006-10-23,2006-10-23,False
+53621,T9,Times No. 9 Sediments and suspended particulate matter: total and partial methods of digestion,171,REFSK,2006-10-23,2006-10-23,False

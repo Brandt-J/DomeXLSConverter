@@ -50,7 +50,7 @@ def QTime2String(time: QtCore.QTime) -> str:
 
 class TimePage(QtWidgets.QWizardPage):
     """
-    Wizard page for gathering information about the dataset ID.
+    Wizard page for gathering information about the sampling time.
     """
     elementWidth: int = 100
 

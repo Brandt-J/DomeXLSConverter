@@ -22,6 +22,7 @@ from tables.table_2_location import LocationTable
 from tables.table_1_id import IdentificationTable
 from tables.table_3_time import TimeTable
 from tables.table_4_sample import SampleTable
+from tables.table_5_analysis import AnalysisTable
 from dataimport.readXLS import XLSReader
 
 
@@ -35,6 +36,7 @@ class TableConverter:
         self._locationTable: LocationTable = LocationTable()
         self._timeTable: TimeTable = TimeTable()
         self._sampleTable: SampleTable = SampleTable()
+        self._analysisTable: AnalysisTable = AnalysisTable()
 
     def getXLSReader(self) -> XLSReader:
         return self._xlsReader
@@ -50,3 +52,6 @@ class TableConverter:
 
     def getSampleTable(self) -> SampleTable:
         return self._sampleTable
+
+    def getAnalaysisTable(self) -> AnalysisTable:
+        return self._analysisTable

@@ -31,7 +31,7 @@ if TYPE_CHECKING:
 
 class SamplePage(QtWidgets.QWizardPage):
     """
-    Wizard page for gathering information about the dataset ID.
+    Wizard page for gathering information about the sample itself.
     """
     elementWidth: int = 100
 

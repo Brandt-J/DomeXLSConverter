@@ -1,0 +1,104 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+135342,ACD,Acidification,201,METPT,2011-06-06,2011-06-06,False
+195114,ACD-HCL,Acidification with HCL,201,METPT,2017-12-06,2017-12-06,False
+135343,ACD-PUR,Acidification and purging with air/nitrogen,201,METPT,2011-06-06,2011-06-06,False
+135344,ACD-SUL,Acidification with sulphurous acid,201,METPT,2011-06-06,2011-06-06,False
+137430,AGR0.5-1%,Agarose concentration 0.5-1%,201,METPT,2013-05-03,2013-05-03,False
+137431,AGR1.1-1.5%,Agarose concentration 1.1-1.5%,201,METPT,2013-05-03,2013-05-03,False
+137432,AGR1.6-2%,Agarose concentration 1.6-2%,201,METPT,2013-05-03,2013-05-03,False
+233888,ALA-CB,Acid labilisation - citrate buffer,201,METPT,2021-05-17,2021-05-17,False
+131379,ASH,Ashing the sample,201,METPT,2008-08-25,2008-08-25,False
+131650,CGT,preconcentration in gold trap,201,METPT,2009-02-11,2009-02-11,False
+78043,CP,Centrifuged/precipitated,201,METPT,2006-10-23,2006-10-23,False
+129745,D,Drying,201,METPT,2007-03-28,2007-03-28,False
+53544,DAIR,Drying - by air,201,METPT,2006-10-23,2006-10-23,False
+53545,DCHEM,Drying - chemically (with Na2SO4),201,METPT,2006-10-23,2006-10-23,False
+129949,DEPUR,Depurated,201,METPT,2007-05-29,2007-05-29,False
+53208,DFRZ,Drying - freeze dried,201,METPT,2006-10-23,2006-10-23,False
+135045,DIA,Dialysis,201,METPT,2010-12-08,2010-12-08,False
+53546,DNO,Drying - none (fresh material),201,METPT,2006-10-23,2006-10-23,False
+53918,DOVN,Drying by oven - temperature unknown,201,METPT,2006-10-23,2006-10-23,False
+53206,DRY100,Drying >100 degrees Celsius,201,METPT,2006-10-23,2006-10-23,False
+53207,DRY99,Drying <100 degrees Celsius,201,METPT,2006-10-23,2006-10-23,False
+195022,DS-NA,Density separation - NaCl2,201,METPT,2017-11-22,2017-11-22,False
+195023,DS-WO,Density separation - Na2WO4 Sodium tungstate,201,METPT,2017-11-22,2017-11-22,False
+195021,DS-ZN,Density separation - ZnCl2,201,METPT,2017-11-22,2017-11-22,False
+233885,ED,Enzymatic deconjugation,201,METPT,2021-05-17,2021-05-17,False
+129746,F,Filtration/fractioning - deprecated code,201,METPT,2007-03-28,2021-01-26,True
+132223,FF-GF-0.7,Filtered with fiber filter - glass fiber with particle retention diameter 0.7 µm,201,METPT,2010-03-05,2010-03-05,False
+132222,FF-GF-1.2,Filtered with fiber filter - glass fiber with particle retention diameter 1.2 µm,201,METPT,2010-03-05,2010-03-05,False
+53080,FF-GF-2.0,Filtered with fiber filter - glass fiber with particle retention diameter 2.0 µm,201,METPT,2006-10-23,2010-03-05,False
+132226,FF-PP-1.2,Filtered with fiber filter - polypropylene fiber with particle retention diameter 1.2 µm,201,METPT,2010-03-05,2010-03-05,False
+132225,FF-QF-1.2,Filtered with fiber filter - quartz fiber with particle retention diameter 1.2 µm,201,METPT,2010-03-05,2010-03-05,False
+233884,FIX-BFC,Fixation with Baker's formol calcium solution,201,METPT,2021-05-17,2021-05-17,False
+53078,FM-CA-0.2,Filtered with membrane filter - cellulose acetate with pore size 0.20 µm,201,METPT,2006-10-23,2010-03-05,False
+132239,FM-CA-0.45,Filtered with membrane filter - cellulose acetate with pore size 0.45 µm,201,METPT,2010-03-12,2010-03-12,False
+53072,FM-CA-0.8,Filtered with membrane filter - cellulose acetate with pore size 0.80 µm,201,METPT,2006-10-23,2010-03-05,False
+53077,FM-CA-1.2,Filtered with membrane filter - cellulose acetate with pore size 1.20 µm,201,METPT,2006-10-23,2010-03-05,False
+53870,FM-CN-0.1,Filtered with membrane filter - cellulose nitrate with pore size 0.1 µm,201,METPT,2006-10-23,2010-03-05,False
+140736,FM-CN-0.45,Filtered with membrane filter - cellulose nitrate with pore size 0.45 µm,201,METPT,2014-04-15,2014-04-15,False
+129753,FM-PA-0.2,Filtered with membrane filter - polyamide/nylon with pore size 0.20 µm,201,METPT,2007-03-30,2010-12-08,False
+140737,FM-PA-0.45,Filtered with membrane filter - polyamide/nylon with pore size 0.45 µm,201,METPT,2014-04-15,2014-04-15,False
+135041,FM-PA-10,Filtered with membrane filter - polyamide/nylon with pore size 10 µm,201,METPT,2010-12-08,2010-12-08,False
+129749,FM-PC-0.2,Filtered with membrane filter - polycarbonate with pore size 0.2 µm,201,METPT,2007-03-28,2010-03-05,False
+132234,FM-PC-0.4,Filtered with membrane filter - polycarbonate with pore size 0.4 µm,201,METPT,2010-03-11,2010-03-11,False
+134995,FM-PC-0.45,Filtered with membrane filter - polycarbonate with pore size 0.45 µm,201,METPT,2010-08-24,2010-08-24,False
+132238,FM-PC-0.8,Filtered with membrane filter - polycarbonate with pore size 0.8 µm,201,METPT,2010-03-12,2010-03-12,False
+134993,FM-PE-1.0,Filtered with membrane filter - polyester (hydrophilic) with pore size 1.0 µm,201,METPT,2010-08-23,2010-08-23,False
+134990,FM-PES-0.45,Filtered with membrane filter - polyethersulfone with pore size 0.45 µm,201,METPT,2010-08-18,2010-08-18,False
+132221,FM-PES-0.65,Filtered with membrane filter - polyethersulfone with pore size 0.65 µm,201,METPT,2010-03-05,2010-03-05,False
+132219,FM-PTFE-0.45,Filtered with membrane filter - polytetrafluoroethylene with pore size 0.45 µm,201,METPT,2010-03-05,2010-03-05,False
+132220,FM-PVdF-0.45,Filtered with membrane filter - polyvinylidene fluoride with pore size 0.45 µm,201,METPT,2010-03-05,2010-03-05,False
+132224,FM-RC-0.45,Filtered with membrane filter - regenerated cellulose with pore size 0.45 µm,201,METPT,2010-03-05,2010-03-05,False
+129950,FRZND,Frozen directly without pretreatment,201,METPT,2007-05-29,2018-08-01,True
+132205,FU-PA-1,Filtered with ultrafilter - polyamide/nylon with MWCO 1 kDalton,201,METPT,2010-02-23,2010-12-08,False
+132228,FU-PES-1,Filtered with ultrafilter - polyethersulfone with MWCO 1 kDalton,201,METPT,2010-03-05,2010-03-05,False
+132230,FU-PTFE-1,Filtered with ultrafilter - polytetrafluoroethylene with MWCO 1 kDalton,201,METPT,2010-03-05,2010-03-05,False
+132229,FU-PVdF-1,Filtered with ultrafilter - polyvinylidene fluoride with MWCO 1 kDalton,201,METPT,2010-03-05,2010-03-05,False
+132227,FU-RC-1,Filtered with ultrafilter - regenerated cellulose with MWCO 1 kDalton,201,METPT,2010-03-05,2010-03-05,False
+53103,GF/F,glas fiber syringe filter - deprecated code,201,METPT,2006-10-23,2021-01-26,True
+53105,GFC,glas fiber cartridge - deprecated code,201,METPT,2006-10-23,2021-01-26,True
+131646,GFC1.2,filtration, glass fiber, Whatman GF/C - particle retention of 1.2 µm and a weight of 53 g/m² - deprecated code,201,METPT,2009-02-06,2015-03-05,True
+53079,GFF,glass fiber filter - deprecated code,201,METPT,2006-10-23,2015-03-05,True
+131645,GFF0.70,filtration, glass fiber, Whatman GF/F - particle retention of 0.7 µm and a weight of 70 g/m² - deprecated code,201,METPT,2009-02-06,2015-03-05,True
+78807,GFF100,glass fiber filter 100 µm - deprecated code,201,METPT,2006-10-23,2015-03-05,True
+53106,GFF200,glass fiber filter 200 µm - deprecated code,201,METPT,2006-10-23,2015-03-05,True
+233873,HIS-PR,Histopathology - resin embedding,201,METPT,2021-05-17,2021-05-17,False
+233874,HIS-PW,Histopathology - parrafin wax embedding,201,METPT,2021-05-17,2021-05-17,False
+53087,HMG,Homogenized,201,METPT,2006-10-23,2006-10-23,False
+53540,HYDL,Hydrolysis,201,METPT,2006-10-23,2006-10-23,False
+53128,HYDM,Hydrometer,201,METPT,2006-10-23,2018-08-01,True
+131633,IGN,Ignition,201,METPT,2009-01-22,2009-01-22,False
+233886,KGG,Kaiser's glycerol gelatine mounting medium,201,METPT,2021-05-17,2021-05-17,False
+135814,LYS-ALK12.1,Alkaline lysis at pH 12.1,201,METPT,2012-03-09,2012-03-09,False
+135816,LYS-ALK13,Alkaline lysis at pH >13,201,METPT,2012-03-09,2012-03-09,False
+135815,LYS-NEU7-10,Neutral lysis at pH range 7-10,201,METPT,2012-03-09,2012-03-09,False
+53141,MAN,Manual milling (mortar and pestle),201,METPT,2006-10-23,2006-10-23,False
+129747,MF,Filtered on membrane filter - deprecated code,201,METPT,2007-03-28,2015-03-05,True
+132236,MF20,Filtered on membrane filter 0.20 µm - deprecated code,201,METPT,2010-03-11,2015-03-05,True
+53071,MF45,Filtered on membrane filter 0.45 µm - deprecated code,201,METPT,2006-10-23,2015-03-05,True
+132235,MF80,Filtered on membrane filter 0.8 µm - deprecated code,201,METPT,2010-03-11,2015-03-05,True
+53140,MMG,Mechanical milling/grinding,201,METPT,2006-10-23,2006-10-23,False
+53076,NA,Not applicable,201,METPT,2006-10-23,2006-10-23,False
+129955,NDEPUR,Not-depurated,201,METPT,2007-05-31,2007-05-31,False
+53075,NF,Not filtered,201,METPT,2006-10-23,2006-10-23,False
+135429,NF-PST,Not filtered - passive sampling technique,201,METPT,2011-08-17,2011-08-17,False
+129956,NONE,No pretreatment,201,METPT,2007-05-31,2007-05-31,False
+195020,NR,Nile red dye,201,METPT,2017-11-22,2018-04-25,False
+129748,PCF,Filtered with polycarbonate filter - deprecated code,201,METPT,2007-03-28,2015-03-05,True
+132237,PCF40,Filtered with polycarbonate 0.40 µm - deprecated code,201,METPT,2010-03-11,2015-03-05,True
+129750,PCF45,Filtered with polycarbonate 0.45 µm - deprecated code,201,METPT,2007-03-28,2015-03-05,True
+53129,PIP,Pipette analysis,201,METPT,2006-10-23,2018-08-02,True
+136098,PL-GPC-DCM,PL-Gel GPC column with dichloromethane,201,METPT,2012-07-10,2018-08-01,True
+233887,R-NaCl,Rinse with the NaCl solution,201,METPT,2021-05-17,2021-05-17,False
+129752,S,Sedimentation,201,METPT,2007-03-28,2007-03-28,False
+233879,SEC-CRY,Cryotome sectioning,201,METPT,2021-05-17,2021-05-17,False
+136097,SLAC,Silica column,201,METPT,2012-07-10,2018-08-01,True
+53139,SON,Sonicate,201,METPT,2006-10-23,2006-10-23,False
+233877,ST-DAPI,Staining with DAPI,201,METPT,2021-05-17,2021-05-17,False
+233875,ST-HE,Staining with hematoxylin-eosin,201,METPT,2021-05-17,2021-05-17,False
+233876,ST-HES,Staining with hematoxylin-eosin-saffron,201,METPT,2021-05-17,2021-05-17,False
+233881,ST-ORO,Staining with Oil Red O,201,METPT,2021-05-17,2021-05-17,False
+53127,SVD,Sieving - Dry sieving,201,METPT,2006-10-23,2006-10-23,False
+53108,SVW,Sieving - Wet sieving,201,METPT,2006-10-23,2006-10-23,False
+129751,UV,UltraViolet radiation,201,METPT,2007-03-28,2007-03-28,False

@@ -32,7 +32,7 @@ if TYPE_CHECKING:
 
 class LocationPage(QtWidgets.QWizardPage):
     """
-    Wizard page for gathering information about the dataset ID.
+    Wizard page for gathering information about the sample location.
     """
     spinboxwidth: int = 100
 

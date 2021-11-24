@@ -83,6 +83,22 @@ def getMatrices() -> List[DomeCode]:
     return _createCodesFromCSV("Matrix.csv")
 
 
+def getRefSources() -> List[DomeCode]:
+    return _createCodesFromCSV("RefSources.csv")
+
+
+def getPretreatments() -> List[DomeCode]:
+    return _createCodesFromCSV("MethPretreat.csv")
+
+
+def getPurifications() -> List[DomeCode]:
+    return _createCodesFromCSV("MethPurSep.csv")
+
+
+def getAnalyses() -> List[DomeCode]:
+    return _createCodesFromCSV("MethAnalysis.csv")
+
+
 def _createCodesFromCSV(csvFileName) -> List[DomeCode]:
     """
     Reads a CSV file and returns a list of dome codes for each element.

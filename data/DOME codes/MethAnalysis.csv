@@ -1,0 +1,196 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+137610,32PPL,32P-postlabelling,173,METOA,2013-06-07,2013-06-07,False
+53039,AAS,Atomic Absorption Spectrometry,173,METOA,2006-10-23,2006-10-23,False
+53119,AAS-AA,Atomic Absorption Spectrometry - air acetylene,173,METOA,2006-10-23,2006-10-23,False
+120867,AAS-BOR,Atomic Absorption Spectrometry - borhydride,173,METOA,2006-10-23,2006-10-23,False
+53061,AAS-CV,Atomic Absorption Spectrometry - cold vapour,173,METOA,2006-10-23,2006-10-23,False
+135638,AAS-DSA,Atomic Adsorption Spectrometry - direct solid analysis,173,METOA,2011-12-05,2011-12-05,False
+131318,AAS-ETA,Atomic Absorption Spectrometry - Electrothermal Atomization,173,METOA,2008-08-01,2008-08-01,False
+53062,AAS-FL,Atomic Absorption Spectrometry - flame,173,METOA,2006-10-23,2006-10-23,False
+52876,AAS-GF,Atomic Absorption Spectrometry - graphite furnace,173,METOA,2006-10-23,2006-10-23,False
+131310,AAS-HB,Atomic Absorption Spectrometry - hydride generation technique (legacy data only - definition question),173,METOA,2008-07-30,2017-05-22,False
+131022,AAS-LS,Atomic Absorption Spectrometry - flameless,173,METOA,2008-04-07,2008-04-07,False
+53120,AAS-NO,Atomic Absorption Spectrometry - nitrous oxide,173,METOA,2006-10-23,2006-10-23,False
+53145,AFS,Atomic fluorescence spectrometry,173,METOA,2006-10-23,2006-10-23,False
+129739,ASV,Anodic Stripping Voltametry,173,METOA,2007-03-28,2007-03-28,False
+129740,ASV-DP,Anodic Stripping Voltametry - Differential Pulse ASV,173,METOA,2007-03-28,2007-03-28,False
+129947,ASV-MDE,Anodic Stripping Voltametry - Mercury Drop Electrode ASV,173,METOA,2007-05-29,2007-05-29,False
+135529,AWSB,Bioassay - Amphipod whole sediment bioassay,173,METOA,2011-10-06,2011-10-06,False
+53149,BLD,Bligh and Dyer method,173,METOA,2006-10-23,2006-10-23,False
+53180,BRF,Bradford protein assay,173,METOA,2006-10-23,2006-10-23,False
+140905,CALC,Calculated value,173,METOA,2014-08-07,2014-08-07,False
+249145,CALLIPER,Measured with a calliper,173,METOA,2021-08-19,2021-08-19,False
+169796,CFA-SPM,Continuous Flow Analysis and Spectrophotometry,173,METOA,2017-04-04,2017-04-04,False
+53131,CLC,Coulter counter,173,METOA,2006-10-23,2006-10-23,False
+131301,CLM,Calcinometer,173,METOA,2008-07-29,2008-07-29,False
+131488,CMB-550C,Combustion at 550 degrees Celsius,173,METOA,2008-10-22,2008-10-22,False
+54248,CMP,Comparative analysis,173,METOA,2006-10-23,2006-10-23,False
+53104,CNA,Carbon/nitrogen analyser - CHN analyser,173,METOA,2006-10-23,2021-08-26,False
+195116,CNA-IR,Carbon/nitrogen analyser - CHN analyser plus Infrared,173,METOA,2017-12-06,2017-12-06,False
+195117,CNA-MS,Carbon/nitrogen analyser - CHN analyser plus mass spectrometry detection of oxides,173,METOA,2017-12-06,2017-12-06,False
+195115,CNA-TCD,Carbon/nitrogen analyser - CHN analyser plus thermal combustion detector,173,METOA,2017-12-06,2017-12-06,False
+54247,CND,Conductometric analysis,173,METOA,2006-10-23,2006-10-23,False
+131648,CND20C,Conductometric, at 20 °C,173,METOA,2009-02-06,2009-02-06,False
+131647,CND25C,Conductometric, at 25 °C,173,METOA,2009-02-06,2009-02-06,False
+131649,CND25C-IS,Conductometric, at 25 °C, in situ,173,METOA,2009-02-06,2009-02-06,False
+131316,CNH,Heat conductivity,173,METOA,2008-08-01,2017-09-01,False
+53144,COL,Colourimetric methods,173,METOA,2006-10-23,2006-10-23,False
+135649,COU,Coulometric determination (amperometric),173,METOA,2011-12-08,2011-12-08,False
+53181,CYT,Cytocher assay,173,METOA,2006-10-23,2006-10-23,False
+137444,CYT-EN,Cytochemistry - enzyme,173,METOA,2013-05-06,2013-07-15,False
+137445,CYT-VV,Cytochemistry - in vivo,173,METOA,2013-05-06,2013-07-15,False
+51768,DPP,Differential pulse polarography,173,METOA,2006-10-23,2006-10-23,False
+53125,DSV,Dry sieving,173,METOA,2006-10-23,2006-10-23,False
+167987,DW105,Dry weight determination at 105 degrees Celsius,173,METOA,2016-08-31,2016-08-31,False
+196856,EA-IRMS,Elemental Analyser - Isotope Ratio Mass Spectrometer,173,METOA,2018-07-30,2018-07-30,False
+78874,EL,Electrometric or ion selective determination,173,METOA,2006-10-23,2006-10-23,False
+78873,ELF,Electrometric or ion selective determination, in field,173,METOA,2006-10-23,2006-10-23,False
+53182,ELISA,Enzyme linked immunosorbent assay,173,METOA,2006-10-23,2006-10-23,False
+137429,EMSWB,Embryo sediment and water bioassy,173,METOA,2013-05-02,2013-05-02,False
+53183,ENP,Enzyme endpoint,173,METOA,2006-10-23,2006-10-23,False
+131300,FIMS,Atomic Absorption Spectrometry - FIMS Flow Injection Mercury System,173,METOA,2008-07-29,2011-12-05,False
+51770,FLM,Fluorometric determination,173,METOA,2006-10-23,2006-10-23,False
+53107,FLM-LMG,Fluorometric determination - lumogallion,173,METOA,2006-10-23,2006-10-23,False
+53542,FLM-SS,Synchronous Flouroescence Spectrometry,173,METOA,2006-10-23,2006-10-23,False
+137518,FLM-SS270/330,Synchronous Flouroescence Spectrometry - wavelengths 270/330,173,METOA,2013-06-05,2013-06-05,False
+137517,FLM-SS310/360,Synchronous Flouroescence Spectrometry - wavelengths 310/360,173,METOA,2013-06-05,2013-06-05,False
+132293,FTIR,Fourier transform infrared spectroscopy,173,METOA,2010-03-26,2010-03-26,False
+129741,GC,Gas chromatography,173,METOA,2007-03-28,2007-03-28,False
+53335,GC-AED,Gas chromatography - atomic emission detection,173,METOA,2006-10-23,2006-10-23,False
+131651,GC-C,Gas chromatography - capillary,173,METOA,2009-02-11,2009-02-11,False
+52885,GC-ECD,Gas chromatography - electron capture detector,173,METOA,2006-10-23,2006-10-23,False
+52888,GC-EI,Gas chromatography - electron impact ionization,173,METOA,2006-10-23,2006-10-23,False
+131474,GC-FID,Gas chromatography - Flame ionization detector,173,METOA,2008-10-10,2008-10-10,False
+53213,GC-FPD,Gas chromatography - Flame photometric detector,173,METOA,2006-10-23,2006-10-23,False
+156913,GC-HRMS,Gas chromatography – high resolution mass spectrometry,173,METOA,2016-07-26,2016-07-26,False
+197311,GC-HRMS-ISD,Gas chromatography – high resolution mass spectrometry - isotope dilution,173,METOA,2018-09-03,2018-09-03,False
+200294,GC-ICP-MS,Gas Chromatography - Inductively Coupled Plasma - Mass Spectrometry,173,METOA,2019-08-12,2019-08-12,False
+53867,GC-KAT,Gas chromatography - katharometer,173,METOA,2006-10-23,2006-10-23,False
+51763,GC-MS,Gas chromatography - mass spectrometry,173,METOA,2006-10-23,2006-10-23,False
+52886,GC-MSD,Gas chromatography - mass selective detector,173,METOA,2006-10-23,2006-10-23,False
+129742,GC-MS-MS,Gas chromatography - tandem (double) mass spectrometry,173,METOA,2007-03-28,2007-03-28,False
+197292,GC-MS-P&T,Gas chromatography - Mass Spectrometry - Purge and trap,173,METOA,2018-08-31,2018-08-31,False
+195024,GC-MS-PYR,Gas chromatography - Mass Spectrometry - Pyrolysis,173,METOA,2017-11-22,2017-11-22,False
+131960,GC-MS-SIM,Gas Chromatography- Mass Spectrometry with Selected Ion Monitoring,173,METOA,2009-07-02,2009-07-02,False
+52887,GC-NCI,Gas chromatography - negative chemical ionization,173,METOA,2006-10-23,2006-10-23,False
+197293,GC-NPD,Gas chromatography - nitrogen–phosphorus detector,173,METOA,2018-08-31,2018-08-31,False
+53212,GC-PFPD,Gas chromatography - Pulsed flame photometrc detector,173,METOA,2006-10-23,2006-10-23,False
+53184,GRS,Gross examination,173,METOA,2006-10-23,2006-10-23,False
+53147,GRV,Gravimetric,173,METOA,2006-10-23,2006-10-23,False
+132420,GS-GE,Gamma spectroscopy - Germanium,173,METOA,2010-07-22,2010-07-22,False
+53247,HIS-PR,Histopathology - plastic resin (deprecated, use METPT HIS-PR instead),173,METOA,2006-10-23,2021-05-17,True
+53236,HIS-PW,Histopathology - parrafin wax (deprecated, use METPT HIS-PW instead),173,METOA,2006-10-23,2021-05-17,True
+196123,HNT,Hot needle test,173,METOA,2018-04-26,2018-04-26,False
+51762,HPLC,High Performance Liquid Chromatography (HPLC),173,METOA,2006-10-23,2018-09-11,False
+196861,HPLC-DA,High Performance Liquid Chromatography (HPLC) – diode array,173,METOA,2018-08-01,2018-08-01,False
+197403,HPLC-ESI-MS-MS,High Performance Liquid Chromatography (HPLC) - tandem mass spectrometer with electrospray source,173,METOA,2018-09-11,2018-09-11,False
+52880,HPLC-FD,High Performance Liquid Chromatography (HPLC) - fluorescence detector,173,METOA,2006-10-23,2018-09-11,False
+196859,HPLC-HRMS,High Performance Liquid Chromatography (HPLC) coupled to high resolution mass spectrometry,173,METOA,2018-07-30,2018-07-30,False
+53214,HPLC-MS,High Performance Liquid Chromatography (HPLC) - mass spectrometry,173,METOA,2006-10-23,2018-09-11,False
+196860,HPLC-MS-MS,High Performance Liquid chromatography (HPLC) - tandem (double) mass spectrometry,173,METOA,2018-07-30,2018-08-01,False
+154705,HPLC-MS-NE,High Performance Liquid Chromatography (HPLC) coupled to mass spectrometry with electrospray injection in negative ion mode,173,METOA,2015-07-10,2015-07-10,False
+52881,HPLC-UV,High Performance Liquid Chromatography (HPLC) - UV detector,173,METOA,2006-10-23,2018-09-11,False
+196863,HYDM,Hydrometer,173,METOA,2018-08-01,2018-08-01,False
+129743,ICP-MS,Inductive Coupled Plasma-Mass Spectrometry,173,METOA,2007-03-28,2007-03-28,False
+53142,ICP-MS-CC,ICP-MS with collision cell,173,METOA,2006-10-23,2006-10-23,False
+53143,ICP-MS-WC,ICP-MS without collision cell,173,METOA,2006-10-23,2006-10-23,False
+135837,ICP-MS-WO,ICP-MS with wet oxidation,173,METOA,2012-03-11,2012-03-11,False
+53146,ICP-OES,ICP-OES/AES Optical/Atom Emission Spectroscopy with Inductive Coupled Plasma,173,METOA,2006-10-23,2017-02-24,False
+169633,ICP-SFMS,Inductive Coupled Plasma Sector Field Mass Spectrometry,173,METOA,2017-02-23,2017-02-23,False
+53216,ICP-TOF-MS,ICP - Time of flight - mass spectrometry,173,METOA,2006-10-23,2006-10-23,False
+51769,IMA,Image analysis - manual,173,METOA,2006-10-23,2011-08-01,False
+140880,IMA-SW,Image analysis - software,173,METOA,2014-07-07,2021-03-26,False
+232261,IMA-SW-DFI,Image-based, dark-field illumination,173,METOA,2021-03-26,2021-03-26,False
+232260,IMA-SW-PL,Image-based,  polarized light,173,METOA,2021-03-26,2021-03-26,False
+232259,IMA-SW-RL,Image-based, reflected light,173,METOA,2021-03-26,2021-03-26,False
+232258,IMA-SW-TL,Image-based, transmitted light,173,METOA,2021-03-26,2021-03-26,False
+135439,IMA-ZS,Image analysis - ZooSCAN,173,METOA,2011-08-25,2015-02-13,False
+230733,IR,Infrared spectroscopy,173,METOA,2021-01-02,2021-01-02,False
+54249,ISE,Ion selective electrode,173,METOA,2006-10-23,2006-10-23,False
+137131,ISFET,Ion selective field effect transistor,173,METOA,2013-03-08,2013-03-08,False
+249148,ITM-E,Measured with electronic ichthyometer,173,METOA,2021-08-19,2021-08-19,False
+249147,ITM-M,Measured with manual ichthyometer,173,METOA,2021-08-19,2021-08-19,False
+53186,KIN,Enzyme kinetic assay,173,METOA,2006-10-23,2006-10-23,False
+53132,LGR,Laser granulometry,173,METOA,2006-10-23,2006-10-23,False
+53187,LOR,Lorenzen chlorophyll-a assay,173,METOA,2006-10-23,2006-10-23,False
+53188,LWY,Lowry protein assay,173,METOA,2006-10-23,2006-10-23,False
+135650,MAN,Manometric,173,METOA,2011-12-08,2011-12-08,False
+132371,MG0.8,Magnifying glass 0.8x,173,METOA,2010-06-15,2010-06-15,False
+53235,MIC-EM,Microscope - electron microscope,173,METOA,2006-10-23,2006-10-23,False
+137442,MIC-FL,Microscope - fluorescence microscope,173,METOA,2013-05-06,2013-05-06,False
+51771,MIC-LM,Microscope - light microscope,173,METOA,2006-10-23,2006-10-23,False
+232257,MIC-LM-DFI,Microscop-based, dark-field illumination,173,METOA,2021-03-26,2021-03-26,False
+249150,MIC-LM-HM,Compound microscope - observation under high magnification light microscope (>=40x),173,METOA,2021-08-19,2021-08-19,False
+249152,MIC-LM-HM-IMA,Digital compound microscope - observation under high magnification light microscope (>=40x), after image capture,173,METOA,2021-08-19,2021-08-19,False
+232253,MIC-LM-ML,Microscope-based, mixed light,173,METOA,2021-03-26,2021-03-26,False
+232256,MIC-LM-PL,Microscope based,  polarized light,173,METOA,2021-03-26,2021-03-26,False
+232255,MIC-LM-RL,Microscope-based, reflected light,173,METOA,2021-03-26,2021-03-26,False
+232254,MIC-LM-TM,Microscope-based, transmitted light,173,METOA,2021-03-26,2021-03-26,False
+249149,MIC-ST,Stereo microscope - observation under low magnification stereo microscope or magnifying lens (<40x),173,METOA,2021-08-19,2021-08-19,False
+249151,MIC-ST-IMA,Digital stereo microscope - observation under low magnification stereo microscope or magnifying lens (<40x), after image capture,173,METOA,2021-08-19,2021-08-19,False
+135437,MIT-TM,Molecular identification technique (TaqMan multiplex real-time polymerase chain-reaction) assay,173,METOA,2011-08-25,2011-08-25,False
+136096,MLPCL,Measurement of light production by cell line,173,METOA,2012-07-10,2012-07-10,False
+51767,MS,Mass spectrometry,173,METOA,2006-10-23,2006-10-23,False
+51764,MS-ISD,Mass spectrometry - isotope dilution,173,METOA,2006-10-23,2006-10-23,False
+135859,MS-ISR,Mass spectrometry - isotope ratio IRMS,173,METOA,2012-03-21,2018-07-30,False
+52882,MS-SIM,Mass spectrometry - selective ion monitoring,173,METOA,2006-10-23,2006-10-23,False
+53215,MS-TOF,Mass Spectrometry - Time of flight,173,METOA,2006-10-23,2006-10-23,False
+52878,NAA,Neutron activation analysis,173,METOA,2006-10-23,2006-10-23,False
+54246,NEM,Nephelometric analysis,173,METOA,2006-10-23,2006-10-23,False
+130069,OES-CV,Atomic Emission Spectroscopy - cold vapour (AES, OES),173,METOA,2007-07-03,2007-07-03,False
+194697,OPS,Optical sensor,173,METOA,2017-09-01,2017-09-01,False
+53868,OXE,Oxygen electrode,173,METOA,2006-10-23,2006-10-23,False
+131020,OXF,Oxygen furnace combustion,173,METOA,2008-04-07,2008-04-07,False
+53090,PH,pH electrode,173,METOA,2006-10-23,2006-10-23,False
+53126,PIP,Pipette analysis,173,METOA,2006-10-23,2018-08-02,True
+52879,PIX,Proton induced x-ray emission (total method),173,METOA,2006-10-23,2006-10-23,False
+196864,PL-GPC-DCM,PL-Gel GPC column with dichloromethane,173,METOA,2018-08-01,2018-08-01,False
+53117,PSA,Particle Size Analyzer,173,METOA,2006-10-23,2006-10-23,False
+136007,PTCO,Platinum-cobalt scale,173,METOA,2012-06-20,2012-06-20,False
+54251,PTT,Potentiometric titration,173,METOA,2006-10-23,2006-10-23,False
+53190,RIA,Radioimmunoassay,173,METOA,2006-10-23,2006-10-23,False
+120936,RSM,Rules and scale measurements (length etc),173,METOA,2006-10-23,2006-10-23,False
+249146,RULER,Measured with a ruler,173,METOA,2021-08-19,2021-08-19,False
+131251,SAN,Slurry method (non-total method),173,METOA,2008-06-16,2008-06-16,False
+131250,SAT,Slurry method (total method),173,METOA,2008-06-16,2008-06-16,False
+135528,SET,Bioassay - Sea-urchin embryo test,173,METOA,2011-10-06,2011-10-06,False
+230732,SFA,Continuous flow analysis - SFA method,173,METOA,2021-01-02,2021-01-02,True
+132157,SFG-CO,Scope for growth techniques: clearance rate (C) and oxygen consumption (O),173,METOA,2010-02-03,2010-02-03,False
+132158,SFG-COE,Scope for growth techniques: clearance rate (C), oxygen consumption (O) and excretion calculations (E),173,METOA,2010-02-03,2010-02-03,False
+137693,SFS,Synchronised fluoresence scanning,173,METOA,2013-08-02,2013-08-02,False
+53150,SMD,Smedes method,173,METOA,2006-10-23,2006-10-23,False
+53191,SMT,Smith protein assay,173,METOA,2006-10-23,2006-10-23,False
+51772,SPEC,Spectrophotometry,173,METOA,2006-10-23,2006-10-23,False
+54245,SPEC-IR,Spectrophotometry - infrared,173,METOA,2006-10-23,2006-10-23,False
+135651,SPEC-MCP,Spectrophotometry using m-cresol purple,173,METOA,2011-12-08,2011-12-08,False
+131475,SPEC-TRI,Spectrophotometry, flow injection analysis, colourimetric, trichromatic,173,METOA,2008-10-10,2008-10-10,False
+53192,SRA,Saturation assay - radioactive silver (AG),173,METOA,2006-10-23,2016-08-11,False
+53193,SRC,Saturation assay - radioactive cadmium (CD),173,METOA,2006-10-23,2016-08-11,False
+53194,SRH,Saturation assay - radioactive mercury (HG),173,METOA,2006-10-23,2016-08-11,False
+131249,SST,Solid suspension technique, ref. M. Hoenig et al., J. Anal. Atom. Spec. 4(1989), 631,173,METOA,2008-06-16,2008-06-16,False
+132399,TDA-AAS,Thermal decomposition, amalgamation/atomic absorption spectrophotometry,173,METOA,2010-07-08,2010-07-08,False
+53869,THR,Thermometre / temperature device,173,METOA,2006-10-23,2006-10-23,False
+129744,TIT,Titration,173,METOA,2007-03-28,2007-03-28,False
+135645,TIT-CCA,Titration - closed cell acidimetric titration,173,METOA,2011-12-08,2011-12-08,False
+131473,TIT-GRAN,Titrimetric, Gran plot,173,METOA,2008-10-10,2008-10-10,False
+135646,TIT-OCA,Titration - open cell acidimetric titration,173,METOA,2011-12-08,2011-12-08,False
+131471,TIT-PH4542,Titrimetric, pH, detection end point pH 4.5, 4.2,173,METOA,2008-10-10,2008-10-10,False
+131472,TIT-PH47,Titrimetric, pH, detection end point pH 4.7,173,METOA,2008-10-10,2008-10-10,False
+196855,UPLC-MS-MS,Ultra Performance Liquid Chromatography - tandem (double) mass spectrometry,173,METOA,2018-07-30,2018-07-30,False
+135777,UPLC-MS-NE,Ultra Performance Liquid Chromatography (UPLC) coupled to mass spectrometry with atmospheric electrospray interface in negative ion mode,173,METOA,2012-03-01,2015-06-18,False
+77768,UTM,Utermöhl technique,173,METOA,2006-10-23,2006-10-23,False
+137658,VISO,Visual observation/identification,173,METOA,2013-07-15,2021-03-26,False
+135011,VOL-D,Volumetric method (displacement),173,METOA,2010-09-06,2010-09-06,False
+135012,VOL-S,Volumetric method (settling),173,METOA,2010-09-06,2010-09-06,False
+136476,WA,Weighed with analytical balance,173,METOA,2012-12-18,2012-12-18,False
+131302,WB,Walkey-Black method,173,METOA,2008-07-29,2008-07-29,False
+249144,WHSB,Weighed with handheld spring balances,173,METOA,2021-08-19,2021-08-19,False
+131372,WNK,Winkler method for oxygen,173,METOA,2008-08-22,2008-08-22,False
+53148,WOX,Wet oxidation,173,METOA,2006-10-23,2006-10-23,False
+249143,WScAP,Weighed on analog plate scales (non-motion compensated),173,METOA,2021-08-19,2021-08-19,False
+249142,WScEP,Weighed on electronic toploading scales (non-motion compensated),173,METOA,2021-08-19,2021-08-19,False
+249141,WScMC,Weighed on digital motion compensated scales,173,METOA,2021-08-19,2021-08-19,False
+53124,WSV,Wet sieving,173,METOA,2006-10-23,2006-10-23,False
+53122,XCT,X-ray computed tomography,173,METOA,2006-10-23,2006-10-23,False
+52877,XRF,X-ray fluorescence,173,METOA,2006-10-23,2006-10-23,False
+249944,XRFTR,Total reflection x-ray fluorescence,173,METOA,2021-10-29,2021-10-29,False
