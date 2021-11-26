@@ -31,16 +31,20 @@ class SelectorPushButton(QtWidgets.QPushButton):
     button takes the clicked text element as text. It also connects to a function to retrieve the new entry.
     """
     def __init__(self, codeList: List['DomeCode'], setCodeFunc: Callable[[Union[None, DomeCode]], None],
-                 connectedSignal: Union[None, QtCore.pyqtSignal] = None, allowMultiSelect: bool = False) -> None:
+                 connectedSignal: Union[None, QtCore.pyqtSignal] = None, allowMultiSelect: bool = False,
+                 hideDescriptions: bool = False) -> None:
         """
         :param codeList: List of codes to display.
         :param setCodeFunc: Function to connect to the CodeSelected signal.
         :param connectedSignal: Signal that is emitted when an entry was selected.
         :param allowMultiSelect: If True, the user can select multiple entries to be combined in a code.
+        :param hideDescriptions: If True, only the code buttons are shown, headers and code descriptions are hidden
         """
         super(SelectorPushButton, self).__init__("Select Entry")
-        self._selector: CodeSelector = CodeSelector(codeList, allowMultiSelect)
+        self._selector: CodeSelector = CodeSelector(codeList, allowMultiSelect, hideDescriptions)
         self._setCodeFunc: Callable[[Union[None, DomeCode]], None] = setCodeFunc
+        self._hideDescription: bool = hideDescriptions
+
         self.pressed.connect(self._selector.show)
         self._selector.CodeSelected.connect(self._setBtnText)
         self._selector.CodeSelected.connect(setCodeFunc)
@@ -50,7 +54,10 @@ class SelectorPushButton(QtWidgets.QPushButton):
 
     @QtCore.pyqtSlot(DomeCode)
     def _setBtnText(self, code: DomeCode) -> None:
-        self.setText(f"{code.code} ({code.descr})")
+        if self._hideDescription:
+            self.setText(f"{code.code}")
+        else:
+            self.setText(f"{code.code} ({code.descr})")
 
     @QtCore.pyqtSlot()
     def _reset(self) -> None:
@@ -65,7 +72,14 @@ class CodeSelector(QtWidgets.QDialog):
     CodeSelected: QtCore.pyqtSignal = QtCore.pyqtSignal(DomeCode)  # Emitted with the code when clicking an entry
     CodeResetted: QtCore.pyqtSignal = QtCore.pyqtSignal()
 
-    def __init__(self, codes: List['DomeCode'], allowMultiSelect: bool = False, maxNumToShow: int = 500) -> None:
+    def __init__(self, codes: List['DomeCode'], allowMultiSelect: bool = False, hideDescriptions: bool = False,
+                 maxNumToShow: int = 500) -> None:
+        """
+        :param codes: List of codes to display.
+        :param allowMultiSelect: If True, the user can select multiple entries to be combined in a code.
+        :param hideDescriptions: If True, only the code buttons are shown, headers and code descriptions are hidden.
+        :param maxNumToShow: Maximum number of codes to show simultaneously.
+        """
         super(CodeSelector, self).__init__()
         self.setWindowTitle("Select Entry")
         self.setModal(True)
@@ -81,6 +95,8 @@ class CodeSelector(QtWidgets.QDialog):
         self._codes: List['DomeCode'] = codes
         self._allowMultiSelect: bool = allowMultiSelect
         self._maxNumToShow: int = maxNumToShow
+        self._hideDescriptions: bool = hideDescriptions
+
         self._btns: List[QtWidgets.QPushButton] = []
         self._checkboxes: List[QtWidgets.QCheckBox] = []
         self._selectedCodes: Set[str] = set()
@@ -139,11 +155,12 @@ class CodeSelector(QtWidgets.QDialog):
             self._btns = []
             self._checkboxes = []
             pattern = pattern.lower()
-            if self._allowMultiSelect:
-                self._btnLayout.addWidget(QtWidgets.QLabel("Select"), 0, 0)
-            self._btnLayout.addWidget(QtWidgets.QLabel("Code"), 0, 1)
-            self._btnLayout.addWidget(QtWidgets.QLabel("Description"), 0, 2)
-            row: int = 1
+            if not self._hideDescriptions:
+                if self._allowMultiSelect:
+                    self._btnLayout.addWidget(QtWidgets.QLabel("Select"), 0, 0)
+                self._btnLayout.addWidget(QtWidgets.QLabel("Code"), 0, 1)
+                self._btnLayout.addWidget(QtWidgets.QLabel("Description"), 0, 2)
+            row: int = 0 if self._hideDescriptions else 1
             for code in self._codes:
                 if len(self._btns) < self._maxNumToShow:
                     if code.descr.lower().find(pattern) != -1 or showAll:
@@ -169,7 +186,8 @@ class CodeSelector(QtWidgets.QDialog):
             self._btnLayout.addWidget(newCheckBox, row, 0)
 
         self._btnLayout.addWidget(newBtn, row, 1)
-        self._btnLayout.addWidget(newLbl, row, 2)
+        if not self._hideDescriptions:
+            self._btnLayout.addWidget(newLbl, row, 2)
 
     def _reset(self) -> None:
         self.CodeResetted.emit()

@@ -47,4 +47,5 @@ def test_read_xls_file():
     expectedColumns: List[str] = ["Sample_SizeFraction_Tray_Well", "Zoom", "Area µ", "Perimeter µ", "MajorEllipse µ",
                                   "MinorEllipse µ", "Feret µ", "MinFeret µ","Comments", "EllipseAngle", "FeretX",
                                   "FeretY", "FeretAngle"]
-    assert reader.getColumnsOfSheet("P1 results") == expectedColumns
+    reader.setActiveSheet("P1 results")
+    assert reader.getColumnsOfActiveSheet() == expectedColumns

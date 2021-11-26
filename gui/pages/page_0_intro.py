@@ -19,7 +19,7 @@ If not, see <https://www.gnu.org/licenses/>.
 
 import os
 from typing import *
-from PyQt6 import QtWidgets
+from PyQt6 import QtWidgets, QtCore
 
 if TYPE_CHECKING:
     from dataimport.readXLS import XLSReader
@@ -29,6 +29,8 @@ class IntroPage(QtWidgets.QWizardPage):
     """
     First page of the wizard, showing general information
     """
+    ActiveSheetSet: QtCore.pyqtSignal = QtCore.pyqtSignal()
+
     def __init__(self, xlsReader: 'XLSReader'):
         super(IntroPage, self).__init__()
         self.setTitle("Particle Upload Wizard")
@@ -68,6 +70,7 @@ class IntroPage(QtWidgets.QWizardPage):
                 self._xlsReader.setActiveSheet(sheet)
                 self._xlsLoaded = True
                 self._lblXLSLoaded.setText(f"Loaded sheet '{sheet}' of file '{os.path.basename(fname)}'.")
+                self.ActiveSheetSet.emit()
                 self.completeChanged.emit()
 
     def _getXLSFileName(self) -> str:

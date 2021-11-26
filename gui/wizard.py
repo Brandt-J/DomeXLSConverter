@@ -16,7 +16,7 @@ You should have received a copy of the GNU General Public License
 along with this program, see COPYING.
 If not, see <https://www.gnu.org/licenses/>.
 """
-
+from typing import List
 
 from PyQt6 import QtWidgets, QtCore
 
@@ -26,6 +26,7 @@ from gui.pages.page_2_location import LocationPage
 from gui.pages.page_3_time import TimePage
 from gui.pages.page_4_sample import SamplePage
 from gui.pages.page_5_analysis import AnalysisPage
+from gui.pages.page_6_particles import ParticlesPage
 from tableConverter import TableConverter
 
 
@@ -40,9 +41,17 @@ class ParticleUploadWizard(QtWidgets.QWizard):
         self.setWizardStyle(QtWidgets.QWizard.WizardStyle.ModernStyle)
         self._tableConverter: TableConverter = TableConverter()
 
-        self.addPage(IntroPage(self._tableConverter.getXLSReader()))
-        self.addPage(IDPage(self._tableConverter.getIDTable()))
-        self.addPage(LocationPage(self._tableConverter.getLocationTable()))
-        self.addPage(TimePage(self._tableConverter.getTimeTable()))
-        self.addPage(SamplePage(self._tableConverter.getSampleTable()))
-        self.addPage(AnalysisPage(self._tableConverter.getAnalaysisTable()))
+        introPage: IntroPage = IntroPage(self._tableConverter.getXLSReader())
+        introPage.ActiveSheetSet.connect(self._setupParticleColumnAssignmentsPage)
+        self.addPage(introPage)
+        # self.addPage(IDPage(self._tableConverter.getIDTable()))
+        # self.addPage(LocationPage(self._tableConverter.getLocationTable()))
+        # self.addPage(TimePage(self._tableConverter.getTimeTable()))
+        # self.addPage(SamplePage(self._tableConverter.getSampleTable()))
+        # self.addPage(AnalysisPage(self._tableConverter.getAnalaysisTable()))
+        self._particlesPage: ParticlesPage = ParticlesPage(self._tableConverter.getParticleColumnAssignmentsTable())
+        self.addPage(self._particlesPage)
+
+    def _setupParticleColumnAssignmentsPage(self):
+        colNames: List[str] = self._tableConverter.getXLSReader().getColumnsOfActiveSheet()
+        self._particlesPage.setupToAvailableColumns(colNames)

@@ -54,14 +54,13 @@ class XLSReader:
         """
         return list(self._dataframes.keys())
 
-    def getColumnsOfSheet(self, sheetName) -> List[str]:
+    def getColumnsOfActiveSheet(self) -> List[str]:
         """
         Returns the column names of the indicated sheet.
-        :param sheetName: name of the sheet
         :return: list of column names
         """
-        assert sheetName in self._dataframes.keys(), f"Sheet {sheetName} does not exist in opened file."
-        return list(self._dataframes[sheetName].columns)
+        assert self._activeSheet != ""
+        return list(self._dataframes[self._activeSheet].columns)
 
     def getSheet(self, sheetName: str) -> pd.DataFrame:
         """

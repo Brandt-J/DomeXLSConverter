@@ -16,13 +16,14 @@ You should have received a copy of the GNU General Public License
 along with this program, see COPYING.
 If not, see <https://www.gnu.org/licenses/>.
 """
-
+from typing import List
 
 from tables.table_2_location import LocationTable
 from tables.table_1_id import IdentificationTable
 from tables.table_3_time import TimeTable
 from tables.table_4_sample import SampleTable
 from tables.table_5_analysis import AnalysisTable
+from tables.table_6_particle import ParticleTable, ParticleColumnAssignments
 from dataimport.readXLS import XLSReader
 
 
@@ -37,6 +38,20 @@ class TableConverter:
         self._timeTable: TimeTable = TimeTable()
         self._sampleTable: SampleTable = SampleTable()
         self._analysisTable: AnalysisTable = AnalysisTable()
+        self._particleColAssignTable: ParticleColumnAssignments = ParticleColumnAssignments()
+        self._particleTables: List[ParticleTable] = []
+        
+    def allComplete(self) -> bool:
+        """
+        Checks if everything is complete and ready for data export.
+        :return:
+        """
+        allTablesComplete: bool = all([table.correctlySet() for table in [self._idTable, self._locationTable,
+                                                                          self._timeTable, self._sampleTable,
+                                                                          self._analysisTable, self._particleColAssignTable]])
+        particlesSet: bool = len(self._particleTables) > 0
+        allParticlesComplete: bool = all([table.correctlySet() for table in self._particleTables])
+        return allTablesComplete and particlesSet and allParticlesComplete
 
     def getXLSReader(self) -> XLSReader:
         return self._xlsReader
@@ -55,3 +70,6 @@ class TableConverter:
 
     def getAnalaysisTable(self) -> AnalysisTable:
         return self._analysisTable
+
+    def getParticleColumnAssignmentsTable(self) -> ParticleColumnAssignments:
+        return self._particleColAssignTable
