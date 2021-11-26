@@ -57,3 +57,10 @@ class TableItem:
         assert len(self._fields) > 0, "No fields where set!"
         fieldsSet: List[bool] = [field.isComplete() for field in self._fields]
         return all(fieldsSet)
+
+    def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
+        """
+        Returns all set codes in a form of a dictionary. Key: Expected name of column in excel sheet, Value: The according string.
+        :return:
+        """
+        raise NotImplementedError

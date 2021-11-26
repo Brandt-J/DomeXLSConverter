@@ -18,7 +18,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 
-from typing import Union
+from typing import Union, Dict
 
 from dataimport.domeCodes import DomeCode
 from tables.tableItem import TableItem, Field
@@ -51,6 +51,22 @@ class LocationTable(TableItem):
 
         self._fields = [self._long, self._lat, self._posys, self._station, self._waterDepth,
                         self._minDepth, self._maxDepth, self._subst, self._prSub]
+
+    def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
+        assert self.correctlySet()
+        retDict: Dict[str, Union[str, float, int]] = {"LATIT": self._lat.content.code,
+                                                      "LONGI": self._long.content.code,
+                                                      "STATN": self._station.content.code}
+        optFields: Dict[str, Field] = {"POSYS": self._posys,
+                                       "WADEP": self._waterDepth,
+                                       "MNDEP": self._minDepth,
+                                       "MXDEP": self._maxDepth,
+                                       "SUBST": self._subst,
+                                       "PRSUB": self._prSub}
+        for colName, field in optFields.items():
+            if field.content is not None:
+                retDict[colName] = field.content.code
+        return retDict
 
     def setLongitude(self, longitude: float) -> None:
         self._long.content = DomeCode(str(longitude), "Longitude")

@@ -99,6 +99,30 @@ def getAnalyses() -> List[DomeCode]:
     return _createCodesFromCSV("MethAnalysis.csv")
 
 
+def getLitterProperties() -> List[DomeCode]:
+    return _createCodesFromCSV("LitterProp.csv")
+
+
+def getPolymerTypes() -> List[DomeCode]:
+    return _createCodesFromCSV("PolymType.csv")
+
+
+def getShapeParams() -> List[DomeCode]:
+    return _createCodesFromCSV("ShapeParam.csv")
+
+
+def getLitterSizes() -> List[DomeCode]:
+    return _createCodesFromCSV("LitterSize.csv")
+
+
+def getMonitoringPurposes() -> List[DomeCode]:
+    return _createCodesFromCSV("MonitoringPurposes.csv")
+
+
+def getMonitoringProgrammes() -> List[DomeCode]:
+    return _createCodesFromCSV("MonitoringProgrammes.csv")
+
+
 def _createCodesFromCSV(csvFileName) -> List[DomeCode]:
     """
     Reads a CSV file and returns a list of dome codes for each element.

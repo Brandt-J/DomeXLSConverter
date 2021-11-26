@@ -18,7 +18,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 
-from typing import Union
+from typing import Union, Dict
 
 from tables.tableItem import TableItem, Field
 
@@ -35,12 +35,22 @@ class IdentificationTable(TableItem):
     def __init__(self):
         super(IdentificationTable, self).__init__("ID")
         self._lab: Field = Field("Reporting Laboratory")
-        self._year: Field = Field("Monitoring Year", mandatory=False)
         self._cruise: Field = Field("Cruise")
         self._ship: Field = Field("Ship")
-        self._station: Field = Field("Station ")
+        self._station: Field = Field("Station")
+        self._year: Field = Field("Monitoring Year", mandatory=False)
 
         self._fields = [self._lab, self._year, self._cruise, self._ship, self._station]
+
+    def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
+        assert self.correctlySet()
+        retDict: Dict[str, str] = {"RLABO": self._lab.content.code,
+                                   "CRUIS": self._cruise.content.code,
+                                   "SHIPC": self._ship.content.code,
+                                   "STNNO": self._station.content.code}
+        if self._year.content is not None:
+            retDict["MYEAR"] = self._year.content.code
+        return retDict
 
     def setReportingLab(self, labCode: Union['DomeCode', None]) -> None:
         self._lab.content = labCode

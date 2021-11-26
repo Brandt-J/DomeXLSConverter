@@ -18,7 +18,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 
-from typing import Union
+from typing import Union, Dict
 
 from dataimport.domeCodes import DomeCode
 from tables.tableItem import TableItem, Field
@@ -44,6 +44,19 @@ class SampleTable(TableItem):
         self._subno: Field = Field("Subsample Number", mandatory=False)
 
         self._fields = [self._dtype, self._smpno, self._matrx, self._noagg, self._finfl, self._subno]
+
+    def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
+        assert self.correctlySet()
+        retDict: Dict[str, Union[str, float, int]] = {"DTYPE": self._dtype.content.code,
+                                                      "SMPNO": self._smpno.content.code,
+                                                      "MATRX": self._matrx.content.code}
+        optFields: Dict[str, Field] = {"NOAGG": self._noagg,
+                                       "FINFL": self._finfl,
+                                       "SUBNO": self._subno}
+        for colName, field in optFields.items():
+            if field.content is not None:
+                retDict[colName] = field.content.code
+        return retDict
 
     def setDType(self, code: Union[None, DomeCode]) -> None:
         self._dtype.content = code

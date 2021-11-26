@@ -1,0 +1,29 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+51447,AMAP,AMAP Arctic Monitoring and Assessment Programme,147,MPROG,2006-10-23,2019-05-06,False
+135283,BEEP,EU BEEP project in the Baltic (2002-2004),147,MPROG,2011-04-05,2013-03-05,False
+51448,BMP,HELCOM Baltic Monitoring Programme (BMP),147,MPROG,2006-10-23,2009-01-22,False
+135282,BONUS,EU BONUS project (including Beast and Barracuda),147,MPROG,2011-04-05,2013-03-05,False
+51449,CEMP,OSPAR Coordinated Environmental Monitoring Programme (CEMP),147,MPROG,2006-10-23,2019-03-21,False
+51450,CMP,ICES Cooperative Monitoring Studies Programme (CMP),147,MPROG,2006-10-23,2009-01-22,False
+51453,COMB,HELCOM Cooperative Monitoring in the Baltic Marine Environment (COMBINE),147,MPROG,2006-10-23,2009-01-22,False
+78041,EMP,OSPAR Eutrophication Monitoring Programme (EMP),147,MPROG,2006-10-23,2009-01-22,False
+149503,FS,DATRAS related Fisheries survey Litter Programme,147,MPROG,2015-03-26,2015-09-11,False
+51455,JMP,OSPAR Joint Monitoring Programme (JMP),147,MPROG,2006-10-23,2009-01-22,False
+130520,MEDPOL,MEDPOL Mediterranean Pollution and Research Programme,147,MPROG,2007-12-06,2009-01-22,False
+51446,MMP,OSPAR Monitoring Master Plan (MMP) of the North Sea Task Force,147,MPROG,2006-10-23,2009-01-22,False
+232076,MSFD-D1,Marine Strategy Framework Directive Descriptor 1 - Biodiversity,147,MPROG,2021-02-17,2021-02-17,False
+169784,MSFD-D10,Marine Strategy Framework Directive Descriptor 10 - Marine Litter,147,MPROG,2017-03-29,2017-03-29,False
+232083,MSFD-D11,Marine Strategy Framework Directive Descriptor 11 - Energy and noise,147,MPROG,2021-02-17,2021-02-17,False
+232077,MSFD-D2,Marine Strategy Framework Directive Descriptor 2 - Non-indigenous species,147,MPROG,2021-02-17,2021-02-17,False
+232078,MSFD-D3,Marine Strategy Framework Directive Descriptor 3 - Commercial species,147,MPROG,2021-02-17,2021-02-17,False
+232079,MSFD-D4,Marine Strategy Framework Directive Descriptor 4 - Marine food webs,147,MPROG,2021-02-17,2021-02-17,False
+232080,MSFD-D5,Marine Strategy Framework Directive Descriptor 5 - Human-induced eutrophication,147,MPROG,2021-02-17,2021-02-17,False
+232081,MSFD-D6,Marine Strategy Framework Directive Descriptor 6 - Sea floor integrity,147,MPROG,2021-02-17,2021-02-17,False
+232082,MSFD-D7,Marine Strategy Framework Directive Descriptor 7 - Hydrographical conditions,147,MPROG,2021-02-17,2021-02-17,False
+230926,MSFD-D8,Marine Strategy Framework Directive Descriptor 8 - Contaminants,147,MPROG,2021-01-13,2021-01-13,False
+169617,MSFD-D9,Marine Strategy Framework Directive Descriptor 9 - Contamination of fish and seafoods,147,MPROG,2017-02-13,2021-02-17,False
+51456,NATL,National Monitoring Programme,147,MPROG,2006-10-23,2006-10-23,False
+51457,NMP,OSPAR Nutrients Monitoring Programme (NMP) of the Joint Assessment,147,MPROG,2006-10-23,2009-01-22,False
+130029,PROJ,Project data,147,MPROG,2007-06-19,2007-06-19,False
+136222,WFD,Water Framework Directive,147,MPROG,2012-08-16,2016-06-28,False
+51458,WGA,ICES Working Group activity,147,MPROG,2006-10-23,2009-01-22,False

@@ -1,0 +1,12 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+196115,AC,Acrylic,1385,TYPPL,2018-04-26,2018-04-26,False
+140870,HDPE,High density polyethylene,1385,TYPPL,2014-06-04,2014-06-04,False
+140871,LDPE,Low density polyethylene,1385,TYPPL,2014-06-04,2014-06-04,False
+196114,O,Other - contact ICES for specific code if needed,1385,TYPPL,2018-04-26,2018-04-26,False
+140665,PC,Polycarbonate,1385,TYPPL,2014-03-19,2014-03-19,False
+140662,PE,Polyethylene,1385,TYPPL,2014-03-19,2014-03-19,False
+140869,PET,Polyethylene terephthalate,1385,TYPPL,2014-06-04,2014-06-04,False
+140661,PP,Polypropylene,1385,TYPPL,2014-03-19,2014-03-19,False
+140663,PS,Polystyrene,1385,TYPPL,2014-03-19,2014-03-19,False
+140664,PU,Polyurethane,1385,TYPPL,2014-03-19,2014-03-19,False
+140868,PVC,Polyvinyl chloride,1385,TYPPL,2014-06-04,2014-06-04,False

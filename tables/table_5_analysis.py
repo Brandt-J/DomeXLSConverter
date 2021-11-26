@@ -18,7 +18,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 
-from typing import Union
+from typing import Union, Dict
 
 from dataimport.domeCodes import DomeCode
 from tables.tableItem import TableItem, Field
@@ -43,6 +43,15 @@ class AnalysisTable(TableItem):
         self._refsk: Field = Field("Reference Source", mandatory=False)
 
         self._fields = [self._refsk, self._metpt, self._metps, self._metoa]
+
+    def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
+        assert self.correctlySet()
+        retDict: Dict[str, Union[str, float, int]] = {"METPT": self._metpt.content.code,
+                                                      "METPS": self._metps.content.code,
+                                                      "METOA": self._metoa.content.code}
+        if self._refsk.content is not None:
+            retDict["REFSK"] = self._refsk.content.code
+        return retDict
 
     def setRefSource(self, code: Union[None, DomeCode]) -> None:
         self._refsk.content = code

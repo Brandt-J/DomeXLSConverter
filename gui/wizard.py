@@ -26,7 +26,8 @@ from gui.pages.page_2_location import LocationPage
 from gui.pages.page_3_time import TimePage
 from gui.pages.page_4_sample import SamplePage
 from gui.pages.page_5_analysis import AnalysisPage
-from gui.pages.page_6_particles import ParticlesPage
+from gui.pages.page_6_monitoring import MonitoringPage
+from gui.pages.page_7_particles import ParticlesPage
 from tableConverter import TableConverter
 
 
@@ -41,17 +42,29 @@ class ParticleUploadWizard(QtWidgets.QWizard):
         self.setWizardStyle(QtWidgets.QWizard.WizardStyle.ModernStyle)
         self._tableConverter: TableConverter = TableConverter()
 
-        introPage: IntroPage = IntroPage(self._tableConverter.getXLSReader())
-        introPage.ActiveSheetSet.connect(self._setupParticleColumnAssignmentsPage)
-        self.addPage(introPage)
-        # self.addPage(IDPage(self._tableConverter.getIDTable()))
-        # self.addPage(LocationPage(self._tableConverter.getLocationTable()))
-        # self.addPage(TimePage(self._tableConverter.getTimeTable()))
-        # self.addPage(SamplePage(self._tableConverter.getSampleTable()))
-        # self.addPage(AnalysisPage(self._tableConverter.getAnalaysisTable()))
-        self._particlesPage: ParticlesPage = ParticlesPage(self._tableConverter.getParticleColumnAssignmentsTable())
-        self.addPage(self._particlesPage)
+        self._introPage: IntroPage = IntroPage(self._tableConverter.getXLSReader())
+        self.addPage(self._introPage)
 
-    def _setupParticleColumnAssignmentsPage(self):
-        colNames: List[str] = self._tableConverter.getXLSReader().getColumnsOfActiveSheet()
-        self._particlesPage.setupToAvailableColumns(colNames)
+        self._idPage: IDPage = IDPage(self._tableConverter.getIDTable())
+        self.addPage(self._idPage)
+
+        self._locPage: LocationPage = LocationPage(self._tableConverter.getLocationTable())
+        self.addPage(self._locPage)
+
+        self._timePage: TimePage = TimePage(self._tableConverter.getTimeTable())
+        self.addPage(self._timePage)
+
+        self._samplePage: SamplePage = SamplePage(self._tableConverter.getSampleTable())
+        self.addPage(self._samplePage)
+
+        self._analysisPage: AnalysisPage = AnalysisPage(self._tableConverter.getAnalysisTable())
+        self.addPage(self._analysisPage)
+
+        self._monitoringPage: MonitoringPage = MonitoringPage(self._tableConverter.getMonitoringTable())
+        self.addPage(self._monitoringPage)
+
+        self._particlesPage: ParticlesPage = ParticlesPage(self._tableConverter.getParticleColumnAssignmentsTable(),
+                                                           self._tableConverter.createFinalDataFrame,
+                                                           self._tableConverter.getXLSReader())
+        self._introPage.ActiveSheetSet.connect(self._particlesPage.setupToAvailableColumns)
+        self.addPage(self._particlesPage)

@@ -1,0 +1,12 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+26936,B,Biological effects monitoring,42,PURPM,2006-10-23,2021-12-10,False
+26937,E,Eutrophication effects monitoring,42,PURPM,2006-10-23,2021-12-03,False
+140653,F,Fishery trawl surveys,42,PURPM,2014-03-19,2016-08-14,False
+26938,H,Human health risk assessment,42,PURPM,2006-10-23,2021-11-24,False
+140654,L,Litter monitoring,42,PURPM,2014-03-19,2021-09-01,False
+26939,N,No specific purpose,42,PURPM,2006-10-23,2021-04-06,False
+137083,O,Ocean acidification,42,PURPM,2013-03-05,2021-01-12,False
+51445,R,Research,42,PURPM,2006-10-23,2021-12-10,False
+26940,S,Spatial (geographical) distribution monitoring,42,PURPM,2006-10-23,2021-12-10,False
+26941,T,Temporal trend monitoring,42,PURPM,2006-10-23,2021-12-10,False
+198772,U,Underwater noise monitoring,42,PURPM,2019-05-01,2021-07-13,False

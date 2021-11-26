@@ -26,6 +26,9 @@ from gui.pages.page_0_intro import IntroPage
 
 
 def test_is_complete(qtbot, tmpdir):
+    if os.getcwd().endswith("tests"):
+        os.chdir(os.path.dirname(os.getcwd()))  # Otherwise path to testdata doesn't work
+
     introPage: IntroPage = IntroPage(XLSReader())
     qtbot.addWidget(introPage)
     introPage.show()
@@ -34,8 +37,11 @@ def test_is_complete(qtbot, tmpdir):
 
     introPage._getXLSFileName = lambda: r"data\exampledata.xlsx"  # now take a valid file
     assert os.path.exists(introPage._getXLSFileName())
+    introPage._btnLoadXLS.pressed.disconnect()
+    introPage._btnLoadXLS.pressed.connect(lambda: introPage._loadXLSFile(preferredSheetName="p3 unprocessed"))
     qtbot.mousePress(introPage._btnLoadXLS, QtCore.Qt.MouseButton.LeftButton)
     assert introPage._xlsLoaded
-    assert len(introPage._xlsReader._activeSheet) > 0
+    assert introPage._xlsReader._activeSheet == "p3 unprocessed"
 
     assert introPage.isComplete()
+

@@ -20,8 +20,11 @@ If not, see <https://www.gnu.org/licenses/>.
 
 from PyQt6 import QtWidgets, QtCore, QtGui
 from typing import *
+import sys
 
 from dataimport.domeCodes import DomeCode
+
+testRunning: bool = "pytest" in sys.modules
 
 
 class SelectorPushButton(QtWidgets.QPushButton):
@@ -29,7 +32,14 @@ class SelectorPushButton(QtWidgets.QPushButton):
     Pushbutton variation, tied closely together to the Field Selector.
     When clicking, a FieldSelectorDialog is shown. After clicking an entry in there, the dialog closes and the
     button takes the clicked text element as text. It also connects to a function to retrieve the new entry.
+    :param codeList: List of codes to display.
+    :param setCodeFunc: Function to connect to the CodeSelected signal.
+    :param connectedSignal: Signal that is emitted when an entry was selected.
+    :param allowMultiSelect: If True, the user can select multiple entries to be combined in a code.
+    :param hideDescriptions: If True, only the code buttons are shown, headers and code descriptions are hidden
     """
+    DefaultText: str = "Select Entry"
+
     def __init__(self, codeList: List['DomeCode'], setCodeFunc: Callable[[Union[None, DomeCode]], None],
                  connectedSignal: Union[None, QtCore.pyqtSignal] = None, allowMultiSelect: bool = False,
                  hideDescriptions: bool = False) -> None:
@@ -44,13 +54,15 @@ class SelectorPushButton(QtWidgets.QPushButton):
         self._selector: CodeSelector = CodeSelector(codeList, allowMultiSelect, hideDescriptions)
         self._setCodeFunc: Callable[[Union[None, DomeCode]], None] = setCodeFunc
         self._hideDescription: bool = hideDescriptions
+        if not testRunning:
+            self.pressed.connect(self._selector.show)
 
-        self.pressed.connect(self._selector.show)
         self._selector.CodeSelected.connect(self._setBtnText)
         self._selector.CodeSelected.connect(setCodeFunc)
         self._selector.CodeResetted.connect(self._reset)
         if connectedSignal is not None:
             self._selector.CodeSelected.connect(lambda: connectedSignal.emit())
+            self._selector.CodeResetted.connect(lambda: connectedSignal.emit())
 
     @QtCore.pyqtSlot(DomeCode)
     def _setBtnText(self, code: DomeCode) -> None:
@@ -61,9 +73,9 @@ class SelectorPushButton(QtWidgets.QPushButton):
 
     @QtCore.pyqtSlot()
     def _reset(self) -> None:
-        self.setText("Select Entry")
+        self.setText(self.DefaultText)
         self._setCodeFunc(None)
-
+        
 
 class CodeSelector(QtWidgets.QDialog):
     """

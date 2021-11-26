@@ -18,7 +18,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 
-from typing import List
+from typing import List, Set
 import pandas as pd
 import pytest
 import os
@@ -45,7 +45,12 @@ def test_read_xls_file():
         particlesSheet: pd.DataFrame = reader.getSheet("NonExistentSheet")
 
     expectedColumns: List[str] = ["Sample_SizeFraction_Tray_Well", "Zoom", "Area µ", "Perimeter µ", "MajorEllipse µ",
-                                  "MinorEllipse µ", "Feret µ", "MinFeret µ","Comments", "EllipseAngle", "FeretX",
-                                  "FeretY", "FeretAngle"]
-    reader.setActiveSheet("P1 results")
+                                  "MinorEllipse µ", "Feret µ", "MinFeret µ", "Comments", "Shape 2D", "Sideview",
+                                  "Tactile", "Colour", "Length Size Class", "Width Size Class", "Descriptor",
+                                  "Chemical ID", "Comment", "Stored", "Particle #", "EllipseAngle", "FeretX", "FeretY", "FeretAngle"]
+    reader.setActiveSheet("p3 unprocessed")
     assert reader.getColumnsOfActiveSheet() == expectedColumns
+
+    uniqueShapes: Set[str] = reader.getUniqueColumnContentsAsString("Shape 2D")
+    assert uniqueShapes == {'Irregular', 'Fiber', 'Triangle', 'Oval', 'Rectangle', 'Circular', 'Square', 'Empty'}
+

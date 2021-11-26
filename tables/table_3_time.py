@@ -18,7 +18,7 @@ If not, see <https://www.gnu.org/licenses/>.
 """
 
 
-from typing import Union
+from typing import Union, Dict
 
 from dataimport.domeCodes import DomeCode
 from tables.tableItem import TableItem, Field
@@ -42,6 +42,18 @@ class TimeTable(TableItem):
         self._etime: Field = Field("Sampling End Time", mandatory=False)
 
         self._fields = [self._sdate, self._edate, self._stime, self._atime, self._etime]
+
+    def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
+        assert self.correctlySet()
+        retDict: Dict[str, Union[str, float, int]] = {"SDATE": self._sdate.content.code}
+        optFields: Dict[str, Field] = {"EDATE": self._edate,
+                                       "STIME": self._stime,
+                                       "ATIME": self._atime,
+                                       "ETIME": self._etime}
+        for colName, field in optFields.items():
+            if field.content is not None:
+                retDict[colName] = field.content.code
+        return retDict
 
     def setSamplingDate(self, sampleCode: Union[None, 'DomeCode']) -> None:
         self._sdate.content = sampleCode

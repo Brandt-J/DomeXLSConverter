@@ -19,6 +19,8 @@ If not, see <https://www.gnu.org/licenses/>.
 
 
 from typing import *
+
+import numpy as np
 import pandas as pd
 
 
@@ -44,7 +46,7 @@ class XLSReader:
         :param sheetName:
         :return:
         """
-        assert sheetName in self._dataframes.keys()
+        assert sheetName in self._dataframes.keys(), f"Sheet {sheetName} not existent in available sheets: {self._dataframes.keys()}"
         self._activeSheet = sheetName
 
     def getSheetNames(self) -> List[str]:
@@ -59,8 +61,26 @@ class XLSReader:
         Returns the column names of the indicated sheet.
         :return: list of column names
         """
-        assert self._activeSheet != ""
+        assert self._activeSheet != "", "Active sheet not yet set!"
         return list(self._dataframes[self._activeSheet].columns)
+
+    def getUniqueColumnContentsAsString(self, colName: str) -> Set[str]:
+        """
+        Returns a list of (string) entries of the indicated column (of the active sheet).
+        Empty entries in the dataframe are "nan", these are included as "Empty".
+        Other numberic entries are skipped.
+        :return:
+        """
+        assert self._activeSheet != "", "Active sheet not yet set!"
+        uniqueEntries: List[str] = []
+        for entry in self._dataframes[self._activeSheet][colName]:
+            if type(entry) == float:
+                if np.isnan(np.float(entry)):
+                    uniqueEntries.append("Empty")
+            elif type(entry) == str:
+                uniqueEntries.append(entry)
+
+        return set(uniqueEntries)
 
     def getSheet(self, sheetName: str) -> pd.DataFrame:
         """
@@ -70,3 +90,7 @@ class XLSReader:
         """
         assert sheetName in self._dataframes.keys(), f"Sheet {sheetName} does not exist in opened file."
         return self._dataframes[sheetName]
+
+    def getActiveSheet(self) -> pd.DataFrame:
+        assert self._activeSheet in self._dataframes.keys()
+        return self._dataframes[self._activeSheet]

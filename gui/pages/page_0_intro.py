@@ -55,9 +55,10 @@ class IntroPage(QtWidgets.QWizardPage):
     def isComplete(self) -> bool:
         return self._xlsLoaded
 
-    def _loadXLSFile(self) -> None:
+    def _loadXLSFile(self, preferredSheetName: str = "") -> None:
         """
         Loads the excel file that is going to be used as source for the particle data.
+        :param preferredSheetName: Can be provided to directly set this sheet as active sheet. Used for unit-testing
         :return:
         """
         fname: str = self._getXLSFileName()
@@ -65,13 +66,20 @@ class IntroPage(QtWidgets.QWizardPage):
             assert os.path.exists(fname), f'The specified file {fname} was not found.'
             self._xlsReader.readXlsFile(fname)
             sheetNames: List[str] = self._xlsReader.getSheetNames()
-            sheet, ok = QtWidgets.QInputDialog.getItem(self, "Choose datasheet", "Choose from the sheets", sheetNames)
-            if ok and sheet:
-                self._xlsReader.setActiveSheet(sheet)
-                self._xlsLoaded = True
-                self._lblXLSLoaded.setText(f"Loaded sheet '{sheet}' of file '{os.path.basename(fname)}'.")
-                self.ActiveSheetSet.emit()
-                self.completeChanged.emit()
+            if preferredSheetName:
+                assert preferredSheetName in sheetNames
+                self._setActiveSheet(preferredSheetName, fname)
+            else:
+                sheet, ok = QtWidgets.QInputDialog.getItem(self, "Choose datasheet", "Choose from the sheets", sheetNames)
+                if ok and sheet:
+                    self._setActiveSheet(sheet, fname)
+
+    def _setActiveSheet(self, sheetName: str, fname: str) -> None:
+        self._xlsReader.setActiveSheet(sheetName)
+        self._xlsLoaded = True
+        self._lblXLSLoaded.setText(f"Loaded sheet '{sheetName}' of file '{os.path.basename(fname)}'.")
+        self.ActiveSheetSet.emit()
+        self.completeChanged.emit()
 
     def _getXLSFileName(self) -> str:
         """
