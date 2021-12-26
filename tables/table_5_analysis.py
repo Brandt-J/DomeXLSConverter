@@ -37,21 +37,31 @@ class AnalysisTable(TableItem):
     """
     def __init__(self):
         super(AnalysisTable, self).__init__("Analysis")
+        self._alabo: Field = Field("Reporting Laboratory")
         self._metpt: Field = Field("Method of Pretreatment")
-        self._metps: Field = Field("Method of Purification/Seperation")
+        self._metps: Field = Field("Method of Purification/Separation")
         self._metoa: Field = Field("Method of Analysis")
+        self._ltref: Field = Field("Litter Reference List")
         self._refsk: Field = Field("Reference Source", mandatory=False)
 
-        self._fields = [self._refsk, self._metpt, self._metps, self._metoa]
+        self._fields = [self._alabo, self._refsk, self._metpt, self._metps, self._metoa, self._ltref]
 
     def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
         assert self.correctlySet()
-        retDict: Dict[str, Union[str, float, int]] = {"METPT": self._metpt.content.code,
+        retDict: Dict[str, Union[str, float, int]] = {"ALABO": self._alabo.content.code,
+                                                      "METPT": self._metpt.content.code,
                                                       "METPS": self._metps.content.code,
-                                                      "METOA": self._metoa.content.code}
+                                                      "METOA": self._metoa.content.code,
+                                                      "LTREF": self._ltref.content.code}
         if self._refsk.content is not None:
             retDict["REFSK"] = self._refsk.content.code
         return retDict
+
+    def setLab(self, code: Union[None, DomeCode]) -> None:
+        self._alabo.content = code
+
+    def setLitterRefList(self, code: Union[None, DomeCode]) -> None:
+        self._ltref.content = code
 
     def setRefSource(self, code: Union[None, DomeCode]) -> None:
         self._refsk.content = code

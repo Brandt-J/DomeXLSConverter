@@ -1,0 +1,8 @@
+﻿tblCodeID,Code,Description,tblCodeTypeID,CodeType,Created,Modified,Deprecated
+140635,C-TS,Original CEFAS trawl litter categories (IBTS),1381,LTREF,2014-03-19,2015-11-02,False
+149933,C-TS-REV,Revised CEFAS Trawl Litter Survey parameters (2013),1381,LTREF,2015-05-21,2015-11-02,False
+140634,OSPAR-LT,OSPAR Beach litter categories,1381,LTREF,2014-03-19,2015-07-08,False
+140678,RECO-LT,ICES RECO litter list,1381,LTREF,2014-03-26,2017-05-09,False
+140632,TSG-ML,MSFD Technical Subgroup on Marine Litter (2013),1381,LTREF,2014-03-19,2014-03-26,False
+140633,UNEP,UNEP Litter code,1381,LTREF,2014-03-19,2014-03-26,False
+140677,UNEP-RLC,UNEP Remote Litter Classes,1381,LTREF,2014-03-26,2014-03-26,False

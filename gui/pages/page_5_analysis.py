@@ -20,7 +20,7 @@ If not, see <https://www.gnu.org/licenses/>.
 from PyQt6 import QtWidgets
 from typing import *
 
-from dataimport.domeCodes import getRefSources, getPretreatments, getPurifications, getAnalyses
+from dataimport.domeCodes import getRefSources, getPretreatments, getPurifications, getAnalyses, getLabCode, getLitterRefLists
 from gui.fontsAndLabels import getIsMandatoryLabel, getIsOptionalLabel
 from gui.fieldSelectUI import SelectorPushButton
 
@@ -41,7 +41,10 @@ class AnalysisPage(QtWidgets.QWizardPage):
                          "Entries marked with * are mandatory.")
 
         self._tableItem: 'AnalysisTable' = tableItem
-
+        self._btnLitRef: SelectorPushButton = SelectorPushButton(getLitterRefLists(), self._tableItem.setLitterRefList,
+                                                                 self.completeChanged)
+        self._btnAnaltyicLab: SelectorPushButton = SelectorPushButton(getLabCode(), self._tableItem.setLab,
+                                                                      self.completeChanged)
         self._btnRefSource: SelectorPushButton = SelectorPushButton(getRefSources(), self._tableItem.setRefSource,
                                                                    self.completeChanged)
         self._btnMethPretreat: SelectorPushButton = SelectorPushButton(getPretreatments(), self._tableItem.setMethPretreat,
@@ -53,6 +56,8 @@ class AnalysisPage(QtWidgets.QWizardPage):
         layout: QtWidgets.QFormLayout = QtWidgets.QFormLayout()
         self.setLayout(layout)
         layout.addRow(getIsMandatoryLabel())
+        layout.addRow("Litter Reference List*", self._btnLitRef)
+        layout.addRow("Analytical Lab:*", self._btnAnaltyicLab)
         layout.addRow("Pretreatment:*", self._btnMethPretreat)
         layout.addRow("Purification/Separation:*", self._btnMethPuri)
         layout.addRow("Analysis:*", self._btnMethAnal)

@@ -35,6 +35,7 @@ if TYPE_CHECKING:
     from tables.table_3_time import TimeTable
     from tables.table_4_sample import SampleTable
     from tables.table_5_analysis import AnalysisTable
+    from tables.table_6_monitoring import MonitoringTable
     from tables.table_7_particle import ParticleTable, ParticleColumnMapping
 
 
@@ -82,10 +83,17 @@ def test_complete_compilation(tmpdir, qtbot):
     assert sampleTable.correctlySet()
 
     analysisTable: AnalysisTable = wizard._analysisPage._tableItem
+    analysisTable.setLab(DomeCode("TestLab", "TestCode"))
+    analysisTable.setLitterRefList(DomeCode("LitterList0815", "TestCode"))
     analysisTable.setMethodAnalysis(DomeCode("µFTIR", "TestCode"))
     analysisTable.setMethPretreat(DomeCode("Digestion", "TestCode"))
     analysisTable.setMethodPurification(DomeCode("Filtration", "TestCode"))
     assert analysisTable.correctlySet()
+
+    monitoringTable: 'MonitoringTable' = wizard._monitoringPage._tableItem
+    monitoringTable.setMonitoringPurpose(DomeCode("TestPurpose", "TestCode"))
+    monitoringTable.setProgramme(DomeCode("TestProgram", "TestCode"))
+    assert monitoringTable.correctlySet()
 
     partColumns: ParticleColumnMapping = wizard._particlesPage._tableItem
     partColumns.setSizeColumn(DomeCode("MajorEllipse µ", "TestCode"))
@@ -111,10 +119,12 @@ def test_complete_compilation(tmpdir, qtbot):
 
     assert partColumns.correctlySet()
     with tempfile.TemporaryDirectory() as tmpDirName:
-        resultFileName: str = os.path.join(tmpDirName, "testExport.xlsx")
+        resultFileName: str = os.path.join(tmpDirName, "testExport.csv")
         wizard._particlesPage._getSaveFileName = lambda: resultFileName
         wizard._particlesPage.validatePage()  # this is called by pressing the "Finish" Button
 
         assert os.path.exists(resultFileName)
 
-        savedDF: pd.DataFrame = pd.read_excel(resultFileName)
+        savedDF: pd.DataFrame = pd.read_csv(resultFileName)
+        assert savedDF.shape[0] == 133
+        assert savedDF.columns[-1] == "MPROG"

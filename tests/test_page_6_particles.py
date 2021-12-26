@@ -17,6 +17,7 @@ along with this program, see COPYING.
 If not, see <https://www.gnu.org/licenses/>.
 """
 import os
+import tempfile
 from typing import TYPE_CHECKING, Dict, Callable
 from PyQt6 import QtCore
 from unittest.mock import Mock
@@ -107,13 +108,16 @@ def test_is_complete(qtbot, tmpdir):
     testMappingButton(page._btnMapString2Color, page._codeMapper, table.getColorMapping)
     testMappingButton(page._btnMapString2Shape, page._codeMapper, table.getShapeMapping)
 
-    success: bool = page.validatePage()  # i.e., click "Finish"
-    assert success
-    createDFrameMock.assert_called_once()
+    with tempfile.TemporaryDirectory() as tmpDirName:
+        resultFileName: str = os.path.join(tmpDirName, "testExport.xlsx")
+        page._getSaveFileName = lambda: resultFileName
+        success: bool = page.validatePage()  # i.e., click "Finish"
+        assert success
+        createDFrameMock.assert_called_once()
 
-    page._createDFrameFunc = failFunc
-    success: bool = page.validatePage()  # i.e., click "Finish" again
-    assert not success
+        page._createDFrameFunc = failFunc
+        success: bool = page.validatePage()  # i.e., click "Finish" again
+        assert not success
 
 
 def test_getParticleSize(qtbot, tmpdir):

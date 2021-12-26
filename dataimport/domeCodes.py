@@ -123,6 +123,9 @@ def getMonitoringProgrammes() -> List[DomeCode]:
     return _createCodesFromCSV("MonitoringProgrammes.csv")
 
 
+def getLitterRefLists() -> List[DomeCode]:
+    return _createCodesFromCSV("LitterRef.csv")
+
 def _createCodesFromCSV(csvFileName) -> List[DomeCode]:
     """
     Reads a CSV file and returns a list of dome codes for each element.

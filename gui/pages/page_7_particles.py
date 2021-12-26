@@ -81,31 +81,33 @@ class ParticlesPage(QtWidgets.QWizardPage):
         success: bool = False
         saveName: str = self._getSaveFileName()
         if saveName:
-            if not saveName.endswith(".xlsx"):
-                saveName += ".xlsx"
+            if not saveName.endswith(".csv"):
+                saveName += ".csv"
             try:
                 assert self.isComplete(), 'Error: The Particle Page is not yet completed.'
                 dframe: 'pd.DataFrame' = self._createDFrameFunc()
-                dframe.to_excel(saveName)
+                colMprog: 'pd.Series' = dframe.pop("MPROG")  # remove mprog column
+                dframe.insert(len(dframe.columns), "MPROG", colMprog)  # add to the end of the sheet. Somehow it has to be the last column....
+                dframe.to_csv(saveName, index=False)
                 success = True
             except AssertionError as e:
                 errmsg: str = f"Data compilation failed with error:\n{e}"
                 if not testRunning:
                     QtWidgets.QMessageBox.about(self, "Error", errmsg)
                 else:
-                    print(errmsg)
+                    print(f"\n{errmsg}")
 
         if success:
             msg: str = f"Export to {saveName} completed succesfully"
             if not testRunning:
                 QtWidgets.QMessageBox.about(self, "Done", msg)
             else:
-                print(msg)
+                print(f"\n{msg}")
 
         return success
 
     def _getSaveFileName(self) -> str:
-        fname, _ = QtWidgets.QFileDialog.getSaveFileName(self, "Choose save file name", filter="*xlsx")
+        fname, _ = QtWidgets.QFileDialog.getSaveFileName(self, "Choose save file name", filter="*csv")
         return fname
 
     def setupToAvailableColumns(self) -> None:
