@@ -41,8 +41,8 @@ class AnalysisPage(QtWidgets.QWizardPage):
                          "Entries marked with * are mandatory.")
 
         self._tableItem: 'AnalysisTable' = tableItem
-        self._btnLitRef: SelectorPushButton = SelectorPushButton(getLitterRefLists(), self._tableItem.setLitterRefList,
-                                                                 self.completeChanged)
+        # self._btnLitRef: SelectorPushButton = SelectorPushButton(getLitterRefLists(), self._tableItem.setLitterRefList,
+        #                                                          self.completeChanged)  # Currently fixed, but might be needed to be exposed to UI again?
         self._btnAnaltyicLab: SelectorPushButton = SelectorPushButton(getLabCode(), self._tableItem.setLab,
                                                                       self.completeChanged)
         self._btnRefSource: SelectorPushButton = SelectorPushButton(getRefSources(), self._tableItem.setRefSource,
@@ -56,7 +56,7 @@ class AnalysisPage(QtWidgets.QWizardPage):
         layout: QtWidgets.QFormLayout = QtWidgets.QFormLayout()
         self.setLayout(layout)
         layout.addRow(getIsMandatoryLabel())
-        layout.addRow("Litter Reference List*", self._btnLitRef)
+        # layout.addRow("Litter Reference List*", self._btnLitRef)
         layout.addRow("Analytical Lab:*", self._btnAnaltyicLab)
         layout.addRow("Pretreatment:*", self._btnMethPretreat)
         layout.addRow("Purification/Separation:*", self._btnMethPuri)

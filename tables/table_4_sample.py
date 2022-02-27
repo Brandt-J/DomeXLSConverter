@@ -39,17 +39,19 @@ class SampleTable(TableItem):
         self._dtype: Field = Field("Data Type")
         self._smpno: Field = Field("Sample Number")
         self._matrx: Field = Field("Matrix")
+        self._sarea: Field = Field("Sample Area (cm^2)")
         self._noagg: Field = Field("Number of Aggregated Samples", mandatory=False)
         self._finfl: Field = Field("Influencing Factors", mandatory=False)
         self._subno: Field = Field("Subsample Number", mandatory=False)
 
-        self._fields = [self._dtype, self._smpno, self._matrx, self._noagg, self._finfl, self._subno]
+        self._fields = [self._dtype, self._smpno, self._matrx, self._noagg, self._finfl, self._subno, self._sarea]
 
     def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:
         assert self.correctlySet()
         retDict: Dict[str, Union[str, float, int]] = {"DTYPE": self._dtype.content.code,
                                                       "SMPNO": self._smpno.content.code,
-                                                      "MATRX": self._matrx.content.code}
+                                                      "MATRX": self._matrx.content.code,
+                                                      "SAREA": self._sarea.content.code}
         optFields: Dict[str, Field] = {"NOAGG": self._noagg,
                                        "FINFL": self._finfl,
                                        "SUBNO": self._subno}
@@ -75,3 +77,6 @@ class SampleTable(TableItem):
 
     def setSubsampleNumber(self, code: Union[None, DomeCode]) -> None:
         self._subno.content = code
+
+    def setSampleArea(self, area_cm2: int) -> None:
+        self._sarea.content = DomeCode(str(area_cm2), "SAREA")

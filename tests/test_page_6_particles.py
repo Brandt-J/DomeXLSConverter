@@ -19,6 +19,8 @@ If not, see <https://www.gnu.org/licenses/>.
 import os
 import tempfile
 from typing import TYPE_CHECKING, Dict, Callable
+
+import pandas as pd
 from PyQt6 import QtCore
 from unittest.mock import Mock
 import random
@@ -70,6 +72,7 @@ def test_is_complete(qtbot, tmpdir):
 
     table: ParticleColumnMapping = ParticleColumnMapping()
     createDFrameMock: Mock = Mock()
+    createDFrameMock.return_value = pd.DataFrame()
 
     if os.getcwd().endswith("tests"):
         os.chdir(os.path.dirname(os.getcwd()))

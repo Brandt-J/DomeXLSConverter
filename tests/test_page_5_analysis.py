@@ -46,8 +46,8 @@ def test_is_complete(qtbot, tmpdir):
     qtbot.waitForWindowShown(page)
     assert not page.isComplete()
 
-    testSelectorButton(page._btnLitRef, table._ltref)
-    assert not page.isComplete()
+    # testSelectorButton(page._btnLitRef, table._ltref)  # reenable these lines if the litter-reference is again in the UI
+    # assert not page.isComplete()
 
     testSelectorButton(page._btnAnaltyicLab, table._alabo)
     assert not page.isComplete()

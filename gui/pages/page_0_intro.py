@@ -70,7 +70,9 @@ class IntroPage(QtWidgets.QWizardPage):
                 assert preferredSheetName in sheetNames
                 self._setActiveSheet(preferredSheetName, fname)
             else:
-                sheet, ok = QtWidgets.QInputDialog.getItem(self, "Choose datasheet", "Choose from the sheets", sheetNames)
+                sheet, ok = QtWidgets.QInputDialog.getItem(self, "Choose datasheet",
+                                                           "Choose which sheets to use as data source",
+                                                           sheetNames)
                 if ok and sheet:
                     self._setActiveSheet(sheet, fname)
 

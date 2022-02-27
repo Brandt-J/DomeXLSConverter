@@ -86,8 +86,9 @@ class ParticlesPage(QtWidgets.QWizardPage):
             try:
                 assert self.isComplete(), 'Error: The Particle Page is not yet completed.'
                 dframe: 'pd.DataFrame' = self._createDFrameFunc()
-                colMprog: 'pd.Series' = dframe.pop("MPROG")  # remove mprog column
-                dframe.insert(len(dframe.columns), "MPROG", colMprog)  # add to the end of the sheet. Somehow it has to be the last column....
+                if "MPROG" in dframe.columns:
+                    colMprog: 'pd.Series' = dframe.pop("MPROG")  # remove mprog column
+                    dframe.insert(len(dframe.columns), "MPROG", colMprog)  # add to the end of the sheet. Somehow it has to be the last column....
                 dframe.to_csv(saveName, index=False)
                 success = True
             except AssertionError as e:

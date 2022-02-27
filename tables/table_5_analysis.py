@@ -44,6 +44,8 @@ class AnalysisTable(TableItem):
         self._ltref: Field = Field("Litter Reference List")
         self._refsk: Field = Field("Reference Source", mandatory=False)
 
+        self._ltref.content = DomeCode("RECO-LT", "LTREF")  # Quote Anna Osypchuk: "If you are using litter codes LTxxx from CodeType ‘PARAM’, the LTREF code should be ‘RECO-LT’." We are using LTXXX params for describing shape, so we use that here.
+
         self._fields = [self._alabo, self._refsk, self._metpt, self._metps, self._metoa, self._ltref]
 
     def getCorrectlySetCodes(self) -> Dict[str, Union[str, float, int]]:

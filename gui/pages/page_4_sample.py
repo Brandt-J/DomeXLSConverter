@@ -54,6 +54,14 @@ class SamplePage(QtWidgets.QWizardPage):
         self._btnMatrix: SelectorPushButton = SelectorPushButton(getMatrices(), self._tableItem.setMatrix,
                                                                  self.completeChanged)
 
+        self._spinSampleArea: QtWidgets.QSpinBox = QtWidgets.QSpinBox()
+        self._spinSampleArea.setMinimum(1)
+        self._spinSampleArea.setMaximum(int(1e9))
+        self._spinSampleArea.setValue(int(1e4))  # 1 m2
+        self._spinSampleArea.valueChanged.connect(self._tableItem.setSampleArea)
+        self._tableItem.setSampleArea(self._spinSampleArea.value())
+        self._spinSampleArea.valueChanged.connect(self.completeChanged)
+
         self._spinNoAgg: CheckableSpinBox = CheckableSpinBox()
         self._spinNoAgg.Changed.connect(self._noAggChanged)
         self._spinNoAgg.setMinimum(2)
@@ -74,6 +82,7 @@ class SamplePage(QtWidgets.QWizardPage):
         layout.addRow("Data Type:*", self._btnDType)
         layout.addRow("Sample Number:*", self._editSampleNo)
         layout.addRow("Sample Matrix:*", self._btnMatrix)
+        layout.addRow("Sample Area (cm2):*", self._spinSampleArea)
         layout.addRow(getIsOptionalLabel())
         layout.addRow("Influencing Factors:", self._btnInfFac)
         layout.addRow("Number aggreg. samples:", self._spinNoAgg)
