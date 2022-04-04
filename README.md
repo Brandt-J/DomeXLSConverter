@@ -18,7 +18,7 @@ conda install --name=domeconverter python=3.9
 pip install -r requirements.txt
 ````
 
-![](images/01 activate and configure.png)
+![](images/01_activate_and_configure.png)
 
 This installs all required python packages.
 
