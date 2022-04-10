@@ -34,7 +34,7 @@ def QDate2String(date: QtCore.QDate) -> str:
     month: str = str(date.month())
     while len(month) < 2:
         month = "0"+month
-    year: str = str(date.year())[2:]
+    year: str = str(date.year())
     return year + month + day
 
 

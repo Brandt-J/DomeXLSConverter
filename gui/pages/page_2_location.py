@@ -70,7 +70,7 @@ class LocationPage(QtWidgets.QWizardPage):
         self._statNameInfo: QtWidgets.QLabel = QtWidgets.QLabel()
         self._statNameInfo.setText("<a style='text-decoration:underline;color:black'href='https://gis.ices.dk/sf/index.html?widget=station'>"
                                    "(Click Here to browse"
-                                   "</a>, enter the 'Station_Code')")
+                                   "</a>, enter the 'Station_Name')")
         self._statNameInfo.setOpenExternalLinks(True)
 
         self._spinWaterDetpth: CheckableDoubleSpinBox = CheckableDoubleSpinBox()
