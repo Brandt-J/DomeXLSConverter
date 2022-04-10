@@ -3,17 +3,15 @@
 ## Purpose of the tool
 The converter aims to facilitate converting arbitrary particle datasets strored in excel sheets
 into the ICES Simplified Litter Format. A detailed description and example data can be downloaded here:
-````python
 https://www.ices.dk/data/Documents/ENV/Environment_Formats.zip
-````
+
 The conversion tool can read in an excel file (if multiple sheets are present, only one can be processed at the moment)
 and will prompt the user for the required meta-data. Additionally, the user is asked to
 assign specific columns to be used for *per-particle* data, such as particle size or color.
 <br>With all that the conversion tool produces a .csv file that can be uploaded to the ICES DOME Database.
 <br>Therefore, upload the output file here to convert it to the final DOME litter format:
-````python
 https://vocab.ices.dk/DataConversion
-````
+
 
 ## Installation
 If no Python version is yet installed, please install miniconda, following the instructions here:
