@@ -63,5 +63,15 @@ The wizard checks if all required fields are set correctly. Only then the *"Next
 is activated.
 
 
+## Sanity Checking
+<p>To make sure you use the tool correctly, please start it and load the example data excel sheet
+(exampledata.xlsx file in the /data directory). When prompted for the datasheet, select the "p3 unprocessed" sheet.</p> 
+<p>Work through the entire procedure and at the end, save out the converted .csv file.</p>
+<p>Go on the page of the ICES data conversion tool: https://vocab.ices.dk/DataConversion</p>
+<p>In the Format-Type, select "Simplified Format - Litter (LT)", enter a valid email-adress and upload the exported csv.</p>
+<p>The conversion should be possible and do not throw any errors. If any errors occur, please open an issue here and describe what is going wrong: 
+https://github.com/Brandt-J/DomeXLSConverter/issues</p>
+
+
 ## Code Structure
 to be continued..
