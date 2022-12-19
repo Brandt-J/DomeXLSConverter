@@ -22,7 +22,7 @@ Clone this repository in any local directory.
 Next, create and setup a new environment, using the *Anconda Prompt* App (Just search for it in the Windows Start Menu):
 * In the command prompt run:
 ````
-conda install --name=domeconverter python=3.9
+conda create --name=domeconverter python=3.9
 ````
 * Activate the environment with: 
 ````
